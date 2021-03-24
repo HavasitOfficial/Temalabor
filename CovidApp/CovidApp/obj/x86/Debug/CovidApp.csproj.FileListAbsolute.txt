@@ -47,9 +47,16 @@ D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\obj\x86\Debug\qual
 D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\obj\x86\Debug\ProjectArchitectures.txt
 D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885238160000000.json
-D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\obj\x86\Debug\CovidApp.csprojAssemblyReference.cache
 D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\obj\x86\Debug\ProgressScreen.g.i.cs
 D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\obj\x86\Debug\ProgressScreen.g.cs
 D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\obj\x86\Debug\ProgressScreen.xaml
 D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\obj\x86\Debug\ProgressScreen.xbf
 D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\bin\x86\Debug\ProgressScreen.xbf
+D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\obj\x86\Debug\CovidApp.csprojAssemblyReference.cache
+D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\bin\x86\Debug\DocumentFormat.OpenXml.dll
+D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\bin\x86\Debug\System.IO.Packaging.dll
+D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\obj\x86\Debug\DocumentFormat.OpenXml\en\DocumentFormat.OpenXml.Resources.ExceptionMessages.resw
+D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\obj\x86\Debug\DocumentFormat.OpenXml\en\DocumentFormat.OpenXml.Validation.ValidationResources.resw
+D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\obj\x86\Debug\FxResources.System.IO.Packaging.SR.resw
+D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\obj\x86\Debug\resources.en.resfiles
+D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\obj\x86\Debug\resources.en.resfiles.intermediate

@@ -8,11 +8,25 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid Background="DodgerBlue">
-        <StackPanel VerticalAlignment="Center">
-            <Image Source="/Images/coronavirus.png" Margin="50" RenderTransformOrigin="0.5,0.5" x:Name="image1"  UseLayoutRounding="False" d:LayoutRounding="Auto" Width="150" Visibility="Visible"/>
-
+    <Grid Background="DarkBlue">
+        <StackPanel  VerticalAlignment="Center" >
+            <Image Margin="50" RenderTransformOrigin="0.5,0.5" Source="/Images/coronavirus.png" x:Name="image1"  UseLayoutRounding="False" d:LayoutRounding="Auto" Width="150">
+                <Image.RenderTransform>
+                    <CompositeTransform Rotation="179.939"/>
+                </Image.RenderTransform>
+                <Image.Triggers>
+                    <EventTrigger RoutedEvent="Canvas.Loaded">
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation Storyboard.TargetName="image1" 
+                                             Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)"
+                                             From="0" To="720" Duration="0:0:10" AutoReverse="False"/>
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger>
+                </Image.Triggers>
+            </Image>
+            <ProgressBar x:Name="progressB" Foreground="Red" Value="0" Maximum="100" Height="50" Width="600"  />
         </StackPanel>
-
     </Grid>
 </Page>

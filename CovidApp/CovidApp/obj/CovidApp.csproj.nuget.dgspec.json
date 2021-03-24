@@ -39,13 +39,21 @@
       "frameworks": {
         "uap10.0.17763": {
           "dependencies": {
+            "DocumentFormat.OpenXml": {
+              "target": "Package",
+              "version": "[2.12.3, )"
+            },
             "MaterialDesignThemes": {
               "target": "Package",
               "version": "[4.0.0, )"
             },
             "Microsoft.NETCore.UniversalWindowsPlatform": {
               "target": "Package",
-              "version": "[6.2.10, )"
+              "version": "[6.2.12, )"
+            },
+            "System.Runtime.Extensions": {
+              "target": "Package",
+              "version": "[4.3.1, )"
             }
           },
           "imports": [
