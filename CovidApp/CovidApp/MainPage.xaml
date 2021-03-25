@@ -9,6 +9,15 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <SplitView x:Name="MenuSplitView" DisplayMode="CompactOverlay" IsPaneOpen="False" CompactPaneLength="50" OpenPaneLength="150" Margin="0,0,10,0" LightDismissOverlayMode="Auto">
+            <Popup x:Name="popUp" Width="200" Height="200" IsLightDismissEnabled="True" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <RelativePanel Background="Chocolate" >
+                    <TextBox x:Name="Username" PlaceholderText="Username" Width="100"/>
+                    <TextBox x:Name="Password" RelativePanel.Below="Username" PlaceholderText="Password" Width="100"/>
+                    <Button x:Name="Enter" Content="Enter" Click="Enter_Click" RelativePanel.Below="Password" Width="100"/>
+                </RelativePanel>
+            </Popup>
+        </SplitView>
         
     </Grid>
 </Page>
