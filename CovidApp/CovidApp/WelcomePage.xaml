@@ -10,7 +10,7 @@
 
     <Grid>
         <StackPanel>
-            <Image  Source="/Images/virusbackground.png" x:Name="background" Stretch="Uniform" Height="1000" Width="1000"/>
+            <Image  Source="/Images/virusbackground.png" x:Name="background" Stretch="Uniform" Height="1004" Width="1660"/>
         </StackPanel>
 
     </Grid>
