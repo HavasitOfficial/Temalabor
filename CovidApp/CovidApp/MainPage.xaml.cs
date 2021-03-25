@@ -14,7 +14,6 @@ namespace CovidApp
         public MainPage()
         {
             this.InitializeComponent();
-
         }
 
         private void Enter_Click(object sender, RoutedEventArgs e)
