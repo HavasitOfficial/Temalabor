@@ -28,22 +28,30 @@ namespace CovidApp
             this.InitializeComponent();
             startProgressBar();
 
-
-            async void startProgressBar()
+            DispatcherTimer t = new DispatcherTimer();
+            t.Interval = TimeSpan.FromSeconds(6.5);
+            t.Tick += (s, e) =>
             {
-                var progressReporter = new Progress<double>(percent => this.progressB.Value = percent);
-                
-                await Task.Run(async () => await DoItAsync(progressReporter));
-            }
+                this.Frame.Navigate(typeof(MainPage));
+                t.Stop();
+            };
+            t.Start();
+
+        }
+        async void startProgressBar()
+        {
+            var progressReporter = new Progress<double>(percent => this.progressB.Value = percent);
+
+            await Task.Run(async () => await DoItAsync(progressReporter));
+        }
 
 
-            async Task DoItAsync(IProgress<double> progress)
+        async Task DoItAsync(IProgress<double> progress)
+        {
+            for (double i = 0; i <= 100; i += 0.5)
             {
-                for (double i = 0; i <= 100; i += 0.5)
-                {
-                    Task.Delay(25).Wait();
-                    progress.Report(i);
-                }
+                Task.Delay(18).Wait();
+                progress.Report(i);
             }
         }
     }
