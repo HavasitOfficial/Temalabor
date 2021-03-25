@@ -21,5 +21,25 @@ namespace CovidApp
         {
 
         }
+
+        private void SignIn_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Statics_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void infected_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void register_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

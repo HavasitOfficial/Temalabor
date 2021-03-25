@@ -17,6 +17,24 @@
                     <Button x:Name="Enter" Content="Enter" Click="Enter_Click" RelativePanel.Below="Password" Width="100"/>
                 </RelativePanel>
             </Popup>
+            <SplitView.Pane>
+                <StackPanel x:Name="MainPanel" Background="ForestGreen">
+
+                    <StackPanel Orientation="Horizontal">
+                        <Button x:Name="SignIn"  Content="Sign In;" Click="SignIn_Click"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Button x:Name="register" Content="Register" Click="register_Click" IsEnabled="False"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Button x:Name="Statics" Content="Statics" Click="Statics_Click"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Button x:Name="infected"  Content="Infected" Click="infected_Click"/>
+                    </StackPanel>
+                    
+                </StackPanel>
+            </SplitView.Pane>
         </SplitView>
         
     </Grid>
