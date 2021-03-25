@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Threading.Tasks;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -25,6 +26,25 @@ namespace CovidApp
         public ProgressScreen()
         {
             this.InitializeComponent();
+            startProgressBar();
+
+
+            async void startProgressBar()
+            {
+                var progressReporter = new Progress<double>(percent => this.progressB.Value = percent);
+                
+                await Task.Run(async () => await DoItAsync(progressReporter));
+            }
+
+
+            async Task DoItAsync(IProgress<double> progress)
+            {
+                for (double i = 0; i <= 100; i += 0.5)
+                {
+                    Task.Delay(25).Wait();
+                    progress.Report(i);
+                }
+            }
         }
     }
 }
