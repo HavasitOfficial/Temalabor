@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="MahApps.Metro.IconPacks.Octicons" version="1.0" primary="true">
+		<Qualifiers/>
+		<ResourceMapSubtree name="Files">
+			<ResourceMapSubtree name="MahApps.Metro.IconPacks.Octicons">
+				<NamedResource name="MahApps.Metro.IconPacks.Octicons.xr.xml" uri="ms-resource://MahApps.Metro.IconPacks.Octicons/Files/MahApps.Metro.IconPacks.Octicons/MahApps.Metro.IconPacks.Octicons.xr.xml">
+					<Candidate type="Path">
+						<Value>MahApps.Metro.IconPacks.Octicons\MahApps.Metro.IconPacks.Octicons.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="Themes">
+					<NamedResource name="Generic.xbf" uri="ms-resource://MahApps.Metro.IconPacks.Octicons/Files/MahApps.Metro.IconPacks.Octicons/Themes/Generic.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="PackIconOcticons.xbf" uri="ms-resource://MahApps.Metro.IconPacks.Octicons/Files/MahApps.Metro.IconPacks.Octicons/Themes/PackIconOcticons.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

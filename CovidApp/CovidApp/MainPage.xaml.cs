@@ -23,7 +23,7 @@ namespace CovidApp
 
         private void SignIn_Click(object sender, RoutedEventArgs e)
         {
-
+            popUp.IsOpen = true;
         }
 
         private void Statics_Click(object sender, RoutedEventArgs e)

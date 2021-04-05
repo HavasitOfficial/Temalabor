@@ -8,8 +8,10 @@ Assets\StoreLogo.png
 Assets\Wide310x150Logo.scale-200.png
 App.xbf
 CovidApp.xr.xml
+ListInfected.xbf
 MainPage.xbf
 ProgressScreen.xbf
+StaticsPage.xbf
 WelcomePage.xbf
 Images\coronavirus.png
 Images\virus.png

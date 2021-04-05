@@ -14,10 +14,73 @@
           "lib/netstandard2.0/DocumentFormat.OpenXml.dll": {}
         }
       },
-      "MaterialDesignThemes/4.0.0": {
+      "MahApps.Metro.IconPacks/4.8.0": {
         "type": "package",
-        "build": {
-          "build/MaterialDesignThemes.targets": {}
+        "compile": {
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.BootstrapIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.BoxIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Codicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Core.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Entypo.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.EvaIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.FeatherIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.FileIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.FontAwesome.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Fontaudio.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.ForkAwesome.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Ionicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.JamIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Material.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.MaterialDesign.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.MaterialLight.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Microns.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Modern.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Octicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.PicolIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.PixelartIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.RPGAwesome.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.RadixIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.RemixIcon.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.SimpleIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Typicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Unicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.VaadinIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.WeatherIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Zondicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.BootstrapIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.BoxIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Codicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Core.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Entypo.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.EvaIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.FeatherIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.FileIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.FontAwesome.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Fontaudio.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.ForkAwesome.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Ionicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.JamIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Material.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.MaterialDesign.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.MaterialLight.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Microns.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Modern.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Octicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.PicolIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.PixelartIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.RPGAwesome.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.RadixIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.RemixIcon.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.SimpleIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Typicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Unicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.VaadinIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.WeatherIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Zondicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.dll": {}
         }
       },
       "Microsoft.Net.Native.Compiler/2.2.10-rel-29722-00": {
@@ -230,6 +293,30 @@
           "build/Microsoft.NetCore.UniversalWindowsPlatform.targets": {}
         }
       },
+      "Microsoft.Toolkit.Uwp.UI.Controls.DataGrid/7.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.UI.Xaml": "2.5.0"
+        },
+        "compile": {
+          "lib/uap10.0.17763/Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.17763/Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll": {}
+        }
+      },
+      "Microsoft.UI.Xaml/2.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
+        },
+        "build": {
+          "buildTransitive/Microsoft.UI.Xaml.props": {}
+        }
+      },
       "NETStandard.Library/2.0.3": {
         "type": "package",
         "dependencies": {
@@ -369,6 +456,64 @@
         "runtime": {
           "lib/win8/_._": {}
         }
+      },
+      "Win2D.uwp/1.20.0": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Microsoft.Graphics.Canvas.winmd": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Microsoft.Graphics.Canvas.winmd": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win10-arm/native/Microsoft.Graphics.Canvas.dll": {
+            "assetType": "native",
+            "rid": "win10-arm"
+          },
+          "runtimes/win10-x64/native/Microsoft.Graphics.Canvas.dll": {
+            "assetType": "native",
+            "rid": "win10-x64"
+          },
+          "runtimes/win10-x86/native/Microsoft.Graphics.Canvas.dll": {
+            "assetType": "native",
+            "rid": "win10-x86"
+          }
+        }
+      },
+      "Xamarin.Forms/4.8.0.1687": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.UI.Xaml": "2.4.2",
+          "Win2D.uwp": "1.20.0"
+        },
+        "compile": {
+          "lib/uap10.0.16299/Xamarin.Forms.Core.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Platform.UAP.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Platform.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Xaml.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Xamarin.Forms.Core.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Platform.UAP.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Platform.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Xaml.dll": {}
+        },
+        "build": {
+          "buildTransitive/Xamarin.Forms.props": {},
+          "buildTransitive/Xamarin.Forms.targets": {}
+        }
+      },
+      "Xamarin.Forms.DataGrid/4.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.8.0.1687"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xamarin.Forms.DataGrid.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.DataGrid.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0.17763/win10-arm": {
@@ -384,10 +529,73 @@
           "lib/netstandard2.0/DocumentFormat.OpenXml.dll": {}
         }
       },
-      "MaterialDesignThemes/4.0.0": {
+      "MahApps.Metro.IconPacks/4.8.0": {
         "type": "package",
-        "build": {
-          "build/MaterialDesignThemes.targets": {}
+        "compile": {
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.BootstrapIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.BoxIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Codicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Core.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Entypo.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.EvaIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.FeatherIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.FileIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.FontAwesome.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Fontaudio.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.ForkAwesome.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Ionicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.JamIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Material.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.MaterialDesign.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.MaterialLight.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Microns.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Modern.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Octicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.PicolIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.PixelartIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.RPGAwesome.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.RadixIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.RemixIcon.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.SimpleIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Typicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Unicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.VaadinIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.WeatherIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Zondicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.BootstrapIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.BoxIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Codicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Core.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Entypo.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.EvaIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.FeatherIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.FileIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.FontAwesome.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Fontaudio.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.ForkAwesome.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Ionicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.JamIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Material.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.MaterialDesign.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.MaterialLight.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Microns.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Modern.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Octicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.PicolIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.PixelartIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.RPGAwesome.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.RadixIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.RemixIcon.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.SimpleIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Typicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Unicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.VaadinIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.WeatherIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Zondicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.dll": {}
         }
       },
       "Microsoft.Net.Native.Compiler/2.2.10-rel-29722-00": {
@@ -599,6 +807,30 @@
         "build": {
           "build/Microsoft.NETCore.UniversalWindowsPlatform.props": {},
           "build/Microsoft.NetCore.UniversalWindowsPlatform.targets": {}
+        }
+      },
+      "Microsoft.Toolkit.Uwp.UI.Controls.DataGrid/7.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.UI.Xaml": "2.5.0"
+        },
+        "compile": {
+          "lib/uap10.0.17763/Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.17763/Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll": {}
+        }
+      },
+      "Microsoft.UI.Xaml/2.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
+        },
+        "build": {
+          "buildTransitive/Microsoft.UI.Xaml.props": {}
         }
       },
       "NETStandard.Library/2.0.3": {
@@ -964,6 +1196,53 @@
         "runtime": {
           "lib/win8/_._": {}
         }
+      },
+      "Win2D.uwp/1.20.0": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Microsoft.Graphics.Canvas.winmd": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Microsoft.Graphics.Canvas.winmd": {}
+        },
+        "native": {
+          "runtimes/win10-arm/native/Microsoft.Graphics.Canvas.dll": {}
+        }
+      },
+      "Xamarin.Forms/4.8.0.1687": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.UI.Xaml": "2.4.2",
+          "Win2D.uwp": "1.20.0"
+        },
+        "compile": {
+          "lib/uap10.0.16299/Xamarin.Forms.Core.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Platform.UAP.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Platform.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Xaml.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Xamarin.Forms.Core.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Platform.UAP.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Platform.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Xaml.dll": {}
+        },
+        "build": {
+          "buildTransitive/Xamarin.Forms.props": {},
+          "buildTransitive/Xamarin.Forms.targets": {}
+        }
+      },
+      "Xamarin.Forms.DataGrid/4.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.8.0.1687"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xamarin.Forms.DataGrid.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.DataGrid.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0.17763/win10-arm-aot": {
@@ -979,10 +1258,73 @@
           "lib/netstandard2.0/DocumentFormat.OpenXml.dll": {}
         }
       },
-      "MaterialDesignThemes/4.0.0": {
+      "MahApps.Metro.IconPacks/4.8.0": {
         "type": "package",
-        "build": {
-          "build/MaterialDesignThemes.targets": {}
+        "compile": {
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.BootstrapIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.BoxIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Codicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Core.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Entypo.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.EvaIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.FeatherIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.FileIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.FontAwesome.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Fontaudio.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.ForkAwesome.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Ionicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.JamIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Material.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.MaterialDesign.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.MaterialLight.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Microns.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Modern.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Octicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.PicolIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.PixelartIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.RPGAwesome.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.RadixIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.RemixIcon.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.SimpleIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Typicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Unicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.VaadinIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.WeatherIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Zondicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.BootstrapIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.BoxIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Codicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Core.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Entypo.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.EvaIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.FeatherIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.FileIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.FontAwesome.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Fontaudio.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.ForkAwesome.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Ionicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.JamIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Material.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.MaterialDesign.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.MaterialLight.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Microns.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Modern.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Octicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.PicolIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.PixelartIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.RPGAwesome.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.RadixIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.RemixIcon.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.SimpleIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Typicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Unicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.VaadinIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.WeatherIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Zondicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.dll": {}
         }
       },
       "Microsoft.Net.Native.Compiler/2.2.10-rel-29722-00": {
@@ -1194,6 +1536,30 @@
         "build": {
           "build/Microsoft.NETCore.UniversalWindowsPlatform.props": {},
           "build/Microsoft.NetCore.UniversalWindowsPlatform.targets": {}
+        }
+      },
+      "Microsoft.Toolkit.Uwp.UI.Controls.DataGrid/7.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.UI.Xaml": "2.5.0"
+        },
+        "compile": {
+          "lib/uap10.0.17763/Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.17763/Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll": {}
+        }
+      },
+      "Microsoft.UI.Xaml/2.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
+        },
+        "build": {
+          "buildTransitive/Microsoft.UI.Xaml.props": {}
         }
       },
       "NETStandard.Library/2.0.3": {
@@ -1560,6 +1926,53 @@
         "runtime": {
           "lib/win8/_._": {}
         }
+      },
+      "Win2D.uwp/1.20.0": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Microsoft.Graphics.Canvas.winmd": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Microsoft.Graphics.Canvas.winmd": {}
+        },
+        "native": {
+          "runtimes/win10-arm/native/Microsoft.Graphics.Canvas.dll": {}
+        }
+      },
+      "Xamarin.Forms/4.8.0.1687": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.UI.Xaml": "2.4.2",
+          "Win2D.uwp": "1.20.0"
+        },
+        "compile": {
+          "lib/uap10.0.16299/Xamarin.Forms.Core.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Platform.UAP.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Platform.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Xaml.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Xamarin.Forms.Core.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Platform.UAP.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Platform.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Xaml.dll": {}
+        },
+        "build": {
+          "buildTransitive/Xamarin.Forms.props": {},
+          "buildTransitive/Xamarin.Forms.targets": {}
+        }
+      },
+      "Xamarin.Forms.DataGrid/4.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.8.0.1687"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xamarin.Forms.DataGrid.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.DataGrid.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0.17763/win10-arm64-aot": {
@@ -1575,10 +1988,73 @@
           "lib/netstandard2.0/DocumentFormat.OpenXml.dll": {}
         }
       },
-      "MaterialDesignThemes/4.0.0": {
+      "MahApps.Metro.IconPacks/4.8.0": {
         "type": "package",
-        "build": {
-          "build/MaterialDesignThemes.targets": {}
+        "compile": {
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.BootstrapIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.BoxIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Codicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Core.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Entypo.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.EvaIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.FeatherIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.FileIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.FontAwesome.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Fontaudio.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.ForkAwesome.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Ionicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.JamIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Material.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.MaterialDesign.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.MaterialLight.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Microns.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Modern.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Octicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.PicolIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.PixelartIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.RPGAwesome.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.RadixIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.RemixIcon.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.SimpleIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Typicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Unicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.VaadinIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.WeatherIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Zondicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.BootstrapIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.BoxIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Codicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Core.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Entypo.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.EvaIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.FeatherIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.FileIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.FontAwesome.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Fontaudio.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.ForkAwesome.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Ionicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.JamIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Material.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.MaterialDesign.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.MaterialLight.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Microns.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Modern.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Octicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.PicolIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.PixelartIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.RPGAwesome.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.RadixIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.RemixIcon.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.SimpleIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Typicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Unicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.VaadinIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.WeatherIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Zondicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.dll": {}
         }
       },
       "Microsoft.Net.Native.Compiler/2.2.10-rel-29722-00": {
@@ -1790,6 +2266,30 @@
         "build": {
           "build/Microsoft.NETCore.UniversalWindowsPlatform.props": {},
           "build/Microsoft.NetCore.UniversalWindowsPlatform.targets": {}
+        }
+      },
+      "Microsoft.Toolkit.Uwp.UI.Controls.DataGrid/7.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.UI.Xaml": "2.5.0"
+        },
+        "compile": {
+          "lib/uap10.0.17763/Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.17763/Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll": {}
+        }
+      },
+      "Microsoft.UI.Xaml/2.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
+        },
+        "build": {
+          "buildTransitive/Microsoft.UI.Xaml.props": {}
         }
       },
       "NETStandard.Library/2.0.3": {
@@ -2156,6 +2656,50 @@
         "runtime": {
           "lib/win8/_._": {}
         }
+      },
+      "Win2D.uwp/1.20.0": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Microsoft.Graphics.Canvas.winmd": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Microsoft.Graphics.Canvas.winmd": {}
+        }
+      },
+      "Xamarin.Forms/4.8.0.1687": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.UI.Xaml": "2.4.2",
+          "Win2D.uwp": "1.20.0"
+        },
+        "compile": {
+          "lib/uap10.0.16299/Xamarin.Forms.Core.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Platform.UAP.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Platform.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Xaml.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Xamarin.Forms.Core.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Platform.UAP.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Platform.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Xaml.dll": {}
+        },
+        "build": {
+          "buildTransitive/Xamarin.Forms.props": {},
+          "buildTransitive/Xamarin.Forms.targets": {}
+        }
+      },
+      "Xamarin.Forms.DataGrid/4.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.8.0.1687"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xamarin.Forms.DataGrid.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.DataGrid.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0.17763/win10-x64": {
@@ -2171,10 +2715,73 @@
           "lib/netstandard2.0/DocumentFormat.OpenXml.dll": {}
         }
       },
-      "MaterialDesignThemes/4.0.0": {
+      "MahApps.Metro.IconPacks/4.8.0": {
         "type": "package",
-        "build": {
-          "build/MaterialDesignThemes.targets": {}
+        "compile": {
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.BootstrapIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.BoxIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Codicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Core.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Entypo.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.EvaIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.FeatherIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.FileIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.FontAwesome.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Fontaudio.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.ForkAwesome.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Ionicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.JamIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Material.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.MaterialDesign.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.MaterialLight.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Microns.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Modern.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Octicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.PicolIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.PixelartIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.RPGAwesome.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.RadixIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.RemixIcon.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.SimpleIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Typicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Unicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.VaadinIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.WeatherIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Zondicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.BootstrapIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.BoxIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Codicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Core.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Entypo.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.EvaIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.FeatherIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.FileIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.FontAwesome.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Fontaudio.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.ForkAwesome.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Ionicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.JamIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Material.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.MaterialDesign.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.MaterialLight.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Microns.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Modern.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Octicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.PicolIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.PixelartIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.RPGAwesome.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.RadixIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.RemixIcon.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.SimpleIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Typicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Unicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.VaadinIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.WeatherIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Zondicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.dll": {}
         }
       },
       "Microsoft.Net.Native.Compiler/2.2.10-rel-29722-00": {
@@ -2386,6 +2993,30 @@
         "build": {
           "build/Microsoft.NETCore.UniversalWindowsPlatform.props": {},
           "build/Microsoft.NetCore.UniversalWindowsPlatform.targets": {}
+        }
+      },
+      "Microsoft.Toolkit.Uwp.UI.Controls.DataGrid/7.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.UI.Xaml": "2.5.0"
+        },
+        "compile": {
+          "lib/uap10.0.17763/Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.17763/Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll": {}
+        }
+      },
+      "Microsoft.UI.Xaml/2.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
+        },
+        "build": {
+          "buildTransitive/Microsoft.UI.Xaml.props": {}
         }
       },
       "NETStandard.Library/2.0.3": {
@@ -2751,6 +3382,53 @@
         "runtime": {
           "lib/win8/_._": {}
         }
+      },
+      "Win2D.uwp/1.20.0": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Microsoft.Graphics.Canvas.winmd": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Microsoft.Graphics.Canvas.winmd": {}
+        },
+        "native": {
+          "runtimes/win10-x64/native/Microsoft.Graphics.Canvas.dll": {}
+        }
+      },
+      "Xamarin.Forms/4.8.0.1687": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.UI.Xaml": "2.4.2",
+          "Win2D.uwp": "1.20.0"
+        },
+        "compile": {
+          "lib/uap10.0.16299/Xamarin.Forms.Core.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Platform.UAP.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Platform.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Xaml.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Xamarin.Forms.Core.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Platform.UAP.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Platform.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Xaml.dll": {}
+        },
+        "build": {
+          "buildTransitive/Xamarin.Forms.props": {},
+          "buildTransitive/Xamarin.Forms.targets": {}
+        }
+      },
+      "Xamarin.Forms.DataGrid/4.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.8.0.1687"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xamarin.Forms.DataGrid.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.DataGrid.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0.17763/win10-x64-aot": {
@@ -2766,10 +3444,73 @@
           "lib/netstandard2.0/DocumentFormat.OpenXml.dll": {}
         }
       },
-      "MaterialDesignThemes/4.0.0": {
+      "MahApps.Metro.IconPacks/4.8.0": {
         "type": "package",
-        "build": {
-          "build/MaterialDesignThemes.targets": {}
+        "compile": {
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.BootstrapIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.BoxIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Codicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Core.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Entypo.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.EvaIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.FeatherIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.FileIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.FontAwesome.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Fontaudio.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.ForkAwesome.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Ionicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.JamIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Material.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.MaterialDesign.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.MaterialLight.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Microns.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Modern.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Octicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.PicolIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.PixelartIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.RPGAwesome.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.RadixIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.RemixIcon.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.SimpleIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Typicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Unicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.VaadinIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.WeatherIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Zondicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.BootstrapIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.BoxIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Codicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Core.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Entypo.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.EvaIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.FeatherIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.FileIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.FontAwesome.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Fontaudio.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.ForkAwesome.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Ionicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.JamIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Material.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.MaterialDesign.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.MaterialLight.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Microns.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Modern.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Octicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.PicolIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.PixelartIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.RPGAwesome.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.RadixIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.RemixIcon.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.SimpleIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Typicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Unicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.VaadinIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.WeatherIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Zondicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.dll": {}
         }
       },
       "Microsoft.Net.Native.Compiler/2.2.10-rel-29722-00": {
@@ -2981,6 +3722,30 @@
         "build": {
           "build/Microsoft.NETCore.UniversalWindowsPlatform.props": {},
           "build/Microsoft.NetCore.UniversalWindowsPlatform.targets": {}
+        }
+      },
+      "Microsoft.Toolkit.Uwp.UI.Controls.DataGrid/7.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.UI.Xaml": "2.5.0"
+        },
+        "compile": {
+          "lib/uap10.0.17763/Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.17763/Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll": {}
+        }
+      },
+      "Microsoft.UI.Xaml/2.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
+        },
+        "build": {
+          "buildTransitive/Microsoft.UI.Xaml.props": {}
         }
       },
       "NETStandard.Library/2.0.3": {
@@ -3347,6 +4112,53 @@
         "runtime": {
           "lib/win8/_._": {}
         }
+      },
+      "Win2D.uwp/1.20.0": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Microsoft.Graphics.Canvas.winmd": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Microsoft.Graphics.Canvas.winmd": {}
+        },
+        "native": {
+          "runtimes/win10-x64/native/Microsoft.Graphics.Canvas.dll": {}
+        }
+      },
+      "Xamarin.Forms/4.8.0.1687": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.UI.Xaml": "2.4.2",
+          "Win2D.uwp": "1.20.0"
+        },
+        "compile": {
+          "lib/uap10.0.16299/Xamarin.Forms.Core.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Platform.UAP.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Platform.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Xaml.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Xamarin.Forms.Core.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Platform.UAP.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Platform.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Xaml.dll": {}
+        },
+        "build": {
+          "buildTransitive/Xamarin.Forms.props": {},
+          "buildTransitive/Xamarin.Forms.targets": {}
+        }
+      },
+      "Xamarin.Forms.DataGrid/4.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.8.0.1687"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xamarin.Forms.DataGrid.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.DataGrid.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0.17763/win10-x86": {
@@ -3362,10 +4174,73 @@
           "lib/netstandard2.0/DocumentFormat.OpenXml.dll": {}
         }
       },
-      "MaterialDesignThemes/4.0.0": {
+      "MahApps.Metro.IconPacks/4.8.0": {
         "type": "package",
-        "build": {
-          "build/MaterialDesignThemes.targets": {}
+        "compile": {
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.BootstrapIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.BoxIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Codicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Core.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Entypo.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.EvaIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.FeatherIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.FileIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.FontAwesome.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Fontaudio.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.ForkAwesome.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Ionicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.JamIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Material.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.MaterialDesign.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.MaterialLight.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Microns.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Modern.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Octicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.PicolIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.PixelartIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.RPGAwesome.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.RadixIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.RemixIcon.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.SimpleIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Typicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Unicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.VaadinIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.WeatherIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Zondicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.BootstrapIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.BoxIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Codicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Core.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Entypo.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.EvaIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.FeatherIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.FileIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.FontAwesome.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Fontaudio.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.ForkAwesome.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Ionicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.JamIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Material.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.MaterialDesign.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.MaterialLight.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Microns.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Modern.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Octicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.PicolIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.PixelartIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.RPGAwesome.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.RadixIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.RemixIcon.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.SimpleIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Typicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Unicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.VaadinIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.WeatherIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Zondicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.dll": {}
         }
       },
       "Microsoft.Net.Native.Compiler/2.2.10-rel-29722-00": {
@@ -3577,6 +4452,30 @@
         "build": {
           "build/Microsoft.NETCore.UniversalWindowsPlatform.props": {},
           "build/Microsoft.NetCore.UniversalWindowsPlatform.targets": {}
+        }
+      },
+      "Microsoft.Toolkit.Uwp.UI.Controls.DataGrid/7.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.UI.Xaml": "2.5.0"
+        },
+        "compile": {
+          "lib/uap10.0.17763/Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.17763/Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll": {}
+        }
+      },
+      "Microsoft.UI.Xaml/2.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
+        },
+        "build": {
+          "buildTransitive/Microsoft.UI.Xaml.props": {}
         }
       },
       "NETStandard.Library/2.0.3": {
@@ -3942,6 +4841,53 @@
         "runtime": {
           "lib/win8/_._": {}
         }
+      },
+      "Win2D.uwp/1.20.0": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Microsoft.Graphics.Canvas.winmd": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Microsoft.Graphics.Canvas.winmd": {}
+        },
+        "native": {
+          "runtimes/win10-x86/native/Microsoft.Graphics.Canvas.dll": {}
+        }
+      },
+      "Xamarin.Forms/4.8.0.1687": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.UI.Xaml": "2.4.2",
+          "Win2D.uwp": "1.20.0"
+        },
+        "compile": {
+          "lib/uap10.0.16299/Xamarin.Forms.Core.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Platform.UAP.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Platform.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Xaml.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Xamarin.Forms.Core.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Platform.UAP.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Platform.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Xaml.dll": {}
+        },
+        "build": {
+          "buildTransitive/Xamarin.Forms.props": {},
+          "buildTransitive/Xamarin.Forms.targets": {}
+        }
+      },
+      "Xamarin.Forms.DataGrid/4.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.8.0.1687"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xamarin.Forms.DataGrid.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.DataGrid.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0.17763/win10-x86-aot": {
@@ -3957,10 +4903,73 @@
           "lib/netstandard2.0/DocumentFormat.OpenXml.dll": {}
         }
       },
-      "MaterialDesignThemes/4.0.0": {
+      "MahApps.Metro.IconPacks/4.8.0": {
         "type": "package",
-        "build": {
-          "build/MaterialDesignThemes.targets": {}
+        "compile": {
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.BootstrapIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.BoxIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Codicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Core.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Entypo.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.EvaIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.FeatherIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.FileIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.FontAwesome.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Fontaudio.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.ForkAwesome.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Ionicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.JamIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Material.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.MaterialDesign.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.MaterialLight.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Microns.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Modern.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Octicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.PicolIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.PixelartIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.RPGAwesome.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.RadixIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.RemixIcon.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.SimpleIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Typicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Unicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.VaadinIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.WeatherIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Zondicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.BootstrapIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.BoxIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Codicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Core.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Entypo.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.EvaIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.FeatherIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.FileIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.FontAwesome.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Fontaudio.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.ForkAwesome.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Ionicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.JamIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Material.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.MaterialDesign.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.MaterialLight.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Microns.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Modern.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Octicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.PicolIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.PixelartIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.RPGAwesome.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.RadixIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.RemixIcon.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.SimpleIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Typicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Unicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.VaadinIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.WeatherIcons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.Zondicons.dll": {},
+          "lib/uap10.0.16299/MahApps.Metro.IconPacks.dll": {}
         }
       },
       "Microsoft.Net.Native.Compiler/2.2.10-rel-29722-00": {
@@ -4172,6 +5181,30 @@
         "build": {
           "build/Microsoft.NETCore.UniversalWindowsPlatform.props": {},
           "build/Microsoft.NetCore.UniversalWindowsPlatform.targets": {}
+        }
+      },
+      "Microsoft.Toolkit.Uwp.UI.Controls.DataGrid/7.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.UI.Xaml": "2.5.0"
+        },
+        "compile": {
+          "lib/uap10.0.17763/Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.17763/Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll": {}
+        }
+      },
+      "Microsoft.UI.Xaml/2.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
+        },
+        "build": {
+          "buildTransitive/Microsoft.UI.Xaml.props": {}
         }
       },
       "NETStandard.Library/2.0.3": {
@@ -4538,6 +5571,53 @@
         "runtime": {
           "lib/win8/_._": {}
         }
+      },
+      "Win2D.uwp/1.20.0": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Microsoft.Graphics.Canvas.winmd": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Microsoft.Graphics.Canvas.winmd": {}
+        },
+        "native": {
+          "runtimes/win10-x86/native/Microsoft.Graphics.Canvas.dll": {}
+        }
+      },
+      "Xamarin.Forms/4.8.0.1687": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.UI.Xaml": "2.4.2",
+          "Win2D.uwp": "1.20.0"
+        },
+        "compile": {
+          "lib/uap10.0.16299/Xamarin.Forms.Core.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Platform.UAP.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Platform.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Xaml.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Xamarin.Forms.Core.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Platform.UAP.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Platform.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Xaml.dll": {}
+        },
+        "build": {
+          "buildTransitive/Xamarin.Forms.props": {},
+          "buildTransitive/Xamarin.Forms.targets": {}
+        }
+      },
+      "Xamarin.Forms.DataGrid/4.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.8.0.1687"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xamarin.Forms.DataGrid.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.DataGrid.dll": {}
+        }
       }
     }
   },
@@ -4564,43 +5644,693 @@
         "lib/netstandard2.0/DocumentFormat.OpenXml.xml"
       ]
     },
-    "MaterialDesignThemes/4.0.0": {
-      "sha512": "+n5oWHuRiYL/gUw2XfQHCRZqHtU8KbrdurgU0IcO98Zsyhw4BvggodfXY8veRtbjjmM9EJ/sG2yKBrgPOGX4JQ==",
+    "MahApps.Metro.IconPacks/4.8.0": {
+      "sha512": "G00GRXwBOzEIryBKOzbKH01SUUGMYKkIg3GQe0G/d1oZoRUJAeWN0Iw+WTs8ARU0CHzzvMAV00Z5y1mCB4pUPg==",
       "type": "package",
-      "path": "materialdesignthemes/4.0.0",
-      "hasTools": true,
+      "path": "mahapps.metro.iconpacks/4.8.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "build/MaterialDesignThemes.targets",
-        "build/Resources/Roboto/Roboto-Black.ttf",
-        "build/Resources/Roboto/Roboto-BlackItalic.ttf",
-        "build/Resources/Roboto/Roboto-Bold.ttf",
-        "build/Resources/Roboto/Roboto-BoldItalic.ttf",
-        "build/Resources/Roboto/Roboto-Italic.ttf",
-        "build/Resources/Roboto/Roboto-Light.ttf",
-        "build/Resources/Roboto/Roboto-LightItalic.ttf",
-        "build/Resources/Roboto/Roboto-Medium.ttf",
-        "build/Resources/Roboto/Roboto-MediumItalic.ttf",
-        "build/Resources/Roboto/Roboto-Regular.ttf",
-        "build/Resources/Roboto/Roboto-Thin.ttf",
-        "build/Resources/Roboto/Roboto-ThinItalic.ttf",
-        "build/Resources/Roboto/RobotoCondensed-Bold.ttf",
-        "build/Resources/Roboto/RobotoCondensed-BoldItalic.ttf",
-        "build/Resources/Roboto/RobotoCondensed-Italic.ttf",
-        "build/Resources/Roboto/RobotoCondensed-Light.ttf",
-        "build/Resources/Roboto/RobotoCondensed-LightItalic.ttf",
-        "build/Resources/Roboto/RobotoCondensed-Regular.ttf",
-        "images/MaterialDesignThemes.Icon.png",
-        "lib/net452/MaterialDesignThemes.Wpf.dll",
-        "lib/net452/MaterialDesignThemes.Wpf.pdb",
-        "lib/net452/MaterialDesignThemes.Wpf.xml",
-        "lib/netcoreapp3.1/MaterialDesignThemes.Wpf.dll",
-        "lib/netcoreapp3.1/MaterialDesignThemes.Wpf.pdb",
-        "lib/netcoreapp3.1/MaterialDesignThemes.Wpf.xml",
-        "materialdesignthemes.4.0.0.nupkg.sha512",
-        "materialdesignthemes.nuspec",
-        "tools/VisualStudioToolsManifest.xml"
+        "lib/net45/MahApps.Metro.IconPacks.BootstrapIcons.dll",
+        "lib/net45/MahApps.Metro.IconPacks.BootstrapIcons.pdb",
+        "lib/net45/MahApps.Metro.IconPacks.BootstrapIcons.xml",
+        "lib/net45/MahApps.Metro.IconPacks.BoxIcons.dll",
+        "lib/net45/MahApps.Metro.IconPacks.BoxIcons.pdb",
+        "lib/net45/MahApps.Metro.IconPacks.BoxIcons.xml",
+        "lib/net45/MahApps.Metro.IconPacks.Codicons.dll",
+        "lib/net45/MahApps.Metro.IconPacks.Codicons.pdb",
+        "lib/net45/MahApps.Metro.IconPacks.Codicons.xml",
+        "lib/net45/MahApps.Metro.IconPacks.Core.dll",
+        "lib/net45/MahApps.Metro.IconPacks.Core.pdb",
+        "lib/net45/MahApps.Metro.IconPacks.Core.xml",
+        "lib/net45/MahApps.Metro.IconPacks.Entypo.dll",
+        "lib/net45/MahApps.Metro.IconPacks.Entypo.pdb",
+        "lib/net45/MahApps.Metro.IconPacks.Entypo.xml",
+        "lib/net45/MahApps.Metro.IconPacks.EvaIcons.dll",
+        "lib/net45/MahApps.Metro.IconPacks.EvaIcons.pdb",
+        "lib/net45/MahApps.Metro.IconPacks.EvaIcons.xml",
+        "lib/net45/MahApps.Metro.IconPacks.FeatherIcons.dll",
+        "lib/net45/MahApps.Metro.IconPacks.FeatherIcons.pdb",
+        "lib/net45/MahApps.Metro.IconPacks.FeatherIcons.xml",
+        "lib/net45/MahApps.Metro.IconPacks.FileIcons.dll",
+        "lib/net45/MahApps.Metro.IconPacks.FileIcons.pdb",
+        "lib/net45/MahApps.Metro.IconPacks.FileIcons.xml",
+        "lib/net45/MahApps.Metro.IconPacks.FontAwesome.dll",
+        "lib/net45/MahApps.Metro.IconPacks.FontAwesome.pdb",
+        "lib/net45/MahApps.Metro.IconPacks.FontAwesome.xml",
+        "lib/net45/MahApps.Metro.IconPacks.Fontaudio.dll",
+        "lib/net45/MahApps.Metro.IconPacks.Fontaudio.pdb",
+        "lib/net45/MahApps.Metro.IconPacks.Fontaudio.xml",
+        "lib/net45/MahApps.Metro.IconPacks.ForkAwesome.dll",
+        "lib/net45/MahApps.Metro.IconPacks.ForkAwesome.pdb",
+        "lib/net45/MahApps.Metro.IconPacks.ForkAwesome.xml",
+        "lib/net45/MahApps.Metro.IconPacks.Ionicons.dll",
+        "lib/net45/MahApps.Metro.IconPacks.Ionicons.pdb",
+        "lib/net45/MahApps.Metro.IconPacks.Ionicons.xml",
+        "lib/net45/MahApps.Metro.IconPacks.JamIcons.dll",
+        "lib/net45/MahApps.Metro.IconPacks.JamIcons.pdb",
+        "lib/net45/MahApps.Metro.IconPacks.JamIcons.xml",
+        "lib/net45/MahApps.Metro.IconPacks.Material.dll",
+        "lib/net45/MahApps.Metro.IconPacks.Material.pdb",
+        "lib/net45/MahApps.Metro.IconPacks.Material.xml",
+        "lib/net45/MahApps.Metro.IconPacks.MaterialDesign.dll",
+        "lib/net45/MahApps.Metro.IconPacks.MaterialDesign.pdb",
+        "lib/net45/MahApps.Metro.IconPacks.MaterialDesign.xml",
+        "lib/net45/MahApps.Metro.IconPacks.MaterialLight.dll",
+        "lib/net45/MahApps.Metro.IconPacks.MaterialLight.pdb",
+        "lib/net45/MahApps.Metro.IconPacks.MaterialLight.xml",
+        "lib/net45/MahApps.Metro.IconPacks.Microns.dll",
+        "lib/net45/MahApps.Metro.IconPacks.Microns.pdb",
+        "lib/net45/MahApps.Metro.IconPacks.Microns.xml",
+        "lib/net45/MahApps.Metro.IconPacks.Modern.dll",
+        "lib/net45/MahApps.Metro.IconPacks.Modern.pdb",
+        "lib/net45/MahApps.Metro.IconPacks.Modern.xml",
+        "lib/net45/MahApps.Metro.IconPacks.Octicons.dll",
+        "lib/net45/MahApps.Metro.IconPacks.Octicons.pdb",
+        "lib/net45/MahApps.Metro.IconPacks.Octicons.xml",
+        "lib/net45/MahApps.Metro.IconPacks.PicolIcons.dll",
+        "lib/net45/MahApps.Metro.IconPacks.PicolIcons.pdb",
+        "lib/net45/MahApps.Metro.IconPacks.PicolIcons.xml",
+        "lib/net45/MahApps.Metro.IconPacks.PixelartIcons.dll",
+        "lib/net45/MahApps.Metro.IconPacks.PixelartIcons.pdb",
+        "lib/net45/MahApps.Metro.IconPacks.PixelartIcons.xml",
+        "lib/net45/MahApps.Metro.IconPacks.RPGAwesome.dll",
+        "lib/net45/MahApps.Metro.IconPacks.RPGAwesome.pdb",
+        "lib/net45/MahApps.Metro.IconPacks.RPGAwesome.xml",
+        "lib/net45/MahApps.Metro.IconPacks.RadixIcons.dll",
+        "lib/net45/MahApps.Metro.IconPacks.RadixIcons.pdb",
+        "lib/net45/MahApps.Metro.IconPacks.RadixIcons.xml",
+        "lib/net45/MahApps.Metro.IconPacks.RemixIcon.dll",
+        "lib/net45/MahApps.Metro.IconPacks.RemixIcon.pdb",
+        "lib/net45/MahApps.Metro.IconPacks.RemixIcon.xml",
+        "lib/net45/MahApps.Metro.IconPacks.SimpleIcons.dll",
+        "lib/net45/MahApps.Metro.IconPacks.SimpleIcons.pdb",
+        "lib/net45/MahApps.Metro.IconPacks.SimpleIcons.xml",
+        "lib/net45/MahApps.Metro.IconPacks.Typicons.dll",
+        "lib/net45/MahApps.Metro.IconPacks.Typicons.pdb",
+        "lib/net45/MahApps.Metro.IconPacks.Typicons.xml",
+        "lib/net45/MahApps.Metro.IconPacks.Unicons.dll",
+        "lib/net45/MahApps.Metro.IconPacks.Unicons.pdb",
+        "lib/net45/MahApps.Metro.IconPacks.Unicons.xml",
+        "lib/net45/MahApps.Metro.IconPacks.VaadinIcons.dll",
+        "lib/net45/MahApps.Metro.IconPacks.VaadinIcons.pdb",
+        "lib/net45/MahApps.Metro.IconPacks.VaadinIcons.xml",
+        "lib/net45/MahApps.Metro.IconPacks.WeatherIcons.dll",
+        "lib/net45/MahApps.Metro.IconPacks.WeatherIcons.pdb",
+        "lib/net45/MahApps.Metro.IconPacks.WeatherIcons.xml",
+        "lib/net45/MahApps.Metro.IconPacks.Zondicons.dll",
+        "lib/net45/MahApps.Metro.IconPacks.Zondicons.pdb",
+        "lib/net45/MahApps.Metro.IconPacks.Zondicons.xml",
+        "lib/net45/MahApps.Metro.IconPacks.dll",
+        "lib/net45/MahApps.Metro.IconPacks.pdb",
+        "lib/net45/MahApps.Metro.IconPacks.xml",
+        "lib/net46/MahApps.Metro.IconPacks.BootstrapIcons.dll",
+        "lib/net46/MahApps.Metro.IconPacks.BootstrapIcons.pdb",
+        "lib/net46/MahApps.Metro.IconPacks.BootstrapIcons.xml",
+        "lib/net46/MahApps.Metro.IconPacks.BoxIcons.dll",
+        "lib/net46/MahApps.Metro.IconPacks.BoxIcons.pdb",
+        "lib/net46/MahApps.Metro.IconPacks.BoxIcons.xml",
+        "lib/net46/MahApps.Metro.IconPacks.Codicons.dll",
+        "lib/net46/MahApps.Metro.IconPacks.Codicons.pdb",
+        "lib/net46/MahApps.Metro.IconPacks.Codicons.xml",
+        "lib/net46/MahApps.Metro.IconPacks.Core.dll",
+        "lib/net46/MahApps.Metro.IconPacks.Core.pdb",
+        "lib/net46/MahApps.Metro.IconPacks.Core.xml",
+        "lib/net46/MahApps.Metro.IconPacks.Entypo.dll",
+        "lib/net46/MahApps.Metro.IconPacks.Entypo.pdb",
+        "lib/net46/MahApps.Metro.IconPacks.Entypo.xml",
+        "lib/net46/MahApps.Metro.IconPacks.EvaIcons.dll",
+        "lib/net46/MahApps.Metro.IconPacks.EvaIcons.pdb",
+        "lib/net46/MahApps.Metro.IconPacks.EvaIcons.xml",
+        "lib/net46/MahApps.Metro.IconPacks.FeatherIcons.dll",
+        "lib/net46/MahApps.Metro.IconPacks.FeatherIcons.pdb",
+        "lib/net46/MahApps.Metro.IconPacks.FeatherIcons.xml",
+        "lib/net46/MahApps.Metro.IconPacks.FileIcons.dll",
+        "lib/net46/MahApps.Metro.IconPacks.FileIcons.pdb",
+        "lib/net46/MahApps.Metro.IconPacks.FileIcons.xml",
+        "lib/net46/MahApps.Metro.IconPacks.FontAwesome.dll",
+        "lib/net46/MahApps.Metro.IconPacks.FontAwesome.pdb",
+        "lib/net46/MahApps.Metro.IconPacks.FontAwesome.xml",
+        "lib/net46/MahApps.Metro.IconPacks.Fontaudio.dll",
+        "lib/net46/MahApps.Metro.IconPacks.Fontaudio.pdb",
+        "lib/net46/MahApps.Metro.IconPacks.Fontaudio.xml",
+        "lib/net46/MahApps.Metro.IconPacks.ForkAwesome.dll",
+        "lib/net46/MahApps.Metro.IconPacks.ForkAwesome.pdb",
+        "lib/net46/MahApps.Metro.IconPacks.ForkAwesome.xml",
+        "lib/net46/MahApps.Metro.IconPacks.Ionicons.dll",
+        "lib/net46/MahApps.Metro.IconPacks.Ionicons.pdb",
+        "lib/net46/MahApps.Metro.IconPacks.Ionicons.xml",
+        "lib/net46/MahApps.Metro.IconPacks.JamIcons.dll",
+        "lib/net46/MahApps.Metro.IconPacks.JamIcons.pdb",
+        "lib/net46/MahApps.Metro.IconPacks.JamIcons.xml",
+        "lib/net46/MahApps.Metro.IconPacks.Material.dll",
+        "lib/net46/MahApps.Metro.IconPacks.Material.pdb",
+        "lib/net46/MahApps.Metro.IconPacks.Material.xml",
+        "lib/net46/MahApps.Metro.IconPacks.MaterialDesign.dll",
+        "lib/net46/MahApps.Metro.IconPacks.MaterialDesign.pdb",
+        "lib/net46/MahApps.Metro.IconPacks.MaterialDesign.xml",
+        "lib/net46/MahApps.Metro.IconPacks.MaterialLight.dll",
+        "lib/net46/MahApps.Metro.IconPacks.MaterialLight.pdb",
+        "lib/net46/MahApps.Metro.IconPacks.MaterialLight.xml",
+        "lib/net46/MahApps.Metro.IconPacks.Microns.dll",
+        "lib/net46/MahApps.Metro.IconPacks.Microns.pdb",
+        "lib/net46/MahApps.Metro.IconPacks.Microns.xml",
+        "lib/net46/MahApps.Metro.IconPacks.Modern.dll",
+        "lib/net46/MahApps.Metro.IconPacks.Modern.pdb",
+        "lib/net46/MahApps.Metro.IconPacks.Modern.xml",
+        "lib/net46/MahApps.Metro.IconPacks.Octicons.dll",
+        "lib/net46/MahApps.Metro.IconPacks.Octicons.pdb",
+        "lib/net46/MahApps.Metro.IconPacks.Octicons.xml",
+        "lib/net46/MahApps.Metro.IconPacks.PicolIcons.dll",
+        "lib/net46/MahApps.Metro.IconPacks.PicolIcons.pdb",
+        "lib/net46/MahApps.Metro.IconPacks.PicolIcons.xml",
+        "lib/net46/MahApps.Metro.IconPacks.PixelartIcons.dll",
+        "lib/net46/MahApps.Metro.IconPacks.PixelartIcons.pdb",
+        "lib/net46/MahApps.Metro.IconPacks.PixelartIcons.xml",
+        "lib/net46/MahApps.Metro.IconPacks.RPGAwesome.dll",
+        "lib/net46/MahApps.Metro.IconPacks.RPGAwesome.pdb",
+        "lib/net46/MahApps.Metro.IconPacks.RPGAwesome.xml",
+        "lib/net46/MahApps.Metro.IconPacks.RadixIcons.dll",
+        "lib/net46/MahApps.Metro.IconPacks.RadixIcons.pdb",
+        "lib/net46/MahApps.Metro.IconPacks.RadixIcons.xml",
+        "lib/net46/MahApps.Metro.IconPacks.RemixIcon.dll",
+        "lib/net46/MahApps.Metro.IconPacks.RemixIcon.pdb",
+        "lib/net46/MahApps.Metro.IconPacks.RemixIcon.xml",
+        "lib/net46/MahApps.Metro.IconPacks.SimpleIcons.dll",
+        "lib/net46/MahApps.Metro.IconPacks.SimpleIcons.pdb",
+        "lib/net46/MahApps.Metro.IconPacks.SimpleIcons.xml",
+        "lib/net46/MahApps.Metro.IconPacks.Typicons.dll",
+        "lib/net46/MahApps.Metro.IconPacks.Typicons.pdb",
+        "lib/net46/MahApps.Metro.IconPacks.Typicons.xml",
+        "lib/net46/MahApps.Metro.IconPacks.Unicons.dll",
+        "lib/net46/MahApps.Metro.IconPacks.Unicons.pdb",
+        "lib/net46/MahApps.Metro.IconPacks.Unicons.xml",
+        "lib/net46/MahApps.Metro.IconPacks.VaadinIcons.dll",
+        "lib/net46/MahApps.Metro.IconPacks.VaadinIcons.pdb",
+        "lib/net46/MahApps.Metro.IconPacks.VaadinIcons.xml",
+        "lib/net46/MahApps.Metro.IconPacks.WeatherIcons.dll",
+        "lib/net46/MahApps.Metro.IconPacks.WeatherIcons.pdb",
+        "lib/net46/MahApps.Metro.IconPacks.WeatherIcons.xml",
+        "lib/net46/MahApps.Metro.IconPacks.Zondicons.dll",
+        "lib/net46/MahApps.Metro.IconPacks.Zondicons.pdb",
+        "lib/net46/MahApps.Metro.IconPacks.Zondicons.xml",
+        "lib/net46/MahApps.Metro.IconPacks.dll",
+        "lib/net46/MahApps.Metro.IconPacks.pdb",
+        "lib/net46/MahApps.Metro.IconPacks.xml",
+        "lib/net47/MahApps.Metro.IconPacks.BootstrapIcons.dll",
+        "lib/net47/MahApps.Metro.IconPacks.BootstrapIcons.pdb",
+        "lib/net47/MahApps.Metro.IconPacks.BootstrapIcons.xml",
+        "lib/net47/MahApps.Metro.IconPacks.BoxIcons.dll",
+        "lib/net47/MahApps.Metro.IconPacks.BoxIcons.pdb",
+        "lib/net47/MahApps.Metro.IconPacks.BoxIcons.xml",
+        "lib/net47/MahApps.Metro.IconPacks.Codicons.dll",
+        "lib/net47/MahApps.Metro.IconPacks.Codicons.pdb",
+        "lib/net47/MahApps.Metro.IconPacks.Codicons.xml",
+        "lib/net47/MahApps.Metro.IconPacks.Core.dll",
+        "lib/net47/MahApps.Metro.IconPacks.Core.pdb",
+        "lib/net47/MahApps.Metro.IconPacks.Core.xml",
+        "lib/net47/MahApps.Metro.IconPacks.Entypo.dll",
+        "lib/net47/MahApps.Metro.IconPacks.Entypo.pdb",
+        "lib/net47/MahApps.Metro.IconPacks.Entypo.xml",
+        "lib/net47/MahApps.Metro.IconPacks.EvaIcons.dll",
+        "lib/net47/MahApps.Metro.IconPacks.EvaIcons.pdb",
+        "lib/net47/MahApps.Metro.IconPacks.EvaIcons.xml",
+        "lib/net47/MahApps.Metro.IconPacks.FeatherIcons.dll",
+        "lib/net47/MahApps.Metro.IconPacks.FeatherIcons.pdb",
+        "lib/net47/MahApps.Metro.IconPacks.FeatherIcons.xml",
+        "lib/net47/MahApps.Metro.IconPacks.FileIcons.dll",
+        "lib/net47/MahApps.Metro.IconPacks.FileIcons.pdb",
+        "lib/net47/MahApps.Metro.IconPacks.FileIcons.xml",
+        "lib/net47/MahApps.Metro.IconPacks.FontAwesome.dll",
+        "lib/net47/MahApps.Metro.IconPacks.FontAwesome.pdb",
+        "lib/net47/MahApps.Metro.IconPacks.FontAwesome.xml",
+        "lib/net47/MahApps.Metro.IconPacks.Fontaudio.dll",
+        "lib/net47/MahApps.Metro.IconPacks.Fontaudio.pdb",
+        "lib/net47/MahApps.Metro.IconPacks.Fontaudio.xml",
+        "lib/net47/MahApps.Metro.IconPacks.ForkAwesome.dll",
+        "lib/net47/MahApps.Metro.IconPacks.ForkAwesome.pdb",
+        "lib/net47/MahApps.Metro.IconPacks.ForkAwesome.xml",
+        "lib/net47/MahApps.Metro.IconPacks.Ionicons.dll",
+        "lib/net47/MahApps.Metro.IconPacks.Ionicons.pdb",
+        "lib/net47/MahApps.Metro.IconPacks.Ionicons.xml",
+        "lib/net47/MahApps.Metro.IconPacks.JamIcons.dll",
+        "lib/net47/MahApps.Metro.IconPacks.JamIcons.pdb",
+        "lib/net47/MahApps.Metro.IconPacks.JamIcons.xml",
+        "lib/net47/MahApps.Metro.IconPacks.Material.dll",
+        "lib/net47/MahApps.Metro.IconPacks.Material.pdb",
+        "lib/net47/MahApps.Metro.IconPacks.Material.xml",
+        "lib/net47/MahApps.Metro.IconPacks.MaterialDesign.dll",
+        "lib/net47/MahApps.Metro.IconPacks.MaterialDesign.pdb",
+        "lib/net47/MahApps.Metro.IconPacks.MaterialDesign.xml",
+        "lib/net47/MahApps.Metro.IconPacks.MaterialLight.dll",
+        "lib/net47/MahApps.Metro.IconPacks.MaterialLight.pdb",
+        "lib/net47/MahApps.Metro.IconPacks.MaterialLight.xml",
+        "lib/net47/MahApps.Metro.IconPacks.Microns.dll",
+        "lib/net47/MahApps.Metro.IconPacks.Microns.pdb",
+        "lib/net47/MahApps.Metro.IconPacks.Microns.xml",
+        "lib/net47/MahApps.Metro.IconPacks.Modern.dll",
+        "lib/net47/MahApps.Metro.IconPacks.Modern.pdb",
+        "lib/net47/MahApps.Metro.IconPacks.Modern.xml",
+        "lib/net47/MahApps.Metro.IconPacks.Octicons.dll",
+        "lib/net47/MahApps.Metro.IconPacks.Octicons.pdb",
+        "lib/net47/MahApps.Metro.IconPacks.Octicons.xml",
+        "lib/net47/MahApps.Metro.IconPacks.PicolIcons.dll",
+        "lib/net47/MahApps.Metro.IconPacks.PicolIcons.pdb",
+        "lib/net47/MahApps.Metro.IconPacks.PicolIcons.xml",
+        "lib/net47/MahApps.Metro.IconPacks.PixelartIcons.dll",
+        "lib/net47/MahApps.Metro.IconPacks.PixelartIcons.pdb",
+        "lib/net47/MahApps.Metro.IconPacks.PixelartIcons.xml",
+        "lib/net47/MahApps.Metro.IconPacks.RPGAwesome.dll",
+        "lib/net47/MahApps.Metro.IconPacks.RPGAwesome.pdb",
+        "lib/net47/MahApps.Metro.IconPacks.RPGAwesome.xml",
+        "lib/net47/MahApps.Metro.IconPacks.RadixIcons.dll",
+        "lib/net47/MahApps.Metro.IconPacks.RadixIcons.pdb",
+        "lib/net47/MahApps.Metro.IconPacks.RadixIcons.xml",
+        "lib/net47/MahApps.Metro.IconPacks.RemixIcon.dll",
+        "lib/net47/MahApps.Metro.IconPacks.RemixIcon.pdb",
+        "lib/net47/MahApps.Metro.IconPacks.RemixIcon.xml",
+        "lib/net47/MahApps.Metro.IconPacks.SimpleIcons.dll",
+        "lib/net47/MahApps.Metro.IconPacks.SimpleIcons.pdb",
+        "lib/net47/MahApps.Metro.IconPacks.SimpleIcons.xml",
+        "lib/net47/MahApps.Metro.IconPacks.Typicons.dll",
+        "lib/net47/MahApps.Metro.IconPacks.Typicons.pdb",
+        "lib/net47/MahApps.Metro.IconPacks.Typicons.xml",
+        "lib/net47/MahApps.Metro.IconPacks.Unicons.dll",
+        "lib/net47/MahApps.Metro.IconPacks.Unicons.pdb",
+        "lib/net47/MahApps.Metro.IconPacks.Unicons.xml",
+        "lib/net47/MahApps.Metro.IconPacks.VaadinIcons.dll",
+        "lib/net47/MahApps.Metro.IconPacks.VaadinIcons.pdb",
+        "lib/net47/MahApps.Metro.IconPacks.VaadinIcons.xml",
+        "lib/net47/MahApps.Metro.IconPacks.WeatherIcons.dll",
+        "lib/net47/MahApps.Metro.IconPacks.WeatherIcons.pdb",
+        "lib/net47/MahApps.Metro.IconPacks.WeatherIcons.xml",
+        "lib/net47/MahApps.Metro.IconPacks.Zondicons.dll",
+        "lib/net47/MahApps.Metro.IconPacks.Zondicons.pdb",
+        "lib/net47/MahApps.Metro.IconPacks.Zondicons.xml",
+        "lib/net47/MahApps.Metro.IconPacks.dll",
+        "lib/net47/MahApps.Metro.IconPacks.pdb",
+        "lib/net47/MahApps.Metro.IconPacks.xml",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.BootstrapIcons.dll",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.BootstrapIcons.pdb",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.BootstrapIcons.xml",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.BoxIcons.dll",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.BoxIcons.pdb",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.BoxIcons.xml",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.Codicons.dll",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.Codicons.pdb",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.Codicons.xml",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.Core.dll",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.Core.pdb",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.Core.xml",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.Entypo.dll",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.Entypo.pdb",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.Entypo.xml",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.EvaIcons.dll",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.EvaIcons.pdb",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.EvaIcons.xml",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.FeatherIcons.dll",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.FeatherIcons.pdb",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.FeatherIcons.xml",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.FileIcons.dll",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.FileIcons.pdb",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.FileIcons.xml",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.FontAwesome.dll",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.FontAwesome.pdb",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.FontAwesome.xml",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.Fontaudio.dll",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.Fontaudio.pdb",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.Fontaudio.xml",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.ForkAwesome.dll",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.ForkAwesome.pdb",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.ForkAwesome.xml",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.Ionicons.dll",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.Ionicons.pdb",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.Ionicons.xml",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.JamIcons.dll",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.JamIcons.pdb",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.JamIcons.xml",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.Material.dll",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.Material.pdb",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.Material.xml",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.MaterialDesign.dll",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.MaterialDesign.pdb",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.MaterialDesign.xml",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.MaterialLight.dll",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.MaterialLight.pdb",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.MaterialLight.xml",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.Microns.dll",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.Microns.pdb",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.Microns.xml",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.Modern.dll",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.Modern.pdb",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.Modern.xml",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.Octicons.dll",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.Octicons.pdb",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.Octicons.xml",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.PicolIcons.dll",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.PicolIcons.pdb",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.PicolIcons.xml",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.PixelartIcons.dll",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.PixelartIcons.pdb",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.PixelartIcons.xml",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.RPGAwesome.dll",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.RPGAwesome.pdb",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.RPGAwesome.xml",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.RadixIcons.dll",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.RadixIcons.pdb",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.RadixIcons.xml",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.RemixIcon.dll",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.RemixIcon.pdb",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.RemixIcon.xml",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.SimpleIcons.dll",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.SimpleIcons.pdb",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.SimpleIcons.xml",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.Typicons.dll",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.Typicons.pdb",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.Typicons.xml",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.Unicons.dll",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.Unicons.pdb",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.Unicons.xml",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.VaadinIcons.dll",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.VaadinIcons.pdb",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.VaadinIcons.xml",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.WeatherIcons.dll",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.WeatherIcons.pdb",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.WeatherIcons.xml",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.Zondicons.dll",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.Zondicons.pdb",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.Zondicons.xml",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.dll",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.pdb",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.xml",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.BootstrapIcons.dll",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.BootstrapIcons.pdb",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.BootstrapIcons.xml",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.BoxIcons.dll",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.BoxIcons.pdb",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.BoxIcons.xml",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.Codicons.dll",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.Codicons.pdb",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.Codicons.xml",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.Core.dll",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.Core.pdb",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.Core.xml",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.Entypo.dll",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.Entypo.pdb",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.Entypo.xml",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.EvaIcons.dll",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.EvaIcons.pdb",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.EvaIcons.xml",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.FeatherIcons.dll",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.FeatherIcons.pdb",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.FeatherIcons.xml",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.FileIcons.dll",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.FileIcons.pdb",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.FileIcons.xml",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.FontAwesome.dll",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.FontAwesome.pdb",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.FontAwesome.xml",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.Fontaudio.dll",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.Fontaudio.pdb",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.Fontaudio.xml",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.ForkAwesome.dll",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.ForkAwesome.pdb",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.ForkAwesome.xml",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.Ionicons.dll",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.Ionicons.pdb",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.Ionicons.xml",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.JamIcons.dll",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.JamIcons.pdb",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.JamIcons.xml",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.Material.dll",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.Material.pdb",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.Material.xml",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.MaterialDesign.dll",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.MaterialDesign.pdb",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.MaterialDesign.xml",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.MaterialLight.dll",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.MaterialLight.pdb",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.MaterialLight.xml",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.Microns.dll",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.Microns.pdb",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.Microns.xml",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.Modern.dll",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.Modern.pdb",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.Modern.xml",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.Octicons.dll",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.Octicons.pdb",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.Octicons.xml",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.PicolIcons.dll",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.PicolIcons.pdb",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.PicolIcons.xml",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.PixelartIcons.dll",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.PixelartIcons.pdb",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.PixelartIcons.xml",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.RPGAwesome.dll",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.RPGAwesome.pdb",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.RPGAwesome.xml",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.RadixIcons.dll",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.RadixIcons.pdb",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.RadixIcons.xml",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.RemixIcon.dll",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.RemixIcon.pdb",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.RemixIcon.xml",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.SimpleIcons.dll",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.SimpleIcons.pdb",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.SimpleIcons.xml",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.Typicons.dll",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.Typicons.pdb",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.Typicons.xml",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.Unicons.dll",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.Unicons.pdb",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.Unicons.xml",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.VaadinIcons.dll",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.VaadinIcons.pdb",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.VaadinIcons.xml",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.WeatherIcons.dll",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.WeatherIcons.pdb",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.WeatherIcons.xml",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.Zondicons.dll",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.Zondicons.pdb",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.Zondicons.xml",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.dll",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.pdb",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.BootstrapIcons.dll",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.BootstrapIcons.pdb",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.BootstrapIcons.pri",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.BootstrapIcons.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.BootstrapIcons/MahApps.Metro.IconPacks.BootstrapIcons.xr.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.BootstrapIcons/Themes/Generic.xaml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.BootstrapIcons/Themes/PackIconBootstrapIcons.xaml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.BoxIcons.dll",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.BoxIcons.pdb",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.BoxIcons.pri",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.BoxIcons.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.BoxIcons/MahApps.Metro.IconPacks.BoxIcons.xr.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.BoxIcons/Themes/Generic.xaml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.BoxIcons/Themes/PackIconBoxIcons.xaml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Codicons.dll",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Codicons.pdb",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Codicons.pri",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Codicons.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Codicons/MahApps.Metro.IconPacks.Codicons.xr.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Codicons/Themes/Generic.xaml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Codicons/Themes/PackIconCodicons.xaml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Core.dll",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Core.pdb",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Core.pri",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Core.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Entypo.dll",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Entypo.pdb",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Entypo.pri",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Entypo.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Entypo/MahApps.Metro.IconPacks.Entypo.xr.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Entypo/Themes/Generic.xaml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Entypo/Themes/PackIconEntypo.xaml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.EvaIcons.dll",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.EvaIcons.pdb",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.EvaIcons.pri",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.EvaIcons.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.EvaIcons/MahApps.Metro.IconPacks.EvaIcons.xr.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.EvaIcons/Themes/Generic.xaml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.EvaIcons/Themes/PackIconEvaIcons.xaml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.FeatherIcons.dll",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.FeatherIcons.pdb",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.FeatherIcons.pri",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.FeatherIcons.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.FeatherIcons/MahApps.Metro.IconPacks.FeatherIcons.xr.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.FeatherIcons/Themes/Generic.xaml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.FeatherIcons/Themes/PackIconFeatherIcons.xaml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.FileIcons.dll",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.FileIcons.pdb",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.FileIcons.pri",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.FileIcons.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.FileIcons/MahApps.Metro.IconPacks.FileIcons.xr.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.FileIcons/Themes/Generic.xaml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.FileIcons/Themes/PackIconFileIcons.xaml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.FontAwesome.dll",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.FontAwesome.pdb",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.FontAwesome.pri",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.FontAwesome.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.FontAwesome/MahApps.Metro.IconPacks.FontAwesome.xr.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.FontAwesome/Themes/Generic.xaml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.FontAwesome/Themes/PackIconFontAwesome.xaml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Fontaudio.dll",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Fontaudio.pdb",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Fontaudio.pri",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Fontaudio.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Fontaudio/MahApps.Metro.IconPacks.Fontaudio.xr.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Fontaudio/Themes/Generic.xaml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Fontaudio/Themes/PackIconFontaudio.xaml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.ForkAwesome.dll",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.ForkAwesome.pdb",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.ForkAwesome.pri",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.ForkAwesome.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.ForkAwesome/MahApps.Metro.IconPacks.ForkAwesome.xr.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.ForkAwesome/Themes/Generic.xaml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.ForkAwesome/Themes/PackIconForkAwesome.xaml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Ionicons.dll",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Ionicons.pdb",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Ionicons.pri",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Ionicons.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Ionicons/MahApps.Metro.IconPacks.Ionicons.xr.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Ionicons/Themes/Generic.xaml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Ionicons/Themes/PackIconIonicons.xaml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.JamIcons.dll",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.JamIcons.pdb",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.JamIcons.pri",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.JamIcons.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.JamIcons/MahApps.Metro.IconPacks.JamIcons.xr.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.JamIcons/Themes/Generic.xaml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.JamIcons/Themes/PackIconJamIcons.xaml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Material.dll",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Material.pdb",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Material.pri",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Material.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Material/MahApps.Metro.IconPacks.Material.xr.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Material/Themes/Generic.xaml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Material/Themes/PackIconMaterial.xaml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.MaterialDesign.dll",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.MaterialDesign.pdb",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.MaterialDesign.pri",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.MaterialDesign.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.MaterialDesign/MahApps.Metro.IconPacks.MaterialDesign.xr.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.MaterialDesign/Themes/Generic.xaml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.MaterialDesign/Themes/PackIconMaterialDesign.xaml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.MaterialLight.dll",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.MaterialLight.pdb",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.MaterialLight.pri",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.MaterialLight.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.MaterialLight/MahApps.Metro.IconPacks.MaterialLight.xr.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.MaterialLight/Themes/Generic.xaml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.MaterialLight/Themes/PackIconMaterialLight.xaml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Microns.dll",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Microns.pdb",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Microns.pri",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Microns.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Microns/MahApps.Metro.IconPacks.Microns.xr.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Microns/Themes/Generic.xaml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Microns/Themes/PackIconMicrons.xaml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Modern.dll",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Modern.pdb",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Modern.pri",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Modern.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Modern/MahApps.Metro.IconPacks.Modern.xr.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Modern/Themes/Generic.xaml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Modern/Themes/PackIconModern.xaml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Octicons.dll",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Octicons.pdb",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Octicons.pri",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Octicons.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Octicons/MahApps.Metro.IconPacks.Octicons.xr.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Octicons/Themes/Generic.xaml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Octicons/Themes/PackIconOcticons.xaml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.PicolIcons.dll",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.PicolIcons.pdb",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.PicolIcons.pri",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.PicolIcons.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.PicolIcons/MahApps.Metro.IconPacks.PicolIcons.xr.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.PicolIcons/Themes/Generic.xaml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.PicolIcons/Themes/PackIconPicolIcons.xaml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.PixelartIcons.dll",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.PixelartIcons.pdb",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.PixelartIcons.pri",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.PixelartIcons.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.PixelartIcons/MahApps.Metro.IconPacks.PixelartIcons.xr.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.PixelartIcons/Themes/Generic.xaml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.PixelartIcons/Themes/PackIconPixelartIcons.xaml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.RPGAwesome.dll",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.RPGAwesome.pdb",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.RPGAwesome.pri",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.RPGAwesome.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.RPGAwesome/MahApps.Metro.IconPacks.RPGAwesome.xr.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.RPGAwesome/Themes/Generic.xaml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.RPGAwesome/Themes/PackIconRPGAwesome.xaml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.RadixIcons.dll",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.RadixIcons.pdb",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.RadixIcons.pri",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.RadixIcons.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.RadixIcons/MahApps.Metro.IconPacks.RadixIcons.xr.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.RadixIcons/Themes/Generic.xaml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.RadixIcons/Themes/PackIconRadixIcons.xaml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.RemixIcon.dll",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.RemixIcon.pdb",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.RemixIcon.pri",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.RemixIcon.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.RemixIcon/MahApps.Metro.IconPacks.RemixIcon.xr.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.RemixIcon/Themes/Generic.xaml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.RemixIcon/Themes/PackIconRemixIcon.xaml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.SimpleIcons.dll",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.SimpleIcons.pdb",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.SimpleIcons.pri",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.SimpleIcons.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.SimpleIcons/MahApps.Metro.IconPacks.SimpleIcons.xr.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.SimpleIcons/Themes/Generic.xaml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.SimpleIcons/Themes/PackIconSimpleIcons.xaml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Typicons.dll",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Typicons.pdb",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Typicons.pri",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Typicons.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Typicons/MahApps.Metro.IconPacks.Typicons.xr.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Typicons/Themes/Generic.xaml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Typicons/Themes/PackIconTypicons.xaml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Unicons.dll",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Unicons.pdb",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Unicons.pri",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Unicons.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Unicons/MahApps.Metro.IconPacks.Unicons.xr.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Unicons/Themes/Generic.xaml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Unicons/Themes/PackIconUnicons.xaml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.VaadinIcons.dll",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.VaadinIcons.pdb",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.VaadinIcons.pri",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.VaadinIcons.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.VaadinIcons/MahApps.Metro.IconPacks.VaadinIcons.xr.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.VaadinIcons/Themes/Generic.xaml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.VaadinIcons/Themes/PackIconVaadinIcons.xaml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.WeatherIcons.dll",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.WeatherIcons.pdb",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.WeatherIcons.pri",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.WeatherIcons.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.WeatherIcons/MahApps.Metro.IconPacks.WeatherIcons.xr.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.WeatherIcons/Themes/Generic.xaml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.WeatherIcons/Themes/PackIconWeatherIcons.xaml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Zondicons.dll",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Zondicons.pdb",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Zondicons.pri",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Zondicons.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Zondicons/MahApps.Metro.IconPacks.Zondicons.xr.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Zondicons/Themes/Generic.xaml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Zondicons/Themes/PackIconZondicons.xaml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.dll",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.pdb",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.pri",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks/MahApps.Metro.IconPacks.xr.xml",
+        "logo_small.png",
+        "mahapps.metro.iconpacks.4.8.0.nupkg.sha512",
+        "mahapps.metro.iconpacks.nuspec"
       ]
     },
     "Microsoft.Net.Native.Compiler/2.2.10-rel-29722-00": {
@@ -4997,6 +6727,57 @@
         "ref/uap10.0.15138/mscorlib.dll",
         "ref/uap10.0.15138/netstandard.dll",
         "runtime.json"
+      ]
+    },
+    "Microsoft.Toolkit.Uwp.UI.Controls.DataGrid/7.0.1": {
+      "sha512": "nEq7cQ2xP9AghBhM9466DhACcWLDFA4m2H0UGkoLI4x9yLo69UmRxUcaGmiQTNjbLoYXzircAFucCjVEIxNxjA==",
+      "type": "package",
+      "path": "microsoft.toolkit.uwp.ui.controls.datagrid/7.0.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/nuget.png",
+        "lib/uap10.0.17763/Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll",
+        "lib/uap10.0.17763/Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.pdb",
+        "lib/uap10.0.17763/Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.pri",
+        "lib/uap10.0.17763/Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.xml",
+        "lib/uap10.0.17763/Microsoft.Toolkit.Uwp.UI.Controls.DataGrid/Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.xr.xml",
+        "license.md",
+        "microsoft.toolkit.uwp.ui.controls.datagrid.7.0.1.nupkg.sha512",
+        "microsoft.toolkit.uwp.ui.controls.datagrid.nuspec",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "Microsoft.UI.Xaml/2.5.0": {
+      "sha512": "fI2rIvTd9G+2cADLucgHwvauPOfnfDmNtbebq0+Hk9VhZlT9UZcNyrKIJWQEReGL4DAEhNRMwImHJSV+y0mu4A==",
+      "type": "package",
+      "path": "microsoft.ui.xaml/2.5.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Common.targets",
+        "build/Microsoft.UI.Xaml.props",
+        "build/MicrosoftUIXamlVersion.props",
+        "build/native/Microsoft.UI.Xaml.targets",
+        "buildTransitive/Common.targets",
+        "buildTransitive/Microsoft.UI.Xaml.props",
+        "buildTransitive/MicrosoftUIXamlVersion.props",
+        "lib/uap10.0/Design/Microsoft.UI.Xaml.Design.dll",
+        "lib/uap10.0/Microsoft.UI.Xaml.pri",
+        "lib/uap10.0/Microsoft.UI.Xaml.winmd",
+        "lib/uap10.0/Microsoft.UI.Xaml.xml",
+        "lib/uap10.0/Microsoft.UI.Xaml/Themes/Generic.xaml",
+        "license.txt",
+        "microsoft.ui.xaml.2.5.0.nupkg.sha512",
+        "microsoft.ui.xaml.nuspec",
+        "readme.txt",
+        "tools/AppX/arm/Release/Microsoft.UI.Xaml.2.5.appx",
+        "tools/AppX/arm64/Release/Microsoft.UI.Xaml.2.5.appx",
+        "tools/AppX/x64/Release/Microsoft.UI.Xaml.2.5.appx",
+        "tools/AppX/x86/Release/Microsoft.UI.Xaml.2.5.appx",
+        "tools/VisualStudioToolsManifest.xml"
       ]
     },
     "NETStandard.Library/2.0.3": {
@@ -9344,14 +11125,364 @@
         "system.runtime.extensions.4.3.1.nupkg.sha512",
         "system.runtime.extensions.nuspec"
       ]
+    },
+    "Win2D.uwp/1.20.0": {
+      "sha512": "sFyNT2EiV6vmEFMrkiJdSolaKNyOyk+kfjgvXN8XqUhdEPqBd2zPrFdl7SojNHQGm2Br6JLIBOdrj9fB1Qy4GA==",
+      "type": "package",
+      "path": "win2d.uwp/1.20.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Win2d.githash.txt",
+        "build/native/Win2D.uwp.targets",
+        "include/Microsoft.Graphics.Canvas.h",
+        "include/Microsoft.Graphics.Canvas.native.h",
+        "lib/uap10.0/Microsoft.Graphics.Canvas.winmd",
+        "lib/uap10.0/Microsoft.Graphics.Canvas.xml",
+        "runtimes/win10-arm/native/Microsoft.Graphics.Canvas.dll",
+        "runtimes/win10-x64/native/Microsoft.Graphics.Canvas.dll",
+        "runtimes/win10-x86/native/Microsoft.Graphics.Canvas.dll",
+        "win2d.uwp.1.20.0.nupkg.sha512",
+        "win2d.uwp.nuspec"
+      ]
+    },
+    "Xamarin.Forms/4.8.0.1687": {
+      "sha512": "o9ACAbleXxorZzIHRBzIloPollwVC7+YTfxE8r3L2frArCHUkrHIy+K+azQag/Un4h2u88DS01HqR16/lMD8zQ==",
+      "type": "package",
+      "path": "xamarin.forms/4.8.0.1687",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Assets/xamarin_128x128.png",
+        "build/MonoAndroid10/proguard.cfg",
+        "build/XCODE10/Xamarin.Forms.Platform.iOS.dll",
+        "build/XCODE10/Xamarin.Forms.Platform.iOS.pdb",
+        "build/XCODE10/Xamarin.Forms.Platform.macOS.dll",
+        "build/XCODE11/Xamarin.Forms.Platform.iOS.dll",
+        "build/XCODE11/Xamarin.Forms.Platform.iOS.pdb",
+        "build/XCODE11/Xamarin.Forms.Platform.macOS.dll",
+        "build/Xamarin.Forms.DefaultItems.props",
+        "build/Xamarin.Forms.DefaultItems.targets",
+        "build/Xamarin.Forms.props",
+        "build/Xamarin.Forms.targets",
+        "build/net46/Mono.Cecil.Mdb.dll",
+        "build/net46/Mono.Cecil.Pdb.dll",
+        "build/net46/Mono.Cecil.Rocks.dll",
+        "build/net46/Mono.Cecil.dll",
+        "build/net46/System.ValueTuple.dll",
+        "build/net46/Xamarin.Forms.Build.Tasks.dll",
+        "build/net46/Xamarin.Forms.Core.dll",
+        "build/net46/Xamarin.Forms.Xaml.dll",
+        "build/netstandard2.0/Mono.Cecil.Mdb.dll",
+        "build/netstandard2.0/Mono.Cecil.Pdb.dll",
+        "build/netstandard2.0/Mono.Cecil.Rocks.dll",
+        "build/netstandard2.0/Mono.Cecil.dll",
+        "build/netstandard2.0/System.CodeDom.dll",
+        "build/netstandard2.0/Xamarin.Forms.Build.Tasks.dll",
+        "build/netstandard2.0/Xamarin.Forms.Core.dll",
+        "build/netstandard2.0/Xamarin.Forms.Xaml.dll",
+        "buildTransitive/MonoAndroid10/proguard.cfg",
+        "buildTransitive/XCODE10/Xamarin.Forms.Platform.iOS.dll",
+        "buildTransitive/XCODE10/Xamarin.Forms.Platform.iOS.pdb",
+        "buildTransitive/XCODE10/Xamarin.Forms.Platform.macOS.dll",
+        "buildTransitive/XCODE11/Xamarin.Forms.Platform.iOS.dll",
+        "buildTransitive/XCODE11/Xamarin.Forms.Platform.iOS.pdb",
+        "buildTransitive/XCODE11/Xamarin.Forms.Platform.macOS.dll",
+        "buildTransitive/Xamarin.Forms.DefaultItems.props",
+        "buildTransitive/Xamarin.Forms.DefaultItems.targets",
+        "buildTransitive/Xamarin.Forms.props",
+        "buildTransitive/Xamarin.Forms.targets",
+        "buildTransitive/net46/Mono.Cecil.Mdb.dll",
+        "buildTransitive/net46/Mono.Cecil.Pdb.dll",
+        "buildTransitive/net46/Mono.Cecil.Rocks.dll",
+        "buildTransitive/net46/Mono.Cecil.dll",
+        "buildTransitive/net46/System.ValueTuple.dll",
+        "buildTransitive/net46/Xamarin.Forms.Build.Tasks.dll",
+        "buildTransitive/net46/Xamarin.Forms.Core.dll",
+        "buildTransitive/net46/Xamarin.Forms.Xaml.dll",
+        "buildTransitive/netstandard2.0/Mono.Cecil.Mdb.dll",
+        "buildTransitive/netstandard2.0/Mono.Cecil.Pdb.dll",
+        "buildTransitive/netstandard2.0/Mono.Cecil.Rocks.dll",
+        "buildTransitive/netstandard2.0/Mono.Cecil.dll",
+        "buildTransitive/netstandard2.0/System.CodeDom.dll",
+        "buildTransitive/netstandard2.0/Xamarin.Forms.Build.Tasks.dll",
+        "buildTransitive/netstandard2.0/Xamarin.Forms.Core.dll",
+        "buildTransitive/netstandard2.0/Xamarin.Forms.Xaml.dll",
+        "lib/MonoAndroid10.0/Design/Xamarin.Forms.Core.Design.dll",
+        "lib/MonoAndroid10.0/Design/Xamarin.Forms.Xaml.Design.dll",
+        "lib/MonoAndroid10.0/FormsViewGroup.dll",
+        "lib/MonoAndroid10.0/FormsViewGroup.pdb",
+        "lib/MonoAndroid10.0/Xamarin.Forms.Core.dll",
+        "lib/MonoAndroid10.0/Xamarin.Forms.Core.pdb",
+        "lib/MonoAndroid10.0/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid10.0/Xamarin.Forms.Platform.Android.dll",
+        "lib/MonoAndroid10.0/Xamarin.Forms.Platform.Android.pdb",
+        "lib/MonoAndroid10.0/Xamarin.Forms.Platform.dll",
+        "lib/MonoAndroid10.0/Xamarin.Forms.Xaml.dll",
+        "lib/MonoAndroid10.0/Xamarin.Forms.Xaml.pdb",
+        "lib/MonoAndroid10.0/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid10.0/de/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid10.0/de/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid10.0/es/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid10.0/es/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid10.0/fr/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid10.0/fr/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid10.0/it/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid10.0/it/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid10.0/ja/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid10.0/ja/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid10.0/ko/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid10.0/ko/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid10.0/pt-BR/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid10.0/pt-BR/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid10.0/ru/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid10.0/ru/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid10.0/zh-Hans/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid10.0/zh-Hans/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid10.0/zh-Hant/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid10.0/zh-Hant/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid90/Design/Xamarin.Forms.Core.Design.dll",
+        "lib/MonoAndroid90/Design/Xamarin.Forms.Xaml.Design.dll",
+        "lib/MonoAndroid90/FormsViewGroup.dll",
+        "lib/MonoAndroid90/FormsViewGroup.pdb",
+        "lib/MonoAndroid90/Xamarin.Forms.Core.dll",
+        "lib/MonoAndroid90/Xamarin.Forms.Core.pdb",
+        "lib/MonoAndroid90/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid90/Xamarin.Forms.Platform.Android.dll",
+        "lib/MonoAndroid90/Xamarin.Forms.Platform.Android.pdb",
+        "lib/MonoAndroid90/Xamarin.Forms.Platform.dll",
+        "lib/MonoAndroid90/Xamarin.Forms.Xaml.dll",
+        "lib/MonoAndroid90/Xamarin.Forms.Xaml.pdb",
+        "lib/MonoAndroid90/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid90/de/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid90/de/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid90/es/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid90/es/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid90/fr/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid90/fr/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid90/it/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid90/it/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid90/ja/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid90/ja/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid90/ko/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid90/ko/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid90/pt-BR/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid90/pt-BR/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid90/ru/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid90/ru/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid90/zh-Hans/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid90/zh-Hans/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid90/zh-Hant/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid90/zh-Hant/Xamarin.Forms.Xaml.xml",
+        "lib/Xamarin.Mac/Design/Xamarin.Forms.Core.Design.dll",
+        "lib/Xamarin.Mac/Design/Xamarin.Forms.Xaml.Design.dll",
+        "lib/Xamarin.Mac/Xamarin.Forms.Core.dll",
+        "lib/Xamarin.Mac/Xamarin.Forms.Platform.dll",
+        "lib/Xamarin.Mac/Xamarin.Forms.Xaml.dll",
+        "lib/Xamarin.iOS10/Design/Xamarin.Forms.Core.Design.dll",
+        "lib/Xamarin.iOS10/Design/Xamarin.Forms.Xaml.Design.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Core.pdb",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Core.xml",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.pdb",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.xml",
+        "lib/Xamarin.iOS10/ar/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/ca/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/cs/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/da/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/de/Xamarin.Forms.Core.xml",
+        "lib/Xamarin.iOS10/de/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/de/Xamarin.Forms.Xaml.xml",
+        "lib/Xamarin.iOS10/el/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/es/Xamarin.Forms.Core.xml",
+        "lib/Xamarin.iOS10/es/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/es/Xamarin.Forms.Xaml.xml",
+        "lib/Xamarin.iOS10/fi/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/fr/Xamarin.Forms.Core.xml",
+        "lib/Xamarin.iOS10/fr/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/fr/Xamarin.Forms.Xaml.xml",
+        "lib/Xamarin.iOS10/he/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/hi/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/hr/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/hu/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/id/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/it/Xamarin.Forms.Core.xml",
+        "lib/Xamarin.iOS10/it/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/it/Xamarin.Forms.Xaml.xml",
+        "lib/Xamarin.iOS10/ja/Xamarin.Forms.Core.xml",
+        "lib/Xamarin.iOS10/ja/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/ja/Xamarin.Forms.Xaml.xml",
+        "lib/Xamarin.iOS10/ko/Xamarin.Forms.Core.xml",
+        "lib/Xamarin.iOS10/ko/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/ko/Xamarin.Forms.Xaml.xml",
+        "lib/Xamarin.iOS10/ms/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/nb/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/nl/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/pl/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/pt-BR/Xamarin.Forms.Core.xml",
+        "lib/Xamarin.iOS10/pt-BR/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/pt-BR/Xamarin.Forms.Xaml.xml",
+        "lib/Xamarin.iOS10/pt/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/ro/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/ru/Xamarin.Forms.Core.xml",
+        "lib/Xamarin.iOS10/ru/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/ru/Xamarin.Forms.Xaml.xml",
+        "lib/Xamarin.iOS10/sk/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/sv/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/th/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/tr/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/uk/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/vi/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Core.xml",
+        "lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Xaml.xml",
+        "lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Core.xml",
+        "lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Xaml.xml",
+        "lib/netstandard1.0/Design/Xamarin.Forms.Core.Design.dll",
+        "lib/netstandard1.0/Design/Xamarin.Forms.Xaml.Design.dll",
+        "lib/netstandard1.0/Xamarin.Forms.Core.dll",
+        "lib/netstandard1.0/Xamarin.Forms.Core.pdb",
+        "lib/netstandard1.0/Xamarin.Forms.Core.xml",
+        "lib/netstandard1.0/Xamarin.Forms.Platform.dll",
+        "lib/netstandard1.0/Xamarin.Forms.Xaml.dll",
+        "lib/netstandard1.0/Xamarin.Forms.Xaml.pdb",
+        "lib/netstandard1.0/Xamarin.Forms.Xaml.xml",
+        "lib/netstandard2.0/Design/Xamarin.Forms.Core.Design.dll",
+        "lib/netstandard2.0/Design/Xamarin.Forms.Xaml.Design.dll",
+        "lib/netstandard2.0/Xamarin.Forms.Core.dll",
+        "lib/netstandard2.0/Xamarin.Forms.Core.pdb",
+        "lib/netstandard2.0/Xamarin.Forms.Core.xml",
+        "lib/netstandard2.0/Xamarin.Forms.Platform.dll",
+        "lib/netstandard2.0/Xamarin.Forms.Xaml.dll",
+        "lib/netstandard2.0/Xamarin.Forms.Xaml.pdb",
+        "lib/netstandard2.0/Xamarin.Forms.Xaml.xml",
+        "lib/netstandard2.0/de/Xamarin.Forms.Core.xml",
+        "lib/netstandard2.0/de/Xamarin.Forms.Xaml.xml",
+        "lib/netstandard2.0/es/Xamarin.Forms.Core.xml",
+        "lib/netstandard2.0/es/Xamarin.Forms.Xaml.xml",
+        "lib/netstandard2.0/fr/Xamarin.Forms.Core.xml",
+        "lib/netstandard2.0/fr/Xamarin.Forms.Xaml.xml",
+        "lib/netstandard2.0/it/Xamarin.Forms.Core.xml",
+        "lib/netstandard2.0/it/Xamarin.Forms.Xaml.xml",
+        "lib/netstandard2.0/ja/Xamarin.Forms.Core.xml",
+        "lib/netstandard2.0/ja/Xamarin.Forms.Xaml.xml",
+        "lib/netstandard2.0/ko/Xamarin.Forms.Core.xml",
+        "lib/netstandard2.0/ko/Xamarin.Forms.Xaml.xml",
+        "lib/netstandard2.0/pt-BR/Xamarin.Forms.Core.xml",
+        "lib/netstandard2.0/pt-BR/Xamarin.Forms.Xaml.xml",
+        "lib/netstandard2.0/ru/Xamarin.Forms.Core.xml",
+        "lib/netstandard2.0/ru/Xamarin.Forms.Xaml.xml",
+        "lib/netstandard2.0/zh-Hans/Xamarin.Forms.Core.xml",
+        "lib/netstandard2.0/zh-Hans/Xamarin.Forms.Xaml.xml",
+        "lib/netstandard2.0/zh-Hant/Xamarin.Forms.Core.xml",
+        "lib/netstandard2.0/zh-Hant/Xamarin.Forms.Xaml.xml",
+        "lib/tizen40/Design/Xamarin.Forms.Core.Design.dll",
+        "lib/tizen40/Design/Xamarin.Forms.Xaml.Design.dll",
+        "lib/tizen40/Xamarin.Forms.Core.dll",
+        "lib/tizen40/Xamarin.Forms.Core.pdb",
+        "lib/tizen40/Xamarin.Forms.Core.xml",
+        "lib/tizen40/Xamarin.Forms.Platform.Tizen.dll",
+        "lib/tizen40/Xamarin.Forms.Platform.Tizen.pdb",
+        "lib/tizen40/Xamarin.Forms.Platform.dll",
+        "lib/tizen40/Xamarin.Forms.Xaml.dll",
+        "lib/tizen40/Xamarin.Forms.Xaml.pdb",
+        "lib/tizen40/Xamarin.Forms.Xaml.xml",
+        "lib/uap10.0.14393/Design/Xamarin.Forms.Core.Design.dll",
+        "lib/uap10.0.14393/Design/Xamarin.Forms.Xaml.Design.dll",
+        "lib/uap10.0.14393/Properties/Xamarin.Forms.Platform.UAP.rd.xml",
+        "lib/uap10.0.14393/Xamarin.Forms.Core.dll",
+        "lib/uap10.0.14393/Xamarin.Forms.Core.pdb",
+        "lib/uap10.0.14393/Xamarin.Forms.Core.xml",
+        "lib/uap10.0.14393/Xamarin.Forms.Platform.UAP.dll",
+        "lib/uap10.0.14393/Xamarin.Forms.Platform.UAP.pdb",
+        "lib/uap10.0.14393/Xamarin.Forms.Platform.UAP.pri",
+        "lib/uap10.0.14393/Xamarin.Forms.Platform.UAP/CollectionView/ItemsViewStyles.xaml",
+        "lib/uap10.0.14393/Xamarin.Forms.Platform.UAP/FormsAutoSuggestBoxStyle.xaml",
+        "lib/uap10.0.14393/Xamarin.Forms.Platform.UAP/FormsCheckBoxStyle.xaml",
+        "lib/uap10.0.14393/Xamarin.Forms.Platform.UAP/FormsCommandBarStyle.xaml",
+        "lib/uap10.0.14393/Xamarin.Forms.Platform.UAP/FormsEmbeddedPageWrapper.xaml",
+        "lib/uap10.0.14393/Xamarin.Forms.Platform.UAP/FormsFlyout.xaml",
+        "lib/uap10.0.14393/Xamarin.Forms.Platform.UAP/FormsProgressBarStyle.xaml",
+        "lib/uap10.0.14393/Xamarin.Forms.Platform.UAP/FormsTextBoxStyle.xaml",
+        "lib/uap10.0.14393/Xamarin.Forms.Platform.UAP/MasterDetailControlStyle.xaml",
+        "lib/uap10.0.14393/Xamarin.Forms.Platform.UAP/Microsoft.UI.Xaml/DensityStyles/Compact.xaml",
+        "lib/uap10.0.14393/Xamarin.Forms.Platform.UAP/Microsoft.UI.Xaml/Themes/generic.xaml",
+        "lib/uap10.0.14393/Xamarin.Forms.Platform.UAP/PageControlStyle.xaml",
+        "lib/uap10.0.14393/Xamarin.Forms.Platform.UAP/PickerStyle.xaml",
+        "lib/uap10.0.14393/Xamarin.Forms.Platform.UAP/PromptDialog.xaml",
+        "lib/uap10.0.14393/Xamarin.Forms.Platform.UAP/Resources.xaml",
+        "lib/uap10.0.14393/Xamarin.Forms.Platform.UAP/Shell/ShellPageWrapper.xaml",
+        "lib/uap10.0.14393/Xamarin.Forms.Platform.UAP/SliderStyle.xaml",
+        "lib/uap10.0.14393/Xamarin.Forms.Platform.UAP/StepperControl.xaml",
+        "lib/uap10.0.14393/Xamarin.Forms.Platform.UAP/TabbedPageStyle.xaml",
+        "lib/uap10.0.14393/Xamarin.Forms.Platform.UAP/Xamarin.Forms.Platform.UAP.xr.xml",
+        "lib/uap10.0.14393/Xamarin.Forms.Platform.dll",
+        "lib/uap10.0.14393/Xamarin.Forms.Xaml.dll",
+        "lib/uap10.0.14393/Xamarin.Forms.Xaml.pdb",
+        "lib/uap10.0.14393/Xamarin.Forms.Xaml.xml",
+        "lib/uap10.0.16299/Design/Xamarin.Forms.Core.Design.dll",
+        "lib/uap10.0.16299/Design/Xamarin.Forms.Xaml.Design.dll",
+        "lib/uap10.0.16299/Properties/Xamarin.Forms.Platform.UAP.rd.xml",
+        "lib/uap10.0.16299/Xamarin.Forms.Core.dll",
+        "lib/uap10.0.16299/Xamarin.Forms.Core.pdb",
+        "lib/uap10.0.16299/Xamarin.Forms.Core.xml",
+        "lib/uap10.0.16299/Xamarin.Forms.Platform.UAP.dll",
+        "lib/uap10.0.16299/Xamarin.Forms.Platform.UAP.pdb",
+        "lib/uap10.0.16299/Xamarin.Forms.Platform.UAP.pri",
+        "lib/uap10.0.16299/Xamarin.Forms.Platform.UAP/CollectionView/ItemsViewStyles.xaml",
+        "lib/uap10.0.16299/Xamarin.Forms.Platform.UAP/FormsAutoSuggestBoxStyle.xaml",
+        "lib/uap10.0.16299/Xamarin.Forms.Platform.UAP/FormsCheckBoxStyle.xaml",
+        "lib/uap10.0.16299/Xamarin.Forms.Platform.UAP/FormsCommandBarStyle.xaml",
+        "lib/uap10.0.16299/Xamarin.Forms.Platform.UAP/FormsEmbeddedPageWrapper.xaml",
+        "lib/uap10.0.16299/Xamarin.Forms.Platform.UAP/FormsFlyout.xaml",
+        "lib/uap10.0.16299/Xamarin.Forms.Platform.UAP/FormsProgressBarStyle.xaml",
+        "lib/uap10.0.16299/Xamarin.Forms.Platform.UAP/FormsTextBoxStyle.xaml",
+        "lib/uap10.0.16299/Xamarin.Forms.Platform.UAP/MasterDetailControlStyle.xaml",
+        "lib/uap10.0.16299/Xamarin.Forms.Platform.UAP/Microsoft.UI.Xaml/DensityStyles/Compact.xaml",
+        "lib/uap10.0.16299/Xamarin.Forms.Platform.UAP/Microsoft.UI.Xaml/Themes/generic.xaml",
+        "lib/uap10.0.16299/Xamarin.Forms.Platform.UAP/PageControlStyle.xaml",
+        "lib/uap10.0.16299/Xamarin.Forms.Platform.UAP/PickerStyle.xaml",
+        "lib/uap10.0.16299/Xamarin.Forms.Platform.UAP/PromptDialog.xaml",
+        "lib/uap10.0.16299/Xamarin.Forms.Platform.UAP/Resources.xaml",
+        "lib/uap10.0.16299/Xamarin.Forms.Platform.UAP/Shell/ShellPageWrapper.xaml",
+        "lib/uap10.0.16299/Xamarin.Forms.Platform.UAP/Shell/ShellStyles.xaml",
+        "lib/uap10.0.16299/Xamarin.Forms.Platform.UAP/SliderStyle.xaml",
+        "lib/uap10.0.16299/Xamarin.Forms.Platform.UAP/StepperControl.xaml",
+        "lib/uap10.0.16299/Xamarin.Forms.Platform.UAP/TabbedPageStyle.xaml",
+        "lib/uap10.0.16299/Xamarin.Forms.Platform.UAP/Xamarin.Forms.Platform.UAP.xr.xml",
+        "lib/uap10.0.16299/Xamarin.Forms.Platform.dll",
+        "lib/uap10.0.16299/Xamarin.Forms.Xaml.dll",
+        "lib/uap10.0.16299/Xamarin.Forms.Xaml.pdb",
+        "lib/uap10.0.16299/Xamarin.Forms.Xaml.xml",
+        "xamarin.forms.4.8.0.1687.nupkg.sha512",
+        "xamarin.forms.nuspec"
+      ]
+    },
+    "Xamarin.Forms.DataGrid/4.8.0": {
+      "sha512": "aWVJQ2W5FKrmJgmt8aBhH1RumvUycM89vL0+JlTril+4QciUwerNCr9FV62jBeEXBp6/VUF4XX+9MfJtzjPWjQ==",
+      "type": "package",
+      "path": "xamarin.forms.datagrid/4.8.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Xamarin.Forms.DataGrid.dll",
+        "xamarin.forms.datagrid.4.8.0.nupkg.sha512",
+        "xamarin.forms.datagrid.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "UAP,Version=v10.0.17763": [
       "DocumentFormat.OpenXml >= 2.12.3",
-      "MaterialDesignThemes >= 4.0.0",
+      "MahApps.Metro.IconPacks >= 4.8.0",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.2.12",
-      "System.Runtime.Extensions >= 4.3.1"
+      "Microsoft.Toolkit.Uwp.UI.Controls.DataGrid >= 7.0.1",
+      "System.Runtime.Extensions >= 4.3.1",
+      "Xamarin.Forms.DataGrid >= 4.8.0"
     ]
   },
   "packageFolders": {
@@ -9398,17 +11529,25 @@
             "target": "Package",
             "version": "[2.12.3, )"
           },
-          "MaterialDesignThemes": {
+          "MahApps.Metro.IconPacks": {
             "target": "Package",
-            "version": "[4.0.0, )"
+            "version": "[4.8.0, )"
           },
           "Microsoft.NETCore.UniversalWindowsPlatform": {
             "target": "Package",
             "version": "[6.2.12, )"
           },
+          "Microsoft.Toolkit.Uwp.UI.Controls.DataGrid": {
+            "target": "Package",
+            "version": "[7.0.1, )"
+          },
           "System.Runtime.Extensions": {
             "target": "Package",
             "version": "[4.3.1, )"
+          },
+          "Xamarin.Forms.DataGrid": {
+            "target": "Package",
+            "version": "[4.8.0, )"
           }
         },
         "imports": [

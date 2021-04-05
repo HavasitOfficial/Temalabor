@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="MahApps.Metro.IconPacks.Entypo" version="1.0" primary="true">
+		<Qualifiers/>
+		<ResourceMapSubtree name="Files">
+			<ResourceMapSubtree name="MahApps.Metro.IconPacks.Entypo">
+				<NamedResource name="MahApps.Metro.IconPacks.Entypo.xr.xml" uri="ms-resource://MahApps.Metro.IconPacks.Entypo/Files/MahApps.Metro.IconPacks.Entypo/MahApps.Metro.IconPacks.Entypo.xr.xml">
+					<Candidate type="Path">
+						<Value>MahApps.Metro.IconPacks.Entypo\MahApps.Metro.IconPacks.Entypo.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="Themes">
+					<NamedResource name="Generic.xbf" uri="ms-resource://MahApps.Metro.IconPacks.Entypo/Files/MahApps.Metro.IconPacks.Entypo/Themes/Generic.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="PackIconEntypo.xbf" uri="ms-resource://MahApps.Metro.IconPacks.Entypo/Files/MahApps.Metro.IconPacks.Entypo/Themes/PackIconEntypo.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="MahApps.Metro.IconPacks.WeatherIcons" version="1.0" primary="true">
+		<Qualifiers/>
+		<ResourceMapSubtree name="Files">
+			<ResourceMapSubtree name="MahApps.Metro.IconPacks.WeatherIcons">
+				<NamedResource name="MahApps.Metro.IconPacks.WeatherIcons.xr.xml" uri="ms-resource://MahApps.Metro.IconPacks.WeatherIcons/Files/MahApps.Metro.IconPacks.WeatherIcons/MahApps.Metro.IconPacks.WeatherIcons.xr.xml">
+					<Candidate type="Path">
+						<Value>MahApps.Metro.IconPacks.WeatherIcons\MahApps.Metro.IconPacks.WeatherIcons.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="Themes">
+					<NamedResource name="Generic.xbf" uri="ms-resource://MahApps.Metro.IconPacks.WeatherIcons/Files/MahApps.Metro.IconPacks.WeatherIcons/Themes/Generic.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="PackIconWeatherIcons.xbf" uri="ms-resource://MahApps.Metro.IconPacks.WeatherIcons/Files/MahApps.Metro.IconPacks.WeatherIcons/Themes/PackIconWeatherIcons.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="MahApps.Metro.IconPacks.RadixIcons" version="1.0" primary="true">
+		<Qualifiers/>
+		<ResourceMapSubtree name="Files">
+			<ResourceMapSubtree name="MahApps.Metro.IconPacks.RadixIcons">
+				<NamedResource name="MahApps.Metro.IconPacks.RadixIcons.xr.xml" uri="ms-resource://MahApps.Metro.IconPacks.RadixIcons/Files/MahApps.Metro.IconPacks.RadixIcons/MahApps.Metro.IconPacks.RadixIcons.xr.xml">
+					<Candidate type="Path">
+						<Value>MahApps.Metro.IconPacks.RadixIcons\MahApps.Metro.IconPacks.RadixIcons.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="Themes">
+					<NamedResource name="Generic.xbf" uri="ms-resource://MahApps.Metro.IconPacks.RadixIcons/Files/MahApps.Metro.IconPacks.RadixIcons/Themes/Generic.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="PackIconRadixIcons.xbf" uri="ms-resource://MahApps.Metro.IconPacks.RadixIcons/Files/MahApps.Metro.IconPacks.RadixIcons/Themes/PackIconRadixIcons.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

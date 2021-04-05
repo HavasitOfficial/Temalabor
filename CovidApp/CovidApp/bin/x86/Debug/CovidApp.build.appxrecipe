@@ -31,14 +31,227 @@
     <AppxPackagedFile Include="C:\Users\User\.nuget\packages\documentformat.openxml\2.12.3\lib\netstandard2.0\DocumentFormat.OpenXml.dll">
       <PackagePath>DocumentFormat.OpenXml.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks.BootstrapIcons.dll">
+      <PackagePath>MahApps.Metro.IconPacks.BootstrapIcons.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks.BoxIcons.dll">
+      <PackagePath>MahApps.Metro.IconPacks.BoxIcons.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks.Codicons.dll">
+      <PackagePath>MahApps.Metro.IconPacks.Codicons.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks.Core.dll">
+      <PackagePath>MahApps.Metro.IconPacks.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks.Entypo.dll">
+      <PackagePath>MahApps.Metro.IconPacks.Entypo.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks.EvaIcons.dll">
+      <PackagePath>MahApps.Metro.IconPacks.EvaIcons.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks.FeatherIcons.dll">
+      <PackagePath>MahApps.Metro.IconPacks.FeatherIcons.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks.FileIcons.dll">
+      <PackagePath>MahApps.Metro.IconPacks.FileIcons.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks.FontAwesome.dll">
+      <PackagePath>MahApps.Metro.IconPacks.FontAwesome.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks.Fontaudio.dll">
+      <PackagePath>MahApps.Metro.IconPacks.Fontaudio.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks.ForkAwesome.dll">
+      <PackagePath>MahApps.Metro.IconPacks.ForkAwesome.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks.Ionicons.dll">
+      <PackagePath>MahApps.Metro.IconPacks.Ionicons.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks.JamIcons.dll">
+      <PackagePath>MahApps.Metro.IconPacks.JamIcons.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks.Material.dll">
+      <PackagePath>MahApps.Metro.IconPacks.Material.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks.MaterialDesign.dll">
+      <PackagePath>MahApps.Metro.IconPacks.MaterialDesign.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks.MaterialLight.dll">
+      <PackagePath>MahApps.Metro.IconPacks.MaterialLight.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks.Microns.dll">
+      <PackagePath>MahApps.Metro.IconPacks.Microns.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks.Modern.dll">
+      <PackagePath>MahApps.Metro.IconPacks.Modern.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks.Octicons.dll">
+      <PackagePath>MahApps.Metro.IconPacks.Octicons.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks.PicolIcons.dll">
+      <PackagePath>MahApps.Metro.IconPacks.PicolIcons.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks.PixelartIcons.dll">
+      <PackagePath>MahApps.Metro.IconPacks.PixelartIcons.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks.RPGAwesome.dll">
+      <PackagePath>MahApps.Metro.IconPacks.RPGAwesome.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks.RadixIcons.dll">
+      <PackagePath>MahApps.Metro.IconPacks.RadixIcons.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks.RemixIcon.dll">
+      <PackagePath>MahApps.Metro.IconPacks.RemixIcon.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks.SimpleIcons.dll">
+      <PackagePath>MahApps.Metro.IconPacks.SimpleIcons.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks.Typicons.dll">
+      <PackagePath>MahApps.Metro.IconPacks.Typicons.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks.Unicons.dll">
+      <PackagePath>MahApps.Metro.IconPacks.Unicons.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks.VaadinIcons.dll">
+      <PackagePath>MahApps.Metro.IconPacks.VaadinIcons.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks.WeatherIcons.dll">
+      <PackagePath>MahApps.Metro.IconPacks.WeatherIcons.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks.Zondicons.dll">
+      <PackagePath>MahApps.Metro.IconPacks.Zondicons.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks.dll">
+      <PackagePath>MahApps.Metro.IconPacks.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.toolkit.uwp.ui.controls.datagrid\7.0.1\lib\uap10.0.17763\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\.nuget\packages\system.io.packaging\4.7.0\lib\netstandard2.0\System.IO.Packaging.dll">
       <PackagePath>System.IO.Packaging.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\win2d.uwp\1.20.0\runtimes\win10-x86\native\Microsoft.Graphics.Canvas.dll">
+      <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\xamarin.forms\4.8.0.1687\lib\uap10.0.16299\Xamarin.Forms.Core.dll">
+      <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\xamarin.forms\4.8.0.1687\lib\uap10.0.16299\Xamarin.Forms.Platform.UAP.dll">
+      <PackagePath>Xamarin.Forms.Platform.UAP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\xamarin.forms\4.8.0.1687\lib\uap10.0.16299\Xamarin.Forms.Platform.dll">
+      <PackagePath>Xamarin.Forms.Platform.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\xamarin.forms\4.8.0.1687\lib\uap10.0.16299\Xamarin.Forms.Xaml.dll">
+      <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\xamarin.forms.datagrid\4.8.0\lib\netstandard2.0\Xamarin.Forms.DataGrid.dll">
+      <PackagePath>Xamarin.Forms.DataGrid.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
+      <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks.BootstrapIcons\MahApps.Metro.IconPacks.BootstrapIcons.xr.xml">
+      <PackagePath>MahApps.Metro.IconPacks.BootstrapIcons\MahApps.Metro.IconPacks.BootstrapIcons.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks.BoxIcons\MahApps.Metro.IconPacks.BoxIcons.xr.xml">
+      <PackagePath>MahApps.Metro.IconPacks.BoxIcons\MahApps.Metro.IconPacks.BoxIcons.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks.Codicons\MahApps.Metro.IconPacks.Codicons.xr.xml">
+      <PackagePath>MahApps.Metro.IconPacks.Codicons\MahApps.Metro.IconPacks.Codicons.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks.Entypo\MahApps.Metro.IconPacks.Entypo.xr.xml">
+      <PackagePath>MahApps.Metro.IconPacks.Entypo\MahApps.Metro.IconPacks.Entypo.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks.EvaIcons\MahApps.Metro.IconPacks.EvaIcons.xr.xml">
+      <PackagePath>MahApps.Metro.IconPacks.EvaIcons\MahApps.Metro.IconPacks.EvaIcons.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks.FeatherIcons\MahApps.Metro.IconPacks.FeatherIcons.xr.xml">
+      <PackagePath>MahApps.Metro.IconPacks.FeatherIcons\MahApps.Metro.IconPacks.FeatherIcons.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks.FileIcons\MahApps.Metro.IconPacks.FileIcons.xr.xml">
+      <PackagePath>MahApps.Metro.IconPacks.FileIcons\MahApps.Metro.IconPacks.FileIcons.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks.FontAwesome\MahApps.Metro.IconPacks.FontAwesome.xr.xml">
+      <PackagePath>MahApps.Metro.IconPacks.FontAwesome\MahApps.Metro.IconPacks.FontAwesome.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks.Fontaudio\MahApps.Metro.IconPacks.Fontaudio.xr.xml">
+      <PackagePath>MahApps.Metro.IconPacks.Fontaudio\MahApps.Metro.IconPacks.Fontaudio.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks.ForkAwesome\MahApps.Metro.IconPacks.ForkAwesome.xr.xml">
+      <PackagePath>MahApps.Metro.IconPacks.ForkAwesome\MahApps.Metro.IconPacks.ForkAwesome.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks.Ionicons\MahApps.Metro.IconPacks.Ionicons.xr.xml">
+      <PackagePath>MahApps.Metro.IconPacks.Ionicons\MahApps.Metro.IconPacks.Ionicons.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks.JamIcons\MahApps.Metro.IconPacks.JamIcons.xr.xml">
+      <PackagePath>MahApps.Metro.IconPacks.JamIcons\MahApps.Metro.IconPacks.JamIcons.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks.Material\MahApps.Metro.IconPacks.Material.xr.xml">
+      <PackagePath>MahApps.Metro.IconPacks.Material\MahApps.Metro.IconPacks.Material.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks.MaterialDesign\MahApps.Metro.IconPacks.MaterialDesign.xr.xml">
+      <PackagePath>MahApps.Metro.IconPacks.MaterialDesign\MahApps.Metro.IconPacks.MaterialDesign.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks.MaterialLight\MahApps.Metro.IconPacks.MaterialLight.xr.xml">
+      <PackagePath>MahApps.Metro.IconPacks.MaterialLight\MahApps.Metro.IconPacks.MaterialLight.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks.Microns\MahApps.Metro.IconPacks.Microns.xr.xml">
+      <PackagePath>MahApps.Metro.IconPacks.Microns\MahApps.Metro.IconPacks.Microns.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks.Modern\MahApps.Metro.IconPacks.Modern.xr.xml">
+      <PackagePath>MahApps.Metro.IconPacks.Modern\MahApps.Metro.IconPacks.Modern.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks.Octicons\MahApps.Metro.IconPacks.Octicons.xr.xml">
+      <PackagePath>MahApps.Metro.IconPacks.Octicons\MahApps.Metro.IconPacks.Octicons.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks.PicolIcons\MahApps.Metro.IconPacks.PicolIcons.xr.xml">
+      <PackagePath>MahApps.Metro.IconPacks.PicolIcons\MahApps.Metro.IconPacks.PicolIcons.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks.PixelartIcons\MahApps.Metro.IconPacks.PixelartIcons.xr.xml">
+      <PackagePath>MahApps.Metro.IconPacks.PixelartIcons\MahApps.Metro.IconPacks.PixelartIcons.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks.RPGAwesome\MahApps.Metro.IconPacks.RPGAwesome.xr.xml">
+      <PackagePath>MahApps.Metro.IconPacks.RPGAwesome\MahApps.Metro.IconPacks.RPGAwesome.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks.RadixIcons\MahApps.Metro.IconPacks.RadixIcons.xr.xml">
+      <PackagePath>MahApps.Metro.IconPacks.RadixIcons\MahApps.Metro.IconPacks.RadixIcons.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks.RemixIcon\MahApps.Metro.IconPacks.RemixIcon.xr.xml">
+      <PackagePath>MahApps.Metro.IconPacks.RemixIcon\MahApps.Metro.IconPacks.RemixIcon.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks.SimpleIcons\MahApps.Metro.IconPacks.SimpleIcons.xr.xml">
+      <PackagePath>MahApps.Metro.IconPacks.SimpleIcons\MahApps.Metro.IconPacks.SimpleIcons.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks.Typicons\MahApps.Metro.IconPacks.Typicons.xr.xml">
+      <PackagePath>MahApps.Metro.IconPacks.Typicons\MahApps.Metro.IconPacks.Typicons.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks.Unicons\MahApps.Metro.IconPacks.Unicons.xr.xml">
+      <PackagePath>MahApps.Metro.IconPacks.Unicons\MahApps.Metro.IconPacks.Unicons.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks.VaadinIcons\MahApps.Metro.IconPacks.VaadinIcons.xr.xml">
+      <PackagePath>MahApps.Metro.IconPacks.VaadinIcons\MahApps.Metro.IconPacks.VaadinIcons.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks.WeatherIcons\MahApps.Metro.IconPacks.WeatherIcons.xr.xml">
+      <PackagePath>MahApps.Metro.IconPacks.WeatherIcons\MahApps.Metro.IconPacks.WeatherIcons.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks.Zondicons\MahApps.Metro.IconPacks.Zondicons.xr.xml">
+      <PackagePath>MahApps.Metro.IconPacks.Zondicons\MahApps.Metro.IconPacks.Zondicons.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks\MahApps.Metro.IconPacks.xr.xml">
+      <PackagePath>MahApps.Metro.IconPacks\MahApps.Metro.IconPacks.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.toolkit.uwp.ui.controls.datagrid\7.0.1\lib\uap10.0.17763\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.xr.xml">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\xamarin.forms\4.8.0.1687\lib\uap10.0.16299\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
+      <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\Images\coronavirus.png">
       <PackagePath>Images\coronavirus.png</PackagePath>
@@ -85,17 +298,29 @@
     <AppxPackagedFile Include="D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\bin\x86\Debug\ListInfected.xbf">
+      <PackagePath>ListInfected.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\bin\x86\Debug\ProgressScreen.xbf">
       <PackagePath>ProgressScreen.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\bin\x86\Debug\StaticsPage.xbf">
+      <PackagePath>StaticsPage.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\bin\x86\Debug\WelcomePage.xbf">
       <PackagePath>WelcomePage.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.18362.0\\redist\Debug\x86\ucrtbased.dll">
+      <PackagePath>ucrtbased.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.ui.xaml\2.5.0\buildTransitive\..\lib\uap10.0\Microsoft.UI.Xaml.winmd">
+      <PackagePath>WinMetadata\Microsoft.UI.Xaml.winmd</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
@@ -105,6 +330,46 @@
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\User\.nuget\packages\microsoft.ui.xaml\2.5.0\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.5.appx">
+      <Name>Microsoft.UI.Xaml.2.5</Name>
+      <Version>2.52012.2002.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.5, MinVersion = 2.52012.2002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\User\.nuget\packages\microsoft.ui.xaml\2.5.0\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.5.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\User\.nuget\packages\microsoft.ui.xaml\2.5.0\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.5.appx">
+      <Name>Microsoft.UI.Xaml.2.5</Name>
+      <Version>2.52012.2002.0</Version>
+      <Architecture>Win32</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.5, MinVersion = 2.52012.2002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\User\.nuget\packages\microsoft.ui.xaml\2.5.0\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.5.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\User\.nuget\packages\microsoft.ui.xaml\2.5.0\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.5.appx">
+      <Name>Microsoft.UI.Xaml.2.5</Name>
+      <Version>2.52012.2002.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.5, MinVersion = 2.52012.2002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\User\.nuget\packages\microsoft.ui.xaml\2.5.0\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.5.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\User\.nuget\packages\microsoft.ui.xaml\2.5.0\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.5.appx">
+      <Name>Microsoft.UI.Xaml.2.5</Name>
+      <Version>2.52012.2002.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.5, MinVersion = 2.52012.2002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\User\.nuget\packages\microsoft.ui.xaml\2.5.0\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.5.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\User\.nuget\packages\microsoft.ui.xaml\2.5.0\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.5.appx">
+      <Name>Microsoft.UI.Xaml.2.5</Name>
+      <Version>2.52012.2002.0</Version>
+      <Architecture>arm64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.5, MinVersion = 2.52012.2002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\User\.nuget\packages\microsoft.ui.xaml\2.5.0\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.5.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Users\User\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.29713.2</Version>
