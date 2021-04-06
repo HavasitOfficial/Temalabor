@@ -292,6 +292,9 @@
     <AppxPackagedFile Include="D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\UserPass\UserAndPass.txt">
+      <PackagePath>UserPass\UserAndPass.txt</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\bin\x86\Debug\CovidApp.xr.xml">
       <PackagePath>CovidApp.xr.xml</PackagePath>
     </AppxPackagedFile>
