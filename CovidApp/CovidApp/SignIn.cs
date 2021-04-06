@@ -12,7 +12,7 @@ namespace CovidApp
     class SignIn
     {
         private string key = "b14ca5898a4e4133bbce2ea2315a1916";
-        private Boolean registerAllow = true;
+        private Boolean registerAllow = false;
         public string PassText { private get; set; }
         public SignIn()
         {
@@ -31,7 +31,23 @@ namespace CovidApp
                         .SingleOrDefault(l => l.Value == encryptPass);
 
             var indexPass = resultPass == null ? -1 : resultPass.Index;
-
+            var valami = pass[0];
+            for (int i = 0; i < valami.Length; i++)
+            {
+                if (valami[i] != encryptPass[i])
+                {
+                    new Windows.UI.Popups.MessageDialog($"!{"nem egyezik meg"}!    {valami[i]}  {i}        {encryptPass[i]}").ShowAsync();
+                    return;
+                }
+            }
+            /*if (encryptPass.Length == pass[0].Length)
+            {
+                new Windows.UI.Popups.MessageDialog($"!{"megegyeszik"}!").ShowAsync();
+            }
+            else
+            {
+                new Windows.UI.Popups.MessageDialog($"!{"nem egyezik meg"}!").ShowAsync();
+            }*/
             if (indexUser == indexPass && resultUser != null && resultPass != null) this.registerAllow = true;
             new Windows.UI.Popups.MessageDialog($"!{encryptPass}!").ShowAsync();
         }
