@@ -6,65 +6,68 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace CovidApp
 {
     class SignIn
     {
         private string key = "b14ca5898a4e4133bbce2ea2315a1916";
-        private Boolean registerAllow = false;
-        private List<string> descryptedPass;
+        private Boolean registerAllow = true;
+        public string PassText { private get; set; }
         public SignIn()
         {
 
         }
         public void CheckUserAndPass(string username, string password, List<string> user, List<string> pass)
         {
-            descryptPassword(pass);
-
+            var encryptPass= encrypt(key, password);
+            //new Windows.UI.Popups.MessageDialog($"{valami} ").ShowAsync();
             var resultUser = user.Select((Value, Index) => new { Value, Index })
                         .SingleOrDefault(l => l.Value == username);
 
             var indexUser = resultUser == null ? -1 : resultUser.Index;
 
-            var resultPass = descryptedPass.Select((Value, Index) => new { Value, Index })
-                        .SingleOrDefault(l => l.Value == password);
+            var resultPass = pass.Select((Value, Index) => new { Value, Index })
+                        .SingleOrDefault(l => l.Value == encryptPass);
 
             var indexPass = resultPass == null ? -1 : resultPass.Index;
 
             if (indexUser == indexPass && resultUser != null && resultPass != null) this.registerAllow = true;
+            new Windows.UI.Popups.MessageDialog($"!{encryptPass}!").ShowAsync();
         }
 
-
-        private string DecryptString(string key, string cipherText)
+        private String encrypt(string key, string plainText)
         {
-            byte[] iv = new byte[16];
-            byte[] buffer = Convert.FromBase64String(cipherText);
 
+            byte[] iv = new byte[16];
+            byte[] array;
             using (Aes aes = Aes.Create())
             {
                 aes.Key = Encoding.UTF8.GetBytes(key);
                 aes.IV = iv;
-                ICryptoTransform decryptor = aes.CreateDecryptor(aes.Key, aes.IV);
 
-                using (MemoryStream memoryStream = new MemoryStream(buffer))
+                ICryptoTransform encryptor = aes.CreateEncryptor(aes.Key, aes.IV);
+
+                using (MemoryStream memoryStream = new MemoryStream())
                 {
-                    using (CryptoStream cryptoStream = new CryptoStream((Stream)memoryStream, decryptor, CryptoStreamMode.Read))
+                    using (CryptoStream cryptoStream = new CryptoStream((Stream)memoryStream, encryptor, CryptoStreamMode.Write))
                     {
-                        using (StreamReader streamReader = new StreamReader((Stream)cryptoStream))
+                        using (StreamWriter streamWriter = new StreamWriter((Stream)cryptoStream))
                         {
-                            return streamReader.ReadToEnd();
+                            streamWriter.Write(plainText);
                         }
+
+                        array = memoryStream.ToArray();
                     }
                 }
             }
-        }
-        private void descryptPassword(List<string> sv)
-        {
-            foreach (var item in sv)
-            {
-                this.descryptedPass.Add(DecryptString(this.key,item));
-            }
+            return Convert.ToBase64String(array);
         }
 
+ 
+        public Boolean RegisterAllow()
+        {
+            return this.registerAllow;
+        }
     }
 }

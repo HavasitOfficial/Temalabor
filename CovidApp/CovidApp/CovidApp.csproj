@@ -122,6 +122,7 @@
     <Compile Include="ListInfected.xaml.cs">
       <DependentUpon>ListInfected.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Loading.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>

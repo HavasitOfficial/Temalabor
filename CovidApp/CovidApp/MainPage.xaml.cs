@@ -31,7 +31,6 @@ namespace CovidApp
             Console.WriteLine($"encrypted string = {encryptedString}");
 
             var decryptedString = DecryptString(key, encryptedString);
-            Console.WriteLine($"decrypted string = {decryptedString}");
 
             new Windows.UI.Popups.MessageDialog($"encrypted string1 = {encryptedString}").ShowAsync();
             new Windows.UI.Popups.MessageDialog($"encrypted string2 = {encryptedString2}").ShowAsync();
@@ -41,7 +40,7 @@ namespace CovidApp
 
         }
 
-        private String encrypt(string key, string plainText )
+        /*private String encrypt(string key, string plainText )
         {
             
             byte[] iv = new byte[16];
@@ -67,11 +66,18 @@ namespace CovidApp
                 }
             }
             return Convert.ToBase64String(array);
-        }
+        }*/
         
         private void Enter_Click(object sender, RoutedEventArgs e)
         {
-
+            var load = new Loading(@"UserPass\UserAndPass.txt");
+            load.UsernameAndPasswordLoading();
+            var signIn = new SignIn();
+            signIn.CheckUserAndPass(Username.Text, Password.Text, load.getUsers(), load.getPasswords());
+            if (signIn.RegisterAllow())
+            {
+                register.IsEnabled = true;
+            }
         }
 
         private void SignIn_Click(object sender, RoutedEventArgs e)
