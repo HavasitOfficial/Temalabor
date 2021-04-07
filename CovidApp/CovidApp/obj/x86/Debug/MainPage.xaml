@@ -9,8 +9,9 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" >
     
     <Grid x:ConnectionId='2' x:Name="MainGrid">
-        <Image Source="Images/virusbackground.png"/>
-        <SplitView x:ConnectionId='3' x:Name="MenuSplitView" DisplayMode="CompactOverlay" IsPaneOpen="False" CompactPaneLength="50" OpenPaneLength="150" Margin="0,46,10,47" LightDismissOverlayMode="Auto">
+        
+        <Image Source="Images/virusbackground.png" />
+        <SplitView x:ConnectionId='3' x:Name="MenuSplitView" DisplayMode="CompactOverlay" IsPaneOpen="False" CompactPaneLength="50" OpenPaneLength="150" Margin="0,0,10,0" LightDismissOverlayMode="Auto">
             <Popup x:ConnectionId='4' x:Name="popUp" Width="300" Height="200" IsLightDismissEnabled="True" VerticalAlignment="Center" HorizontalAlignment="Center">
                 <RelativePanel Background="Blue" >
                     <TextBox x:ConnectionId='5' x:Name="Username" PlaceholderText="Username" Width="200"/>

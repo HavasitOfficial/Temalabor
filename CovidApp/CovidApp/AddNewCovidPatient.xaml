@@ -1,0 +1,46 @@
+﻿<Page
+    x:Class="CovidApp.AddNewCovidPatient"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CovidApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <StackPanel VerticalAlignment="Center" >
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+            <TextBlock Text="Name:" Padding="0 10 0 5"/>
+            <TextBox x:Name="patientName"  PlaceholderText="Write here your name"/>
+            <TextBlock Text="Region:" Padding="0 10 0 5"/>
+            <TextBox x:Name="patientRegion"  PlaceholderText="Write here your Region"/>
+            <TextBlock Text="Sex:" Padding="0 10 0 5"/>
+            <StackPanel x:Name="sexCheck" Orientation="Horizontal">
+                <CheckBox x:Name="male"  Content="Male"/>
+                <CheckBox x:Name="famale"  Content="Famale"/>
+            </StackPanel>
+
+            <TextBlock Text="Slide your age:"/>
+            <StackPanel Orientation="Horizontal">
+                <Slider Width="265" Minimum="18" />
+                <TextBox Width="80" x:Name="patientAge"  PlaceholderText="Your age"/>
+            </StackPanel>
+
+            <TextBlock Text="Email address:"  Padding="0 10 0 0"/>
+            <TextBox x:Name="patientEmailAddress" PlaceholderText="Write here your Email address"/>
+
+            <TextBlock Text="Phone number:"  Padding="0 10 0 0"/>
+            <TextBox x:Name="patientPhoneNumber" PlaceholderText="Write here your Email address"/>
+
+            <StackPanel Orientation="Vertical" Margin="20">
+
+                <CheckBox x:Name="noSmell" Content="No smell"/>
+                <CheckBox x:Name="noTaste" Content="No taste"/>
+                <CheckBox x:Name="fever" Content="Fever"/>
+                <CheckBox x:Name="headache" Content="Headache"/>
+
+            </StackPanel>
+        </StackPanel>
+        <Button  HorizontalAlignment="Center" x:Name="registerPatient" Content="Register" Margin="30"/>
+    </StackPanel>
+</Page>

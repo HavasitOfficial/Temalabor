@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-04-07T20:35:36.535</Modified>
+      <Modified>2021-04-07T21:03:30.430</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\bin\x86\Debug\CovidApp.exe">
       <PackagePath>entrypoint\CovidApp.exe</PackagePath>
-      <Modified>2021-04-07T20:35:22.120</Modified>
+      <Modified>2021-04-07T21:03:15.276</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\.nuget\packages\documentformat.openxml\2.12.3\lib\netstandard2.0\DocumentFormat.OpenXml.dll">
       <PackagePath>DocumentFormat.OpenXml.dll</PackagePath>
@@ -165,6 +165,18 @@
     <AppxPackagedFile Include="C:\Users\User\.nuget\packages\mahapps.metro.iconpacks\4.8.0\lib\uap10.0.16299\MahApps.Metro.IconPacks.dll">
       <PackagePath>MahApps.Metro.IconPacks.dll</PackagePath>
       <Modified>2020-10-29T11:53:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.toolkit\7.0.1\lib\netstandard2.0\Microsoft.Toolkit.dll">
+      <PackagePath>Microsoft.Toolkit.dll</PackagePath>
+      <Modified>2021-03-29T19:41:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.toolkit.uwp\7.0.1\lib\uap10.0.17763\Microsoft.Toolkit.Uwp.dll">
+      <PackagePath>Microsoft.Toolkit.Uwp.dll</PackagePath>
+      <Modified>2021-03-29T19:41:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.toolkit.uwp.ui\7.0.1\lib\uap10.0.17763\Microsoft.Toolkit.Uwp.UI.dll">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.dll</PackagePath>
+      <Modified>2021-03-29T19:42:10.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.toolkit.uwp.ui.controls.datagrid\7.0.1\lib\uap10.0.17763\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll</PackagePath>
@@ -394,31 +406,35 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\bin\x86\Debug\CovidApp.xr.xml">
       <PackagePath>CovidApp.xr.xml</PackagePath>
-      <Modified>2021-04-07T20:35:21.967</Modified>
+      <Modified>2021-04-07T21:02:15.976</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-04-07T20:35:21.983</Modified>
+      <Modified>2021-04-07T21:02:16.006</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\bin\x86\Debug\AddNewCovidPatient.xbf">
+      <PackagePath>AddNewCovidPatient.xbf</PackagePath>
+      <Modified>2021-04-07T21:03:15.126</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\bin\x86\Debug\ListInfected.xbf">
       <PackagePath>ListInfected.xbf</PackagePath>
-      <Modified>2021-04-07T20:35:21.983</Modified>
+      <Modified>2021-04-07T21:02:16.006</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2021-04-07T20:35:21.984</Modified>
+      <Modified>2021-04-07T21:02:16.007</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\bin\x86\Debug\ProgressScreen.xbf">
       <PackagePath>ProgressScreen.xbf</PackagePath>
-      <Modified>2021-04-07T20:35:21.984</Modified>
+      <Modified>2021-04-07T21:02:16.007</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\bin\x86\Debug\StaticsPage.xbf">
       <PackagePath>StaticsPage.xbf</PackagePath>
-      <Modified>2021-04-07T20:35:21.984</Modified>
+      <Modified>2021-04-07T21:02:16.007</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\bin\x86\Debug\WelcomePage.xbf">
       <PackagePath>WelcomePage.xbf</PackagePath>
-      <Modified>2021-04-07T20:35:21.984</Modified>
+      <Modified>2021-04-07T21:02:16.008</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.18362.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -434,11 +450,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-04-06T13:22:04.793</Modified>
+      <Modified>2021-04-07T20:52:31.988</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\bin\x86\Debug\Core\CovidApp.exe">
       <PackagePath>CovidApp.exe</PackagePath>
-      <Modified>2021-04-07T20:35:36.525</Modified>
+      <Modified>2021-04-07T21:03:30.417</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

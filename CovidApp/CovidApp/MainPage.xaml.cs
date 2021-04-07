@@ -100,7 +100,7 @@ namespace CovidApp
 
         private void register_Click(object sender, RoutedEventArgs e)
         {
-
+            this.Frame.Navigate(typeof(AddNewCovidPatient));
         }
     }
 }

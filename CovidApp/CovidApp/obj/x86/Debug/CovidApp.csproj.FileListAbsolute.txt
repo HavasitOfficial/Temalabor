@@ -212,3 +212,16 @@ D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\obj\x86\Debug\Micr
 D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\obj\x86\Debug\Xamarin.Forms.Platform.UAP.pri.xml
 D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\obj\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\en-US\Microsoft.Toolkit.Uwp.UI.Controls.Properties.Resources.resw
 D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\obj\x86\Debug\.winmd_cache\$Microsoft.Graphics.Canvas.winmd_636160679180000000.json
+D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\obj\x86\Debug\AddNewCovidPatient.g.i.cs
+D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\obj\x86\Debug\AddNewCovidPatient.g.cs
+D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\obj\x86\Debug\AddNewCovidPatient.xaml
+D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\obj\x86\Debug\AddNewCovidPatient.xbf
+D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\bin\x86\Debug\AddNewCovidPatient.xbf
+D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\bin\x86\Debug\Microsoft.Toolkit.dll
+D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\bin\x86\Debug\Microsoft.Toolkit.pdb
+D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\bin\x86\Debug\Microsoft.Toolkit.Uwp.dll
+D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\bin\x86\Debug\Microsoft.Toolkit.Uwp.pdb
+D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.dll
+D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.pdb
+D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\obj\x86\Debug\Microsoft.Toolkit.Uwp.pri.xml
+D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\obj\x86\Debug\Microsoft.Toolkit.Uwp.UI.pri.xml
