@@ -6,7 +6,26 @@ using System.Threading.Tasks;
 
 namespace CovidApp
 {
-    class Patient
+    public class Patient
     {
+        public string FamilyName { get; set; }
+        public string FirstName { get; set; }
+        public string Age { get; set; }
+        public string Email { get; set; }
+        public string PhoneNumber { get; set; }
+        public string Sex { get; set; }
+        public string Region { get; set; }
+        public List<string> symptom { get; set; }
+        public Patient(string family, string firstname, string age, string email, string phone,string sex, string region, List<string> symptom)
+        {
+            this.FamilyName = family;
+            this.FirstName = firstname;
+            this.Age = age;
+            this.Email = email;
+            this.PhoneNumber = phone;
+            this.Sex = sex;
+            this.symptom = symptom;
+            this.Region = region;
+        }
     }
 }
