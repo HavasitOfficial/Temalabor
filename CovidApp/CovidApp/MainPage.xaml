@@ -8,8 +8,8 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" >
     
-    <Grid>
-        
+    <Grid x:Name="MainGrid">
+        <Image Source="Images/virusbackground.png" />
         <SplitView x:Name="MenuSplitView" DisplayMode="CompactOverlay" IsPaneOpen="False" CompactPaneLength="50" OpenPaneLength="150" Margin="0,0,10,0" LightDismissOverlayMode="Auto">
             <Popup x:Name="popUp" Width="300" Height="200" IsLightDismissEnabled="True" VerticalAlignment="Center" HorizontalAlignment="Center">
                 <RelativePanel Background="Blue" >

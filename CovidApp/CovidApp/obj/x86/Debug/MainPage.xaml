@@ -8,30 +8,30 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" >
     
-    <Grid>
-        
-        <SplitView x:ConnectionId='2' x:Name="MenuSplitView" DisplayMode="CompactOverlay" IsPaneOpen="False" CompactPaneLength="50" OpenPaneLength="150" Margin="0,0,10,0" LightDismissOverlayMode="Auto">
-            <Popup x:ConnectionId='3' x:Name="popUp" Width="300" Height="200" IsLightDismissEnabled="True" VerticalAlignment="Center" HorizontalAlignment="Center">
+    <Grid x:ConnectionId='2' x:Name="MainGrid">
+        <Image Source="Images/virusbackground.png"/>
+        <SplitView x:ConnectionId='3' x:Name="MenuSplitView" DisplayMode="CompactOverlay" IsPaneOpen="False" CompactPaneLength="50" OpenPaneLength="150" Margin="0,46,10,47" LightDismissOverlayMode="Auto">
+            <Popup x:ConnectionId='4' x:Name="popUp" Width="300" Height="200" IsLightDismissEnabled="True" VerticalAlignment="Center" HorizontalAlignment="Center">
                 <RelativePanel Background="Blue" >
-                    <TextBox x:ConnectionId='4' x:Name="Username" PlaceholderText="Username" Width="200"/>
-                    <TextBox x:ConnectionId='5' x:Name="Password" RelativePanel.Below="Username" PlaceholderText="Password" Width="200"/>
-                    <Button x:ConnectionId='6' x:Name="Enter" Content="Enter"                     RelativePanel.Below="Password" Width="100"/>
+                    <TextBox x:ConnectionId='5' x:Name="Username" PlaceholderText="Username" Width="200"/>
+                    <TextBox x:ConnectionId='6' x:Name="Password" RelativePanel.Below="Username" PlaceholderText="Password" Width="200"/>
+                    <Button x:ConnectionId='7' x:Name="Enter" Content="Enter"                     RelativePanel.Below="Password" Width="100"/>
                 </RelativePanel>
             </Popup>
             <SplitView.Pane>
-                <StackPanel x:ConnectionId='7' x:Name="MainPanel" Background="ForestGreen">
+                <StackPanel x:ConnectionId='8' x:Name="MainPanel" Background="ForestGreen">
 
                     <StackPanel Orientation="Horizontal">
-                        <Button x:ConnectionId='11' x:Name="SignIn"  Content="Sign In;"                     />
+                        <Button x:ConnectionId='12' x:Name="SignIn"  Content="Sign In;"                     />
                     </StackPanel>
                     <StackPanel Orientation="Horizontal">
-                        <Button x:ConnectionId='10' x:Name="register" Content="Register"                        IsEnabled="False"/>
+                        <Button x:ConnectionId='11' x:Name="register" Content="Register"                        IsEnabled="False"/>
                     </StackPanel>
                     <StackPanel Orientation="Horizontal">
-                        <Button x:ConnectionId='9' x:Name="Statics" Content="Statics"                      />
+                        <Button x:ConnectionId='10' x:Name="Statics" Content="Statics"                      />
                     </StackPanel>
                     <StackPanel Orientation="Horizontal">
-                        <Button x:ConnectionId='8' x:Name="infected"  Content="Infected"                       />
+                        <Button x:ConnectionId='9' x:Name="infected"  Content="Infected"                       />
                     </StackPanel>
                     
                 </StackPanel>

@@ -4,6 +4,8 @@ using System.Security.Cryptography;
 using System.Text;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
+using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Media.Imaging;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -17,6 +19,7 @@ namespace CovidApp
         public MainPage()
         {
             this.InitializeComponent();
+            
             /*var key = "b14ca5898a4e4133bbce2ea2315a1916";
 
             //Console.WriteLine("Please enter a secret key for the symmetric algorithm.");  
@@ -67,7 +70,7 @@ namespace CovidApp
             }
             return Convert.ToBase64String(array);
         }*/
-        
+
         private void Enter_Click(object sender, RoutedEventArgs e)
         {
             var load = new Loading(@"UserPass\UserAndPass.txt");
