@@ -16,28 +16,32 @@
             <TextBox x:ConnectionId='4' x:Name="patientRegion"  PlaceholderText="Write here your Region"/>
             <TextBlock Text="Sex:" Padding="0 10 0 5"/>
             <StackPanel x:ConnectionId='5' x:Name="sexCheck" Orientation="Horizontal">
-                <CheckBox x:ConnectionId='11' x:Name="male"  Content="Male"/>
-                <CheckBox x:ConnectionId='12' x:Name="famale"  Content="Famale"/>
+                <CheckBox x:ConnectionId='13' x:Name="male"                        Content="Male"/>
+                <CheckBox x:ConnectionId='14' x:Name="famale"                           Content="Famale"/>
             </StackPanel>
 
             <TextBlock Text="Slide your age:"/>
             <StackPanel Orientation="Horizontal">
                 <Slider Width="265" Minimum="18" />
-                <TextBox x:ConnectionId='10' Width="80" x:Name="patientAge"  PlaceholderText="Your age"/>
+                <TextBox x:ConnectionId='12' Width="80" x:Name="patientAge"  PlaceholderText="Your age"/>
             </StackPanel>
 
             <TextBlock Text="Email address:"  Padding="0 10 0 0"/>
             <TextBox x:ConnectionId='6' x:Name="patientEmailAddress" PlaceholderText="Write here your Email address"/>
-            
+
+            <TextBlock Text="Phone number:"  Padding="0 10 0 0"/>
+            <TextBox x:ConnectionId='7' x:Name="patientPhoneNumber" PlaceholderText="Write here your Email address"/>
+
             <StackPanel Orientation="Vertical" Margin="20">
 
-                <CheckBox x:ConnectionId='7' x:Name="symptom1" Content="Have you got fever?"/>
-                <CheckBox x:ConnectionId='8' x:Name="symptom2" Content="Have you got cardiac arrhythmia?&#x0d;&#x0a;(Heart problem)"/>
-                <CheckBox x:ConnectionId='9' x:Name="symptom3" Content="Have you got problem with taste or smell?"/>
+                <CheckBox x:ConnectionId='8' x:Name="noSmell" Content="No smell"/>
+                <CheckBox x:ConnectionId='9' x:Name="noTaste" Content="No taste"/>
+                <CheckBox x:ConnectionId='10' x:Name="fever" Content="Fever"/>
+                <CheckBox x:ConnectionId='11' x:Name="headache" Content="Headache"/>
 
             </StackPanel>
         </StackPanel>
-        <Button x:ConnectionId='2'  HorizontalAlignment="Center" x:Name="registerPatient" Content="Register Patient" Margin="30"/>
+        <Button x:ConnectionId='2'  HorizontalAlignment="Center" x:Name="registerPatient" Content="Register" Margin="30"/>
     </StackPanel>
 </Page>
 

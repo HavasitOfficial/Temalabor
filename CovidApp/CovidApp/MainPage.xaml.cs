@@ -90,7 +90,7 @@ namespace CovidApp
 
         private void Statics_Click(object sender, RoutedEventArgs e)
         {
-
+            this.Frame.Navigate(typeof(StaticsPage));
         }
 
         private void infected_Click(object sender, RoutedEventArgs e)

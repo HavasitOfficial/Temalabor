@@ -25,6 +25,14 @@ namespace CovidApp
         public StaticsPage()
         {
             this.InitializeComponent();
+            Loading load = new Loading(@"PatientFiles\Patients.txt");
+            load.loadingPatient();
+            AverageAge avAge = new AverageAge(load.getPatients());
+
+            staticsFirst.Height = avAge.getFirstColumn() * 10;
+            staticSecond.Height = avAge.getSecondColumn() * 10;
+            staticsThird.Height = avAge.getThirdColumn() * 10;
+            staticsFourth.Height = avAge.getFourthColumn() * 10;
         }
     }
 }

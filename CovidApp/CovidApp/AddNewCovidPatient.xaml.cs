@@ -26,5 +26,15 @@ namespace CovidApp
         {
             this.InitializeComponent();
         }
+
+        private void male_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void famale_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

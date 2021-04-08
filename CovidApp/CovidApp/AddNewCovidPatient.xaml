@@ -16,8 +16,8 @@
             <TextBox x:Name="patientRegion"  PlaceholderText="Write here your Region"/>
             <TextBlock Text="Sex:" Padding="0 10 0 5"/>
             <StackPanel x:Name="sexCheck" Orientation="Horizontal">
-                <CheckBox x:Name="male"  Content="Male"/>
-                <CheckBox x:Name="famale"  Content="Famale"/>
+                <CheckBox x:Name="male" Checked="male_Checked" Content="Male"/>
+                <CheckBox x:Name="famale" Checked="famale_Checked"  Content="Famale"/>
             </StackPanel>
 
             <TextBlock Text="Slide your age:"/>
