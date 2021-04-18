@@ -265,6 +265,9 @@
     <AppxPackagedFile Include="D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\Images\coronavirus.png">
       <PackagePath>Images\coronavirus.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\Images\SignIn.png">
+      <PackagePath>Images\SignIn.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\Images\virus.png">
       <PackagePath>Images\virus.png</PackagePath>
     </AppxPackagedFile>

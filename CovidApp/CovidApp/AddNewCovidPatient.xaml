@@ -22,8 +22,8 @@
 
             <TextBlock Text="Slide your age:"/>
             <StackPanel Orientation="Horizontal">
-                <Slider Width="265" Minimum="18" />
-                <TextBox Width="80" x:Name="patientAge"  PlaceholderText="Your age"/>
+                <Slider Width="265" Minimum="18" Value="{Binding Path=AgeNumber, Mode=TwoWay}" />
+                <TextBox Width="80" x:Name="patientAge" Text="{Binding Path=AgeNumber, Mode=TwoWay}"  PlaceholderText="Your age"/>
             </StackPanel>
 
             <TextBlock Text="Email address:"  Padding="0 10 0 0"/>
@@ -41,6 +41,6 @@
 
             </StackPanel>
         </StackPanel>
-        <Button  HorizontalAlignment="Center" x:Name="registerPatient" Content="Register" Margin="30"/>
+        <Button  HorizontalAlignment="Center" x:Name="registerPatient" Content="Register" Margin="30" Click="addNewPatient"/>
     </StackPanel>
 </Page>

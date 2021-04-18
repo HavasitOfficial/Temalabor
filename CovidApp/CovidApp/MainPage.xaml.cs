@@ -102,5 +102,20 @@ namespace CovidApp
         {
             this.Frame.Navigate(typeof(AddNewCovidPatient));
         }
+
+        private void OpenClose_Click(object sender, RoutedEventArgs e)
+        {
+            MenuSplitView.StartBringIntoView();
+
+            if (MenuSplitView.IsPaneOpen == false)
+            {
+                MenuSplitView.IsPaneOpen = true;
+            }
+            else
+            {
+                MenuSplitView.IsPaneOpen = false;
+            }
+
+        }
     }
 }

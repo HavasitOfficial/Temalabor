@@ -123,6 +123,7 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="AverageAge.cs" />
+    <Compile Include="Converter\ColumnColorConverter.cs" />
     <Compile Include="ListInfected.xaml.cs">
       <DependentUpon>ListInfected.xaml</DependentUpon>
     </Compile>
@@ -135,10 +136,12 @@
       <DependentUpon>ProgressScreen.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Save.cs" />
     <Compile Include="SignIn.cs" />
     <Compile Include="StaticsPage.xaml.cs">
       <DependentUpon>StaticsPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ValidateRegex.cs" />
     <Compile Include="WelcomePage.xaml.cs">
       <DependentUpon>WelcomePage.xaml</DependentUpon>
     </Compile>
@@ -150,6 +153,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Images\coronavirus.png" />
+    <Content Include="Images\SignIn.png" />
     <Content Include="Images\virus.png" />
     <Content Include="Images\virusbackground.png" />
     <Content Include="PatientFiles\Patients.txt" />

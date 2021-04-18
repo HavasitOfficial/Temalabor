@@ -22,17 +22,24 @@ namespace CovidApp
     /// </summary>
     public sealed partial class StaticsPage : Page
     {
+        public int Proba { get; set ; }
         public StaticsPage()
         {
+
+            Proba = 50;
             this.InitializeComponent();
             Loading load = new Loading(@"PatientFiles\Patients.txt");
             load.loadingPatient();
             AverageAge avAge = new AverageAge(load.getPatients());
-
-            staticsFirst.Height = avAge.getFirstColumn() * 10;
-            staticSecond.Height = avAge.getSecondColumn() * 10;
-            staticsThird.Height = avAge.getThirdColumn() * 10;
-            staticsFourth.Height = avAge.getFourthColumn() * 10;
+            FirstConverter.Text = (avAge.getFirstColumn() * 10).ToString();
+            SecondConverter.Text = (avAge.getSecondColumn() * 10).ToString();
+            ThirdConverter.Text = (avAge.getThirdColumn() * 10).ToString();
+            FourthConverter.Text = (avAge.getFourthColumn() * 10).ToString();
+            staticsFirst.Height = Int32.Parse(FirstConverter.Text);
+            staticSecond.Height = Int32.Parse(SecondConverter.Text);
+            staticsThird.Height = Int32.Parse(ThirdConverter.Text);
+            staticsFourth.Height = Int32.Parse(FourthConverter.Text);
+            
         }
     }
 }
