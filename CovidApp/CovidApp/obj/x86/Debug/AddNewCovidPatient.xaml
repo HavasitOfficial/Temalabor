@@ -9,39 +9,40 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <StackPanel VerticalAlignment="Center" >
+        <Button x:ConnectionId='2' Content="Back"                         />
         <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
             <TextBlock Text="Name:" Padding="0 10 0 5"/>
-            <TextBox x:ConnectionId='3' x:Name="patientName"  PlaceholderText="Write here your name"/>
+            <TextBox x:ConnectionId='4' x:Name="patientName"  PlaceholderText="Write here your name"/>
             <TextBlock Text="Region:" Padding="0 10 0 5"/>
-            <TextBox x:ConnectionId='4' x:Name="patientRegion"  PlaceholderText="Write here your Region"/>
+            <TextBox x:ConnectionId='5' x:Name="patientRegion"  PlaceholderText="Write here your Region"/>
             <TextBlock Text="Sex:" Padding="0 10 0 5"/>
-            <StackPanel x:ConnectionId='5' x:Name="sexCheck" Orientation="Horizontal">
-                <CheckBox x:ConnectionId='13' x:Name="male"                        Content="Male"/>
-                <CheckBox x:ConnectionId='14' x:Name="famale"                           Content="Famale"/>
+            <StackPanel x:ConnectionId='6' x:Name="sexCheck" Orientation="Horizontal">
+                <CheckBox x:ConnectionId='14' x:Name="male"                        Content="Male"/>
+                <CheckBox x:ConnectionId='15' x:Name="famale"                           Content="Famale"/>
             </StackPanel>
 
             <TextBlock Text="Slide your age:"/>
             <StackPanel Orientation="Horizontal">
-                <Slider Width="265" Minimum="18" Value="{Binding Path=AgeNumber, Mode=TwoWay}" />
-                <TextBox x:ConnectionId='12' Width="80" x:Name="patientAge" Text="{Binding Path=AgeNumber, Mode=TwoWay}"  PlaceholderText="Your age"/>
+                <Slider Width="265" Minimum="18" Value="{Binding AgeNumber, Mode=TwoWay}" />
+                <TextBox x:ConnectionId='13' Width="80" x:Name="patientAge" Text="{Binding AgeNumber, Mode=TwoWay}"  PlaceholderText="Your age"/>
             </StackPanel>
 
             <TextBlock Text="Email address:"  Padding="0 10 0 0"/>
-            <TextBox x:ConnectionId='6' x:Name="patientEmailAddress" PlaceholderText="Write here your Email address"/>
+            <TextBox x:ConnectionId='7' x:Name="patientEmailAddress" PlaceholderText="Write here your Email address"/>
 
             <TextBlock Text="Phone number:"  Padding="0 10 0 0"/>
-            <TextBox x:ConnectionId='7' x:Name="patientPhoneNumber" PlaceholderText="Write here your Email address"/>
+            <TextBox x:ConnectionId='8' x:Name="patientPhoneNumber" PlaceholderText="Write here your Email address"/>
 
             <StackPanel Orientation="Vertical" Margin="20">
 
-                <CheckBox x:ConnectionId='8' x:Name="noSmell" Content="No smell"/>
-                <CheckBox x:ConnectionId='9' x:Name="noTaste" Content="No taste"/>
-                <CheckBox x:ConnectionId='10' x:Name="fever" Content="Fever"/>
-                <CheckBox x:ConnectionId='11' x:Name="headache" Content="Headache"/>
+                <CheckBox x:ConnectionId='9' x:Name="noSmell" Content="No smell"/>
+                <CheckBox x:ConnectionId='10' x:Name="noTaste" Content="No taste"/>
+                <CheckBox x:ConnectionId='11' x:Name="fever" Content="Fever"/>
+                <CheckBox x:ConnectionId='12' x:Name="headache" Content="Headache"/>
 
             </StackPanel>
         </StackPanel>
-        <Button x:ConnectionId='2'  HorizontalAlignment="Center" x:Name="registerPatient" Content="Register" Margin="30"                      />
+        <Button x:ConnectionId='3'  HorizontalAlignment="Center" x:Name="registerPatient" Content="Register" Margin="30"                      />
     </StackPanel>
 </Page>
 

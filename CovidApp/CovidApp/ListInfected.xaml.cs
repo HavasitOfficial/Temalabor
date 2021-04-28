@@ -31,7 +31,12 @@ namespace CovidApp
             Patinets = load.getPatients();
         }
 
-        private void Refresh_Click(object sender, RoutedEventArgs e)
+        private void BackToHome_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(MainPage));
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
 
         }

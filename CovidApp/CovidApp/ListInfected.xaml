@@ -56,7 +56,8 @@
                     Binding="{Binding SymptomsString}"
                     />
             </controls:DataGrid.Columns>
-            
+
         </controls:DataGrid>
+        <Button Content="Back" Click="BackToHome_Click" Margin="0,52,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Page>

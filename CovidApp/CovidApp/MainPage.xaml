@@ -42,15 +42,19 @@
                     </StackPanel>
                     <StackPanel Orientation="Horizontal">
                         <Button x:Name="SignIn"  Style="{StaticResource ButtonMain}" Content="&#xE77B;" Click="SignIn_Click"/>
+                        <TextBlock Text="Sign in" VerticalAlignment="Center"/>
                     </StackPanel>
                     <StackPanel Orientation="Horizontal">
                         <Button x:Name="register" Style="{StaticResource ButtonMain}" Content="&#59642;" Click="register_Click" IsEnabled="False"/>
+                        <TextBlock Text="Register new patient" VerticalAlignment="Center"/>
                     </StackPanel>
                     <StackPanel Orientation="Horizontal">
                         <Button x:Name="Statics" Style="{StaticResource ButtonMain}" Content="&#xE9D9;" Click="Statics_Click"/>
+                        <TextBlock Text="Statics" VerticalAlignment="Center"/>
                     </StackPanel>
                     <StackPanel Orientation="Horizontal">
                         <Button x:Name="infected"  Style="{StaticResource ButtonMain}" Content="&#xE814;" Click="infected_Click"/>
+                        <TextBlock Text="List" VerticalAlignment="Center"/>
                     </StackPanel>
                     
                 </StackPanel>

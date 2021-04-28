@@ -41,5 +41,10 @@ namespace CovidApp
             staticsFourth.Height = Int32.Parse(FourthConverter.Text);
             
         }
+
+        private void BackToHome_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(MainPage));
+        }
     }
 }

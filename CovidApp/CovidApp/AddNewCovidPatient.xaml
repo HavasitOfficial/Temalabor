@@ -9,6 +9,7 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <StackPanel VerticalAlignment="Center" >
+        <Button Content="Back" Click="backToHome_Click"/>
         <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
             <TextBlock Text="Name:" Padding="0 10 0 5"/>
             <TextBox x:Name="patientName"  PlaceholderText="Write here your name"/>
@@ -22,8 +23,8 @@
 
             <TextBlock Text="Slide your age:"/>
             <StackPanel Orientation="Horizontal">
-                <Slider Width="265" Minimum="18" Value="{Binding Path=AgeNumber, Mode=TwoWay}" />
-                <TextBox Width="80" x:Name="patientAge" Text="{Binding Path=AgeNumber, Mode=TwoWay}"  PlaceholderText="Your age"/>
+                <Slider Width="265" Minimum="18" Value="{Binding AgeNumber, Mode=TwoWay}" />
+                <TextBox Width="80" x:Name="patientAge" Text="{Binding AgeNumber, Mode=TwoWay}"  PlaceholderText="Your age"/>
             </StackPanel>
 
             <TextBlock Text="Email address:"  Padding="0 10 0 0"/>

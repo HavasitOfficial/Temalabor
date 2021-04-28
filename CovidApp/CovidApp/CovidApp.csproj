@@ -137,6 +137,7 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Save.cs" />
+    <Compile Include="SaveAndLoadIn.cs" />
     <Compile Include="SignIn.cs" />
     <Compile Include="StaticsPage.xaml.cs">
       <DependentUpon>StaticsPage.xaml</DependentUpon>

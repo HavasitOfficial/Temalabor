@@ -5,6 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Threading.Tasks;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Popups;
@@ -92,10 +93,10 @@ namespace CovidApp
         public List<string> SymptomesList()
         {
             List<string> symptomes = new List<string>();
-            string symptome1 = "No smell";
+            string symptome1 = "Nosmell";
             string symptome2 = "Fever ";
             string symptome3 = "Headache";
-            string symptome4 = "No taste";
+            string symptome4 = "Notaste";
             string wp = " ";
             if (noSmell.IsChecked == true)
             {
@@ -140,11 +141,31 @@ namespace CovidApp
             var name = patientName.Text;
             string[] fullName = name.Split(" ");
             Patient pat = new Patient(fullName[0], fullName[1], patientAge.Text, patientEmailAddress.Text, patientPhoneNumber.Text,patientSexBox(), patientRegion.Text, symptomes);
-            Save save = new Save(pat);
+            SaveAndLoadIn sali = new SaveAndLoadIn();
             enableButtonAsync();
             reg.validateNameAndEmail(patientName.Text, patientEmailAddress.Text);
-            save.savePatient();
+            sali.savePatient(pat);
+            await nullAllBox();
+        }
 
+        private void backToHome_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(MainPage));
+        }
+
+        private async Task nullAllBox()
+        {
+            patientAge.Text = "";
+            patientEmailAddress.Text = "";
+            patientName.Text = "";
+            patientPhoneNumber.Text = "";
+            patientRegion.Text = "";
+            AgeNumber = 0;
+            male.IsChecked = false;
+            famale.IsChecked = false;
+            noSmell.IsChecked = false;
+            noTaste.IsChecked = false;
+            headache.IsChecked = false;
         }
     }
 }

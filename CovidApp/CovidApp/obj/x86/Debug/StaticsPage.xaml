@@ -12,7 +12,7 @@
     <Page.Resources>
         <converters:ColumnColorConverter x:Key="ColorConverter"/>
     </Page.Resources>
-    
+
 
     <Canvas Height="400" Width="1000" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,140,0" RenderTransformOrigin="0.5,0.5" >
         <Canvas.RenderTransform>
@@ -62,6 +62,11 @@
                 <CompositeTransform Rotation="-180.000"/>
             </TextBlock.RenderTransform>
         </TextBlock>
+        <Button x:ConnectionId='10' Content="Back"                          Canvas.Left="938" Canvas.Top="357" RenderTransformOrigin="0.5,0.5" >
+            <Button.RenderTransform>
+                <CompositeTransform Rotation="-180.000"/>
+            </Button.RenderTransform>
+        </Button>
 
     </Canvas>
 
