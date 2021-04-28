@@ -95,7 +95,7 @@ namespace CovidApp
 
         private void infected_Click(object sender, RoutedEventArgs e)
         {
-
+            this.Frame.Navigate(typeof(ListInfected));
         }
 
         private void register_Click(object sender, RoutedEventArgs e)

@@ -5,6 +5,13 @@
   </Roots.Interfaces>
   <Roots.PropertyPathNames>
     <RootPropertyPathName Name="AgeNumber" />
+    <RootPropertyPathName Name="SymptomsString" />
+    <RootPropertyPathName Name="Sex" />
+    <RootPropertyPathName Name="Region" />
+    <RootPropertyPathName Name="PhoneNumber" />
+    <RootPropertyPathName Name="Email" />
+    <RootPropertyPathName Name="FirstName" />
+    <RootPropertyPathName Name="FamilyName" />
     <RootPropertyPathName Name="Text" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
@@ -27,8 +34,6 @@
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Content" />
       <RootProperty Name="Margin" />
-      <RootProperty Name="Foreground" />
-      <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Width" />
       <RootProperty Name="Style" />
       <RootProperty Name="IsEnabled" />
@@ -64,16 +69,22 @@
     </RootType>
     <RootType FullName="CovidApp.AddNewCovidPatient" />
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
-      <RootProperty Name="Background" />
-      <RootProperty Name="Width" />
-      <RootProperty Name="Height" />
-      <RootProperty Name="ColumnDefinitions" />
       <RootProperty Name="Children" />
-      <RootMethod Name="GetColumn" />
-      <RootMethod Name="SetColumn" />
+      <RootProperty Name="Background" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
+    <RootType FullName="Microsoft.Toolkit.Uwp.UI.Controls.DataGrid">
+      <RootProperty Name="Height" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="AutoGenerateColumns" />
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="Columns" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.BindExtension" />
+    <RootType FullName="Microsoft.Toolkit.Uwp.UI.Controls.DataGridTextColumn">
+      <RootProperty Name="Header" />
       <RootProperty Name="Width" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="Binding" />
     </RootType>
     <RootType FullName="CovidApp.ListInfected" />
     <RootType FullName="Windows.UI.Xaml.FrameworkElement">

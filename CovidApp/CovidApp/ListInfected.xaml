@@ -1,26 +1,62 @@
 ﻿<Page
-    x:Class="CovidApp.ListInfected"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:CovidApp"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:Microsoft.Toolkit.Uwp.UI.Controls"
+    x:Class="CovidApp.ListInfected"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid x:Name="myGrid" Background="Green" Width="1500" Height="1000">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="100" />
-            <ColumnDefinition Width="70" />
-            <ColumnDefinition Width="500" />
-            <ColumnDefinition Width="250" />
-            <ColumnDefinition Width="250" />
-        </Grid.ColumnDefinitions>
-
-        <TextBlock x:Name="Sorszám"  Text="Sorszám" Grid.Column="0"/>
-        <TextBlock x:Name="Kor"  Text="Kor" Grid.Column="1"/>
-        <TextBlock x:Name="Tunetek"  Text="Tünetek" Grid.Column="2"/>
-        <TextBlock x:Name="Megye"  Text="Megye" Grid.Column="3"/>
-        <Button x:Name="Refresh" Content="Frissités" Foreground="Black" Click="Refresh_Click" Grid.Column="4" VerticalAlignment="Top" HorizontalAlignment="Left" />
+    <Grid>
+        <controls:DataGrid x:Name="MainDataGrid" Height="600" Margin="12" AutoGenerateColumns="False"
+                           ItemsSource="{x:Bind Patinets}">
+            <controls:DataGrid.Columns>
+                <controls:DataGridTextColumn
+                    Header="Family name"
+                    Width="SizeToCells"
+                    FontSize="15"
+                    Binding="{Binding FamilyName}"
+                    />
+                <controls:DataGridTextColumn
+                    Header="First name"
+                    Width="SizeToCells"
+                    FontSize="15"
+                    Binding="{Binding FirstName}"
+                    />
+                <controls:DataGridTextColumn
+                    Header="Email"
+                    Width="SizeToCells"
+                    FontSize="15"
+                    Binding="{Binding Email}"
+                    />
+                <controls:DataGridTextColumn
+                    Header="Phone"
+                    Width="SizeToCells"
+                    FontSize="15"
+                    Binding="{Binding PhoneNumber}"
+                    />
+                <controls:DataGridTextColumn
+                    Header="Region"
+                    Width="SizeToCells"
+                    FontSize="15"
+                    Binding="{Binding Region}"
+                    />
+                <controls:DataGridTextColumn
+                    Header="Sex"
+                    Width="SizeToCells"
+                    FontSize="15"
+                    Binding="{Binding Sex}"
+                    />
+                <controls:DataGridTextColumn
+                    Header="Symptoms"
+                    Width="SizeToCells"
+                    FontSize="15"
+                    Binding="{Binding SymptomsString}"
+                    />
+            </controls:DataGrid.Columns>
+            
+        </controls:DataGrid>
     </Grid>
 </Page>

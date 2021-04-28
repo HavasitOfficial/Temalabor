@@ -22,9 +22,13 @@ namespace CovidApp
     /// </summary>
     public sealed partial class ListInfected : Page
     {
+        public List<Patient> Patinets { get; set; }
         public ListInfected()
         {
             this.InitializeComponent();
+            Loading load = new Loading(@"PatientFiles\Patients.txt");
+            load.loadingPatient();
+            Patinets = load.getPatients();
         }
 
         private void Refresh_Click(object sender, RoutedEventArgs e)

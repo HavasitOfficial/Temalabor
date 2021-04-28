@@ -45,12 +45,13 @@ namespace CovidApp
             {
                 string[] parts = line.Split(" ".ToCharArray(), StringSplitOptions.RemoveEmptyEntries);
                 var partsPatient = new List<string>();
-                for (int i = 5; i < parts.Length; i++)
+                for (int i = 7; i < parts.Length; i++)
                 {
                     partsPatient.Add(parts[i]);
                 }
                 var patient = new Patient(parts[0], parts[1], parts[2], parts[3], parts[4], parts[5],parts[6], partsPatient);
                 patients.Add(patient);
+
             }
         }
 

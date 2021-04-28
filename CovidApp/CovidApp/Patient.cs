@@ -16,6 +16,7 @@ namespace CovidApp
         public string Sex { get; set; }
         public string Region { get; set; }
         public List<string> symptom { get; set; }
+        public string SymptomsString { get;private set; }
         public Patient(string family, string firstname, string age, string email, string phone,string sex, string region, List<string> symptom)
         {
             this.FamilyName = family;
@@ -26,6 +27,17 @@ namespace CovidApp
             this.Sex = sex;
             this.symptom = symptom;
             this.Region = region;
+            SymptomsString = ListToString(this.symptom);
+        }
+
+        private string ListToString(List<string> symptom)
+        {
+            var sv = "";
+            foreach (var item in symptom)
+            {
+                sv += item + " ";
+            }
+            return sv;
         }
     }
 }
