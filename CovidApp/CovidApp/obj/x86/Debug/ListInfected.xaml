@@ -10,6 +10,27 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <RelativePanel VerticalAlignment="Top" HorizontalAlignment="Center">
+            <DropDownButton x:ConnectionId='4' x:Name="SearchBasedOn">
+                <DropDownButton.Content>Based on</DropDownButton.Content>
+                <DropDownButton.Flyout>
+                    <Flyout>
+                        <ListView x:ConnectionId='7'                                     >
+                            <ListView.ItemTemplate>
+                                <DataTemplate                      >
+                                    <TextBlock x:ConnectionId='9'                ></TextBlock>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                    </Flyout>
+                </DropDownButton.Flyout>
+            </DropDownButton>
+            <TextBox x:ConnectionId='5' x:Name="SearchString" RelativePanel.RightOf="SearchBasedOn" PlaceholderText="Basex on"/>
+            <Button x:ConnectionId='6' x:Name="Enter" Content="Enter" RelativePanel.RightOf="SearchString"                    />
+
+        </RelativePanel>
+        
+       
         <controls:DataGrid x:ConnectionId='2' x:Name="MainDataGrid" Height="600" Margin="12" AutoGenerateColumns="False"
                                                           >
             <controls:DataGrid.Columns>

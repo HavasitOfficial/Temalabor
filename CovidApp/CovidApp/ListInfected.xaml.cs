@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.IO;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
@@ -20,24 +22,52 @@ namespace CovidApp
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class ListInfected : Page
+    public sealed partial class ListInfected : Page, INotifyPropertyChanged
     {
         public List<Patient> Patinets { get; set; }
+
+
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        private void OnPropertyChanged([CallerMemberName] string propertyName = null)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
+
+        List<string> DropdownItems = new List<string>();
         public ListInfected()
         {
             this.InitializeComponent();
             Loading load = new Loading(@"PatientFiles\Patients.txt");
             load.loadingPatient();
             Patinets = load.getPatients();
+            DropdownItems.Add("Name");
+            DropdownItems.Add("Regio");
+            DropdownItems.Add("Sex");
+
         }
 
         private void BackToHome_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(MainPage));
         }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private List<Patient> basedOnName(string name)
         {
+            var sv = new List<Patient>();
+            string[] parts = name.Split(" ");
+            foreach (var item in this.Patinets)
+            {
+                if (item.FamilyName == parts[0] && item.FirstName == parts[1])
+                {
+                    sv.Add(item);
+                }
+            }
+            return sv;
+        }
+
+        private void Enter_Click(object sender, RoutedEventArgs e)
+        {
+           
 
         }
     }

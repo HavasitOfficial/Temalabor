@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-04-28T20:10:41.350</Modified>
+      <Modified>2021-05-05T20:55:20.977</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\bin\x86\Debug\CovidApp.exe">
       <PackagePath>entrypoint\CovidApp.exe</PackagePath>
-      <Modified>2021-04-28T20:10:37.017</Modified>
+      <Modified>2021-05-05T20:55:16.779</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\.nuget\packages\documentformat.openxml\2.12.3\lib\netstandard2.0\DocumentFormat.OpenXml.dll">
       <PackagePath>DocumentFormat.OpenXml.dll</PackagePath>
@@ -414,35 +414,35 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\bin\x86\Debug\CovidApp.xr.xml">
       <PackagePath>CovidApp.xr.xml</PackagePath>
-      <Modified>2021-04-28T19:37:13.214</Modified>
+      <Modified>2021-05-05T20:08:22.486</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-04-28T20:10:36.921</Modified>
+      <Modified>2021-05-05T20:55:16.687</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\bin\x86\Debug\AddNewCovidPatient.xbf">
       <PackagePath>AddNewCovidPatient.xbf</PackagePath>
-      <Modified>2021-04-28T20:10:36.921</Modified>
+      <Modified>2021-05-05T20:55:16.687</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\bin\x86\Debug\ListInfected.xbf">
       <PackagePath>ListInfected.xbf</PackagePath>
-      <Modified>2021-04-28T20:10:36.921</Modified>
+      <Modified>2021-05-05T20:55:16.687</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2021-04-28T20:10:36.921</Modified>
+      <Modified>2021-05-05T20:55:16.687</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\bin\x86\Debug\ProgressScreen.xbf">
       <PackagePath>ProgressScreen.xbf</PackagePath>
-      <Modified>2021-04-28T20:10:36.921</Modified>
+      <Modified>2021-05-05T20:55:16.687</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\bin\x86\Debug\StaticsPage.xbf">
       <PackagePath>StaticsPage.xbf</PackagePath>
-      <Modified>2021-04-28T20:10:36.921</Modified>
+      <Modified>2021-05-05T20:55:16.687</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\bin\x86\Debug\WelcomePage.xbf">
       <PackagePath>WelcomePage.xbf</PackagePath>
-      <Modified>2021-04-28T20:10:36.921</Modified>
+      <Modified>2021-05-05T20:55:16.687</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.18362.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -462,7 +462,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\bin\x86\Debug\Core\CovidApp.exe">
       <PackagePath>CovidApp.exe</PackagePath>
-      <Modified>2021-04-28T20:10:41.347</Modified>
+      <Modified>2021-05-05T20:55:20.975</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
