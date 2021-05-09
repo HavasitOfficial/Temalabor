@@ -32,43 +32,43 @@
         
        
         <controls:DataGrid x:Name="MainDataGrid" Height="600" Margin="12" AutoGenerateColumns="False"
-                           ItemsSource="{x:Bind Patinets}">
+                           ItemsSource="{x:Bind Patinets,Mode=OneWay}">
             <controls:DataGrid.Columns>
                 <controls:DataGridTextColumn
                     Header="Family name"
                     Width="SizeToCells"
                     FontSize="15"
-                    Binding="{Binding FamilyName}"
+                    Binding="{Binding FamilyName,Mode=OneWay}"
                     />
                 <controls:DataGridTextColumn
                     Header="First name"
                     Width="SizeToCells"
                     FontSize="15"
-                    Binding="{Binding FirstName}"
+                    Binding="{Binding FirstName,Mode=OneWay}"
                     />
                 <controls:DataGridTextColumn
                     Header="Email"
                     Width="SizeToCells"
                     FontSize="15"
-                    Binding="{Binding Email}"
+                    Binding="{Binding Email,Mode=OneWay}"
                     />
                 <controls:DataGridTextColumn
                     Header="Phone"
                     Width="SizeToCells"
                     FontSize="15"
-                    Binding="{Binding PhoneNumber}"
+                    Binding="{Binding PhoneNumber,Mode=OneWay}"
                     />
                 <controls:DataGridTextColumn
                     Header="Region"
                     Width="SizeToCells"
                     FontSize="15"
-                    Binding="{Binding Region}"
+                    Binding="{Binding Region,Mode=OneWay}"
                     />
                 <controls:DataGridTextColumn
                     Header="Sex"
                     Width="SizeToCells"
                     FontSize="15"
-                    Binding="{Binding Sex}"
+                    Binding="{Binding Sex,Mode=OneWay}"
                     />
                 <controls:DataGridTextColumn
                     Header="Symptoms"

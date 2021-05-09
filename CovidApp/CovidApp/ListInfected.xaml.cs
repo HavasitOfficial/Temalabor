@@ -24,8 +24,24 @@ namespace CovidApp
     /// </summary>
     public sealed partial class ListInfected : Page, INotifyPropertyChanged
     {
-        public List<Patient> Patinets { get; set; }
+        public List<Patient> originalPatients { get; set; }
+        public List<Patient> patinets;
 
+
+        List<string> DropdownItems = new List<string>();
+
+        public List<Patient> Patinets
+        {
+            get { return patinets; }
+            set
+            {
+                if (patinets != value)
+                {
+                    patinets = value;
+                    OnPropertyChanged();
+                }
+            }
+        }
 
         public event PropertyChangedEventHandler PropertyChanged;
 
@@ -34,13 +50,13 @@ namespace CovidApp
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
 
-        List<string> DropdownItems = new List<string>();
         public ListInfected()
         {
             this.InitializeComponent();
             Loading load = new Loading(@"PatientFiles\Patients.txt");
             load.loadingPatient();
-            Patinets = load.getPatients();
+            originalPatients = load.getPatients();
+            Patinets = originalPatients;
             DropdownItems.Add("Name");
             DropdownItems.Add("Regio");
             DropdownItems.Add("Sex");
@@ -51,10 +67,14 @@ namespace CovidApp
         {
             this.Frame.Navigate(typeof(MainPage));
         }
-        private List<Patient> basedOnName(string name)
+        private List<Patient> basedOnName()
         {
+            if (SearchString.Text == "")
+            {
+                return originalPatients;
+            }
             var sv = new List<Patient>();
-            string[] parts = name.Split(" ");
+            string[] parts = SearchString.Text.Split(" ");
             foreach (var item in this.Patinets)
             {
                 if (item.FamilyName == parts[0] && item.FirstName == parts[1])
@@ -67,7 +87,8 @@ namespace CovidApp
 
         private void Enter_Click(object sender, RoutedEventArgs e)
         {
-           
+            Patinets = basedOnName();
+            //new Windows.UI.Popups.MessageDialog(SearchString.Text).ShowAsync();
 
         }
     }
