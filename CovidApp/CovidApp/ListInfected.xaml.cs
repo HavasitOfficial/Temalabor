@@ -7,6 +7,7 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -27,8 +28,10 @@ namespace CovidApp
         public List<Patient> originalPatients { get; set; }
         public List<Patient> patinets;
 
+        private readonly List<string> DropdownItems = new List<string>() { "Name", "Regio"};
 
-        List<string> DropdownItems = new List<string>();
+
+
 
         public List<Patient> Patinets
         {
@@ -57,9 +60,7 @@ namespace CovidApp
             load.loadingPatient();
             originalPatients = load.getPatients();
             Patinets = originalPatients;
-            DropdownItems.Add("Name");
-            DropdownItems.Add("Regio");
-            DropdownItems.Add("Sex");
+            
 
         }
 
@@ -85,11 +86,59 @@ namespace CovidApp
             return sv;
         }
 
+        private List<Patient> basedOnRegio()
+        {
+            var sv = new List<Patient>();
+
+            foreach (var item in this.Patinets)
+            {
+                if (item.Region == SearchString.Text)
+                {
+                    sv.Add(item);
+                }
+            }
+
+            return sv;
+
+        }
+
+ 
+
         private void Enter_Click(object sender, RoutedEventArgs e)
         {
-            Patinets = basedOnName();
+
+            if (SearchBasedOn.Content != DropdownItems[0] || SearchBasedOn.Content != DropdownItems[1]) return;
+
+            if (SearchBasedOn.Content== DropdownItems[0])
+            {
+                Patinets = basedOnName();
+            }else if (SearchBasedOn.Content == DropdownItems[1])
+            {
+                Patinets = basedOnRegio();
+            }else if (SearchString.Text == "")
+            {
+                Patinets = originalPatients;
+            }
+            else
+            {
+                Patinets = null;
+            }
+            
             //new Windows.UI.Popups.MessageDialog(SearchString.Text).ShowAsync();
 
+        }
+
+        private void listView_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            foreach (var item in e.AddedItems)
+            {
+                ListViewItem lvi = (sender as ListView).ContainerFromItem(item) as ListViewItem;
+                if (lvi.IsSelected)
+                {
+                    lvi.Background= new SolidColorBrush(Colors.LightBlue);
+                    SearchBasedOn.Content = item.ToString();
+                }
+            }
         }
     }
 }

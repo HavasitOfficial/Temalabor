@@ -46,7 +46,7 @@
                     </StackPanel>
                     <StackPanel Orientation="Horizontal">
                         <Button x:ConnectionId='11' x:Name="register" Style="{StaticResource ButtonMain}" Content="&#59642;"                        IsEnabled="False"/>
-                        <TextBlock Text="Register new patient" VerticalAlignment="Center"/>
+                        <TextBlock Text="Registration" VerticalAlignment="Center"/>
                     </StackPanel>
                     <StackPanel Orientation="Horizontal">
                         <Button x:ConnectionId='10' x:Name="Statics" Style="{StaticResource ButtonMain}" Content="&#xE9D9;"                      />

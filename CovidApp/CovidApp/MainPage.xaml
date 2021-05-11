@@ -46,7 +46,7 @@
                     </StackPanel>
                     <StackPanel Orientation="Horizontal">
                         <Button x:Name="register" Style="{StaticResource ButtonMain}" Content="&#59642;" Click="register_Click" IsEnabled="False"/>
-                        <TextBlock Text="Register new patient" VerticalAlignment="Center"/>
+                        <TextBlock Text="Registration" VerticalAlignment="Center"/>
                     </StackPanel>
                     <StackPanel Orientation="Horizontal">
                         <Button x:Name="Statics" Style="{StaticResource ButtonMain}" Content="&#xE9D9;" Click="Statics_Click"/>
