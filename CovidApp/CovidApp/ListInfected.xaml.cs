@@ -56,9 +56,11 @@ namespace CovidApp
         public ListInfected()
         {
             this.InitializeComponent();
+            SaveAndLoadIn sali = new SaveAndLoadIn();
+            originalPatients = sali.getPatients();
             Loading load = new Loading(@"PatientFiles\Patients.txt");
             load.loadingPatient();
-            originalPatients = load.getPatients();
+            //originalPatients = load.getPatients();
             Patinets = originalPatients;
             
 
