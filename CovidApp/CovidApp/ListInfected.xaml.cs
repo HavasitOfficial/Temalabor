@@ -32,9 +32,6 @@ namespace CovidApp
         private bool byName=false, byRegio=false, all = true;
 
 
-
-
-
         public List<Patient> Patinets
         {
             get { return patinets; }

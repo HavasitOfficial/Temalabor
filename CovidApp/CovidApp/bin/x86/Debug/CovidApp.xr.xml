@@ -36,6 +36,7 @@
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Margin" />
       <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Background" />
       <RootProperty Name="Width" />
       <RootProperty Name="Style" />
       <RootProperty Name="IsEnabled" />
@@ -73,8 +74,8 @@
     </RootType>
     <RootType FullName="CovidApp.AddNewCovidPatient" />
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
-      <RootProperty Name="Background" />
       <RootProperty Name="Children" />
+      <RootProperty Name="Background" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.RelativePanel">
       <RootProperty Name="VerticalAlignment" />
@@ -93,7 +94,8 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="AutoGenerateColumns" />
       <RootProperty Name="ItemsSource" />
-      <RootProperty Name="Background" />
+      <RootProperty Name="MinColumnWidth" />
+      <RootProperty Name="AlternatingRowBackground" />
       <RootProperty Name="Columns" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.BindExtension">
@@ -106,6 +108,7 @@
       <RootProperty Name="Binding" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.DropDownButton">
+      <RootProperty Name="Background" />
       <RootProperty Name="Content" />
       <RootProperty Name="Flyout" />
     </RootType>
@@ -143,8 +146,6 @@
       <RootProperty Name="UseLayoutRounding" />
       <RootProperty Name="RenderTransform" />
       <RootProperty Name="Triggers" />
-      <RootProperty Name="Stretch" />
-      <RootProperty Name="Height" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.SplitView">
       <RootProperty Name="DisplayMode" />
@@ -202,6 +203,14 @@
     </RootType>
     <RootType FullName="CovidApp.ProgressScreen" />
     <RootType FullName="CovidApp.Converter.ColumnColorConverter" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Border">
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Child" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Canvas">
       <RootProperty Name="Height" />
       <RootProperty Name="Width" />
@@ -218,6 +227,5 @@
       <RootMethod Name="SetTop" />
     </RootType>
     <RootType FullName="CovidApp.StaticsPage" />
-    <RootType FullName="CovidApp.WelcomePage" />
   </Roots.RootTypes>
 </Roots>

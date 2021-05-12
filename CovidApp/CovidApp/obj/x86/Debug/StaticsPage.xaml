@@ -13,59 +13,70 @@
         <converters:ColumnColorConverter x:Key="ColorConverter"/>
     </Page.Resources>
     <Grid Background="DarkSlateGray">
-        <Button x:ConnectionId='2' Content="Back"                          RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" VerticalAlignment="Top" >
-        </Button>
-    <Canvas Height="400" Width="1000" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,140,0" RenderTransformOrigin="0.5,0.5" >
-        <Canvas.RenderTransform>
-            <CompositeTransform Rotation="-180"/>
-        </Canvas.RenderTransform>
-        <Canvas x:ConnectionId='3' x:Name="staticsFourth" Height="100" Width="100" Canvas.Left="150" Background="{Binding Path=Text, ElementName=FourthConverter, Converter={StaticResource ColorConverter}}"/>
-        <Canvas x:ConnectionId='4' x:Name="staticsThird" Height="100" Width="100" Canvas.Left="350" Background="{Binding Path=Text, ElementName=ThirdConverter, Converter={StaticResource ColorConverter}}"/>
-        <Canvas x:ConnectionId='5' x:Name="staticSecond" Height="100" Width="100" Canvas.Left="550" Background="{Binding Path=Text, ElementName=SecondConverter, Converter={StaticResource ColorConverter}}"/>
-        <Canvas x:ConnectionId='6' x:Name="staticsFirst" Height="100" Width="100" Canvas.Left="750" Background="{Binding Path=Text, ElementName=FirstConverter, Converter={StaticResource ColorConverter}}"/>
-        <TextBlock Canvas.Left="743" Text="20 éves vagy alatti" Canvas.Top="-63" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5">
-            <TextBlock.RenderTransform>
-                <CompositeTransform Rotation="-180.000"/>
-            </TextBlock.RenderTransform>
-        </TextBlock>
-        <TextBlock Canvas.Left="534" Text="20 és 39 év közötti" Canvas.Top="-63" RenderTransformOrigin="0.5,0.5">
-            <TextBlock.RenderTransform>
-                <CompositeTransform Rotation="-180.000"/>
-            </TextBlock.RenderTransform>
-        </TextBlock>
-        <TextBlock x:ConnectionId='7' x:Name="FirstConverter"  Canvas.Left="808" Canvas.Top="-11">
-            <TextBlock.RenderTransform>
-                <CompositeTransform Rotation="-180.000"/>
-            </TextBlock.RenderTransform>
-        </TextBlock>
-        <TextBlock Canvas.Left="342" Text="40 és 64 év közötti" Canvas.Top="-63" RenderTransformOrigin="0.5,0.5">
-            <TextBlock.RenderTransform>
-                <CompositeTransform Rotation="-180.000"/>
-            </TextBlock.RenderTransform>
-        </TextBlock>
-        <TextBlock Canvas.Left="137" Text="65 éves vagy iősebb" Canvas.Top="-57" RenderTransformOrigin="0.5,0.5">
-            <TextBlock.RenderTransform>
-                <CompositeTransform Rotation="-180.000"/>
-            </TextBlock.RenderTransform>
-        </TextBlock>
-        <TextBlock x:ConnectionId='8' x:Name="SecondConverter"  Canvas.Left="600" Canvas.Top="-11">
-            <TextBlock.RenderTransform>
-                <CompositeTransform Rotation="-180.000"/>
-            </TextBlock.RenderTransform>
-        </TextBlock>
-        <TextBlock x:ConnectionId='9' x:Name="ThirdConverter" Canvas.Left="408" Canvas.Top="-11">
-            <TextBlock.RenderTransform>
-                <CompositeTransform Rotation="-180.000"/>
-            </TextBlock.RenderTransform>
-        </TextBlock>
-        <TextBlock x:ConnectionId='10' x:Name="FourthConverter"  Canvas.Left="208" Canvas.Top="-11">
-            <TextBlock.RenderTransform>
-                <CompositeTransform Rotation="-180.000"/>
-            </TextBlock.RenderTransform>
-        </TextBlock>
-        
+        <Button x:ConnectionId='2' Content="Back"                          RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" VerticalAlignment="Top" Background="DarkBlue"/>
+        <Border BorderThickness="2"
 
-    </Canvas>
+        BorderBrush="Black"
+
+        Background="LightGray"
+
+
+
+        Width="1000"
+
+        Height="400">
+            <Canvas Height="400" Width="1000" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,140,0" RenderTransformOrigin="0.5,0.5">
+                <Canvas.RenderTransform>
+                    <CompositeTransform Rotation="-180"/>
+                </Canvas.RenderTransform>
+                <Canvas x:ConnectionId='3' x:Name="staticsFourth" Height="100" Width="100" Canvas.Left="44" Background="{Binding Path=Text, ElementName=FourthConverter, Converter={StaticResource ColorConverter}}"/>
+                <Canvas x:ConnectionId='4' x:Name="staticsThird" Height="100" Width="100" Canvas.Left="256" Background="{Binding Path=Text, ElementName=ThirdConverter, Converter={StaticResource ColorConverter}}"/>
+                <Canvas x:ConnectionId='5' x:Name="staticSecond" Height="100" Width="100" Canvas.Left="498" Background="{Binding Path=Text, ElementName=SecondConverter, Converter={StaticResource ColorConverter}}"/>
+                <Canvas x:ConnectionId='6' x:Name="staticsFirst" Height="100" Width="100" Canvas.Left="717" Background="{Binding Path=Text, ElementName=FirstConverter, Converter={StaticResource ColorConverter}}"/>
+                <TextBlock Canvas.Left="717" Text="20 éves vagy alatti" Canvas.Top="-63" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5">
+                    <TextBlock.RenderTransform>
+                        <CompositeTransform Rotation="-180.000"/>
+                    </TextBlock.RenderTransform>
+                </TextBlock>
+                <TextBlock Canvas.Left="498" Text="20 és 39 év közötti" Canvas.Top="-63" RenderTransformOrigin="0.5,0.5">
+                    <TextBlock.RenderTransform>
+                        <CompositeTransform Rotation="-180.000"/>
+                    </TextBlock.RenderTransform>
+                </TextBlock>
+                <TextBlock x:ConnectionId='7' x:Name="FirstConverter"  Canvas.Left="775" Canvas.Top="-11">
+                    <TextBlock.RenderTransform>
+                        <CompositeTransform Rotation="-180.000"/>
+                    </TextBlock.RenderTransform>
+                </TextBlock>
+                <TextBlock Canvas.Left="255" Text="40 és 64 év közötti" Canvas.Top="-63" RenderTransformOrigin="0.5,0.5">
+                    <TextBlock.RenderTransform>
+                        <CompositeTransform Rotation="-180.000"/>
+                    </TextBlock.RenderTransform>
+                </TextBlock>
+                <TextBlock Canvas.Left="36" Text="65 éves vagy iősebb" Canvas.Top="-63" RenderTransformOrigin="0.5,0.5">
+                    <TextBlock.RenderTransform>
+                        <CompositeTransform Rotation="-180.000"/>
+                    </TextBlock.RenderTransform>
+                </TextBlock>
+                <TextBlock x:ConnectionId='8' x:Name="SecondConverter"  Canvas.Left="556" Canvas.Top="-11">
+                    <TextBlock.RenderTransform>
+                        <CompositeTransform Rotation="-180.000"/>
+                    </TextBlock.RenderTransform>
+                </TextBlock>
+                <TextBlock x:ConnectionId='9' x:Name="ThirdConverter" Canvas.Left="313" Canvas.Top="-11">
+                    <TextBlock.RenderTransform>
+                        <CompositeTransform Rotation="-180.000"/>
+                    </TextBlock.RenderTransform>
+                </TextBlock>
+                <TextBlock x:ConnectionId='10' x:Name="FourthConverter"  Canvas.Left="99" Canvas.Top="-11">
+                    <TextBlock.RenderTransform>
+                        <CompositeTransform Rotation="-180.000"/>
+                    </TextBlock.RenderTransform>
+                </TextBlock>
+
+
+            </Canvas>
+        </Border>
     </Grid>
 
 

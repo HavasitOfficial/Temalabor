@@ -9,39 +9,43 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid Background="DarkSlateGray">
+    
+
+        <Grid >
         <RelativePanel VerticalAlignment="Top" HorizontalAlignment="Center">
-            <DropDownButton x:ConnectionId='4' x:Name="SearchBasedOn">
+            <DropDownButton x:ConnectionId='5' x:Name="SearchBasedOn" Background="DarkBlue">
                 <DropDownButton.Content>Based on</DropDownButton.Content>
                 <DropDownButton.Flyout>
                     <Flyout>
-                        <ListView x:ConnectionId='7' x:Name="listView"                                                                                  >
+                        <ListView x:ConnectionId='8' x:Name="listView"                                                                                  >
                             <ListView.ItemTemplate>
                                 <DataTemplate                      >
-                                    <TextBlock x:ConnectionId='9'                ></TextBlock>
+                                    <TextBlock x:ConnectionId='10'                ></TextBlock>
                                 </DataTemplate>
                             </ListView.ItemTemplate>
                         </ListView>
                     </Flyout>
                 </DropDownButton.Flyout>
             </DropDownButton>
-            <TextBox x:ConnectionId='5' x:Name="SearchString" RelativePanel.RightOf="SearchBasedOn" PlaceholderText="Based on"/>
-            <Button x:ConnectionId='6' x:Name="Enter" Content="Enter" RelativePanel.RightOf="SearchString"                    />
+            <TextBox x:ConnectionId='6' x:Name="SearchString" RelativePanel.RightOf="SearchBasedOn" PlaceholderText="Based on"/>
+            <Button x:ConnectionId='7' x:Name="Enter" Content="Enter" RelativePanel.RightOf="SearchString"                     Background="DarkBlue"/>
 
         </RelativePanel>
-        
-       
+
+
         <controls:DataGrid x:ConnectionId='2' x:Name="MainDataGrid" Height="600" Margin="12" AutoGenerateColumns="False"
-                                                                       Background="DarkSlateGray">
+                                                                       MinColumnWidth="80" AlternatingRowBackground="LightBlue">
             <controls:DataGrid.Columns>
-                <controls:DataGridTextColumn
-                    Header="Family name"
+                <controls:DataGridTextColumn x:ConnectionId='4'
+                    x:Name="Family"
+                    Header="Family"
                     Width="SizeToCells"
                     FontSize="15"
                     Binding="{Binding FamilyName,Mode=OneWay}"
                     />
+
                 <controls:DataGridTextColumn
-                    Header="First name"
+                    Header="First"
                     Width="SizeToCells"
                     FontSize="15"
                     Binding="{Binding FirstName,Mode=OneWay}"
@@ -85,7 +89,7 @@
             </controls:DataGrid.Columns>
 
         </controls:DataGrid>
-        <Button x:ConnectionId='3' Content="Back"                          Margin="0,52,0,0" VerticalAlignment="Top"/>
+        <Button x:ConnectionId='3' Content="Back"                          VerticalAlignment="Top" Background="DarkBlue"/>
     </Grid>
 </Page>
 

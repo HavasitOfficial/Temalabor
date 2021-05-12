@@ -21,7 +21,6 @@ namespace CovidApp
         public void CheckUserAndPass(string username, string password, List<string> user, List<string> pass)
         {
             var encryptPass= encrypt(key, password);
-            //new Windows.UI.Popups.MessageDialog($"{valami} ").ShowAsync();
             var resultUser = user.Select((Value, Index) => new { Value, Index })
                         .SingleOrDefault(l => l.Value == username);
 
@@ -36,20 +35,11 @@ namespace CovidApp
             {
                 if (valami[i] != encryptPass[i])
                 {
-                    new Windows.UI.Popups.MessageDialog($"!{"nem egyezik meg"}!    {valami[i]}  {i}        {encryptPass[i]}").ShowAsync();
                     return;
                 }
             }
-            /*if (encryptPass.Length == pass[0].Length)
-            {
-                new Windows.UI.Popups.MessageDialog($"!{"megegyeszik"}!").ShowAsync();
-            }
-            else
-            {
-                new Windows.UI.Popups.MessageDialog($"!{"nem egyezik meg"}!").ShowAsync();
-            }*/
             if (indexUser == indexPass && resultUser != null && resultPass != null) this.registerAllow = true;
-            new Windows.UI.Popups.MessageDialog($"!{encryptPass}!").ShowAsync();
+
         }
 
         private String encrypt(string key, string plainText)

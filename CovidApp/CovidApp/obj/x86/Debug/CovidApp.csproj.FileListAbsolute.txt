@@ -203,7 +203,6 @@ D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\bin\x86\Debug\AddN
 D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\bin\x86\Debug\ListInfected.xbf
 D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\bin\x86\Debug\ProgressScreen.xbf
 D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\bin\x86\Debug\StaticsPage.xbf
-D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\bin\x86\Debug\WelcomePage.xbf
 D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\obj\x86\Debug\AddNewCovidPatient.g.i.cs
 D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\obj\x86\Debug\AddNewCovidPatient.g.cs
 D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\obj\x86\Debug\ListInfected.g.i.cs
@@ -212,16 +211,12 @@ D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\obj\x86\Debug\Prog
 D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\obj\x86\Debug\ProgressScreen.g.cs
 D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\obj\x86\Debug\StaticsPage.g.i.cs
 D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\obj\x86\Debug\StaticsPage.g.cs
-D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\obj\x86\Debug\WelcomePage.g.i.cs
-D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\obj\x86\Debug\WelcomePage.g.cs
 D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\obj\x86\Debug\AddNewCovidPatient.xaml
 D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\obj\x86\Debug\ListInfected.xaml
 D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\obj\x86\Debug\ProgressScreen.xaml
 D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\obj\x86\Debug\StaticsPage.xaml
-D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\obj\x86\Debug\WelcomePage.xaml
 D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\obj\x86\Debug\AddNewCovidPatient.xbf
 D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\obj\x86\Debug\ListInfected.xbf
 D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\obj\x86\Debug\ProgressScreen.xbf
 D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\obj\x86\Debug\StaticsPage.xbf
-D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\obj\x86\Debug\WelcomePage.xbf
 D:\Users\Acer\Documents\Témalabor\CovidApp\CovidApp\CovidApp\obj\x86\Debug\CovidApp.csprojAssemblyReference.cache

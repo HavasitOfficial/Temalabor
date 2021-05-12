@@ -9,9 +9,11 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid Background="DarkSlateGray">
+    
+
+        <Grid >
         <RelativePanel VerticalAlignment="Top" HorizontalAlignment="Center">
-            <DropDownButton x:Name="SearchBasedOn">
+            <DropDownButton x:Name="SearchBasedOn" Background="DarkBlue">
                 <DropDownButton.Content>Based on</DropDownButton.Content>
                 <DropDownButton.Flyout>
                     <Flyout>
@@ -26,22 +28,24 @@
                 </DropDownButton.Flyout>
             </DropDownButton>
             <TextBox x:Name="SearchString" RelativePanel.RightOf="SearchBasedOn" PlaceholderText="Based on"/>
-            <Button x:Name="Enter" Content="Enter" RelativePanel.RightOf="SearchString" Click="Enter_Click"/>
+            <Button x:Name="Enter" Content="Enter" RelativePanel.RightOf="SearchString" Click="Enter_Click" Background="DarkBlue"/>
 
         </RelativePanel>
-        
-       
+
+
         <controls:DataGrid x:Name="MainDataGrid" Height="600" Margin="12" AutoGenerateColumns="False"
-                           ItemsSource="{x:Bind Patinets,Mode=OneWay}" Background="DarkSlateGray">
+                           ItemsSource="{x:Bind Patinets,Mode=OneWay}" MinColumnWidth="80" AlternatingRowBackground="LightBlue">
             <controls:DataGrid.Columns>
                 <controls:DataGridTextColumn
-                    Header="Family name"
+                    x:Name="Family"
+                    Header="Family"
                     Width="SizeToCells"
                     FontSize="15"
                     Binding="{Binding FamilyName,Mode=OneWay}"
                     />
+
                 <controls:DataGridTextColumn
-                    Header="First name"
+                    Header="First"
                     Width="SizeToCells"
                     FontSize="15"
                     Binding="{Binding FirstName,Mode=OneWay}"
@@ -85,6 +89,6 @@
             </controls:DataGrid.Columns>
 
         </controls:DataGrid>
-        <Button Content="Back" Click="BackToHome_Click" Margin="0,52,0,0" VerticalAlignment="Top"/>
+        <Button Content="Back" Click="BackToHome_Click" VerticalAlignment="Top" Background="DarkBlue"/>
     </Grid>
 </Page>
