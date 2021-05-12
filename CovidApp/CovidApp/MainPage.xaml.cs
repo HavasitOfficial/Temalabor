@@ -76,7 +76,7 @@ namespace CovidApp
             var load = new Loading(@"UserPass\UserAndPass.txt");
             load.UsernameAndPasswordLoading();
             var signIn = new SignIn();
-            signIn.CheckUserAndPass(Username.Text, Password.Text, load.getUsers(), load.getPasswords());
+            signIn.CheckUserAndPass(Username.Text, Password.Password, load.getUsers(), load.getPasswords());
             if (signIn.RegisterAllow())
             {
                 register.IsEnabled = true;

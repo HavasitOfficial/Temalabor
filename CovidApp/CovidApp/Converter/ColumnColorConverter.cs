@@ -15,19 +15,27 @@ namespace CovidApp.Converter
         {
             if (value != null)
             {
-                var sv = 0; ;
+                var sv = 0;
                 Int32.TryParse(value.ToString(), out sv);
-                new Windows.UI.Popups.MessageDialog(sv.ToString() + "    height").ShowAsync();
-                if (sv > 20)
+                if (sv <= 20)
                 {
                     return new SolidColorBrush(Colors.LightBlue);
                 }
-                else
+                else if(sv>20 && sv <=40)
                 {
                     return new SolidColorBrush(Colors.Yellow);
+                }else if( sv>40 && sv <= 60)
+                {
+                    return new SolidColorBrush(Colors.Purple);
                 }
+                else
+                {
+                    return new SolidColorBrush(Colors.Red);
+                }
+                
             }
-            return new SolidColorBrush(Colors.Green);
+            return new SolidColorBrush(Colors.White);
+
         }
 
         public object ConvertBack(object value, Type targetType, object parameter, string language)

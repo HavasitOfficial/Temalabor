@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using Windows.Storage;
 
@@ -18,6 +19,7 @@ namespace CovidApp
         public SaveAndLoadIn()
         {
             Task.Run(() => loadFile(this.patientsFile, patientsFileName));
+            Thread.Sleep(500);
         }
 
         private async Task loadFile(StorageFile file, string fileName)
@@ -53,7 +55,6 @@ namespace CovidApp
                     for (int j = 7; j < parts.Length; j++)
                     {
                         partsPatient.Add(parts[j]);
-                        Debug.WriteLine(parts[j]);
                     }
                     this.patients.Add(new Patient(parts[0], parts[1], parts[2], parts[3], parts[4], parts[5], parts[6], partsPatient));
                     parts = null;

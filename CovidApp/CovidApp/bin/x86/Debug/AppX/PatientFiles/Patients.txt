@@ -1,4 +1,0 @@
-﻿Vicc Elek 30 Vicc@elek.hu +36301234567 male Pest Fever HeartProblem NoSmellAndTaste
-Cserepes virág 28 Cserepes@virag.hu +36309876543 female Hatvan Fever HeartProblem 
-Trab Antal 35 Trab@antal.hu +36301111111 male Győr Fever NoSmellAndTaste
-Ultra Viola 25 Ultra@elviola.hu +36302222222 female Pest HeartProblem NoSmellAndTaste

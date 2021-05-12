@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Threading.Tasks;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -22,15 +24,15 @@ namespace CovidApp
     /// </summary>
     public sealed partial class StaticsPage : Page
     {
-        public int Proba { get; set ; }
+        List<Patient> patients = new List<Patient>();
         public StaticsPage()
         {
+            Background=new SolidColorBrush(Colors.Gray);
 
-            Proba = 50;
             this.InitializeComponent();
-            Loading load = new Loading(@"PatientFiles\Patients.txt");
-            load.loadingPatient();
-            AverageAge avAge = new AverageAge(load.getPatients());
+            SaveAndLoadIn sali = new SaveAndLoadIn();
+            patients = sali.getPatients();
+            AverageAge avAge = new AverageAge(patients);
             FirstConverter.Text = (avAge.getFirstColumn() * 10).ToString();
             SecondConverter.Text = (avAge.getSecondColumn() * 10).ToString();
             ThirdConverter.Text = (avAge.getThirdColumn() * 10).ToString();
@@ -39,12 +41,14 @@ namespace CovidApp
             staticSecond.Height = Int32.Parse(SecondConverter.Text);
             staticsThird.Height = Int32.Parse(ThirdConverter.Text);
             staticsFourth.Height = Int32.Parse(FourthConverter.Text);
-            
+
         }
 
         private void BackToHome_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(MainPage));
         }
+
+ 
     }
 }

@@ -20,7 +20,7 @@ namespace CovidApp
             convertStringToInt();
             countAge();
         }
-        public void convertStringToInt()
+        private void convertStringToInt()
         {
             for (int i = 0; i < patients.Count; i++)
             {
@@ -28,6 +28,7 @@ namespace CovidApp
                 {
                     int numVal = Int32.Parse(patients[i].Age);
                     intAge.Add(numVal);
+                    
                 }
                 catch (FormatException e)
                 {
@@ -35,10 +36,10 @@ namespace CovidApp
                 }
             }
         }
-        public void countAge()
+        private void countAge()
         {
 
-            this.firstColumn = (from n in intAge
+            this.firstColumn =  (from n in intAge
                                 where n < 20
                                 select n).Count();
 

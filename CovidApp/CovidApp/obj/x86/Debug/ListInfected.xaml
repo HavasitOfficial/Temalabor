@@ -9,7 +9,7 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
+    <Grid Background="DarkSlateGray">
         <RelativePanel VerticalAlignment="Top" HorizontalAlignment="Center">
             <DropDownButton x:ConnectionId='4' x:Name="SearchBasedOn">
                 <DropDownButton.Content>Based on</DropDownButton.Content>
@@ -32,7 +32,7 @@
         
        
         <controls:DataGrid x:ConnectionId='2' x:Name="MainDataGrid" Height="600" Margin="12" AutoGenerateColumns="False"
-                                                                      >
+                                                                       Background="DarkSlateGray">
             <controls:DataGrid.Columns>
                 <controls:DataGridTextColumn
                     Header="Family name"
@@ -45,6 +45,12 @@
                     Width="SizeToCells"
                     FontSize="15"
                     Binding="{Binding FirstName,Mode=OneWay}"
+                    />
+                <controls:DataGridTextColumn
+                    Header="Age"
+                    Width="SizeToCells"
+                    FontSize="15"
+                    Binding="{Binding Age,Mode=OneWay}"
                     />
                 <controls:DataGridTextColumn
                     Header="Email"

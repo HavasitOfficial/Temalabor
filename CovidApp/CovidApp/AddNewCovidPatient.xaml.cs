@@ -166,6 +166,7 @@ namespace CovidApp
             noSmell.IsChecked = false;
             noTaste.IsChecked = false;
             headache.IsChecked = false;
+            fever.IsChecked = false;
         }
     }
 }

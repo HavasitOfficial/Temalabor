@@ -28,14 +28,14 @@
         <SplitView x:Name="MenuSplitView" DisplayMode="CompactOverlay" IsPaneOpen="False" CompactPaneLength="50" OpenPaneLength="150" Margin="0,0,10,0" LightDismissOverlayMode="Auto">
             <Popup x:Name="popUp" Width="300" Height="200" IsLightDismissEnabled="True" VerticalAlignment="Center" HorizontalAlignment="Center">
 
-                <RelativePanel Background="Blue" >
+                <RelativePanel Background="DarkSlateGray"  >
                     <TextBox x:Name="Username" PlaceholderText="Username" Width="200"/>
-                    <TextBox x:Name="Password" RelativePanel.Below="Username" PlaceholderText="Password" Width="200"/>
+                    <PasswordBox x:Name="Password" RelativePanel.Below="Username" PlaceholderText="Password" Width="200"/>
                     <Button x:Name="Enter" Content="Enter" Click="Enter_Click" RelativePanel.Below="Password" Width="100" RelativePanel.AlignHorizontalCenterWithPanel="True"/>
                 </RelativePanel>
             </Popup>
             <SplitView.Pane>
-                <StackPanel x:Name="MainPanel" Background="ForestGreen">
+                <StackPanel x:Name="MainPanel" Background="DarkSlateGray">
 
                     <StackPanel Orientation="Horizontal">
                         <Button x:Name="OpenClose" Style="{StaticResource ButtonMain}" Content="&#xE700;" Click="OpenClose_Click"/>

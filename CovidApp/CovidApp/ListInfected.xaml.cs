@@ -25,10 +25,12 @@ namespace CovidApp
     /// </summary>
     public sealed partial class ListInfected : Page, INotifyPropertyChanged
     {
-        public List<Patient> originalPatients { get; set; }
-        public List<Patient> patinets;
+        private List<Patient> originalPatients { get; set; }
+        private List<Patient> patinets;
 
-        private readonly List<string> DropdownItems = new List<string>() { "Name", "Regio"};
+        private readonly List<string> DropdownItems = new List<string>() { "Name", "Regio","All"};
+        private bool byName=false, byRegio=false, all = true;
+
 
 
 
@@ -58,9 +60,6 @@ namespace CovidApp
             this.InitializeComponent();
             SaveAndLoadIn sali = new SaveAndLoadIn();
             originalPatients = sali.getPatients();
-            Loading load = new Loading(@"PatientFiles\Patients.txt");
-            load.loadingPatient();
-            //originalPatients = load.getPatients();
             Patinets = originalPatients;
             
 
@@ -78,7 +77,7 @@ namespace CovidApp
             }
             var sv = new List<Patient>();
             string[] parts = SearchString.Text.Split(" ");
-            foreach (var item in this.Patinets)
+            foreach (var item in this.originalPatients)
             {
                 if (item.FamilyName == parts[0] && item.FirstName == parts[1])
                 {
@@ -92,7 +91,7 @@ namespace CovidApp
         {
             var sv = new List<Patient>();
 
-            foreach (var item in this.Patinets)
+            foreach (var item in this.originalPatients)
             {
                 if (item.Region == SearchString.Text)
                 {
@@ -108,16 +107,16 @@ namespace CovidApp
 
         private void Enter_Click(object sender, RoutedEventArgs e)
         {
-
-            if (SearchBasedOn.Content != DropdownItems[0] || SearchBasedOn.Content != DropdownItems[1]) return;
-
-            if (SearchBasedOn.Content== DropdownItems[0])
+           
+            if (this.byName)
             {
                 Patinets = basedOnName();
-            }else if (SearchBasedOn.Content == DropdownItems[1])
+            }
+            else if (this.byRegio)
             {
                 Patinets = basedOnRegio();
-            }else if (SearchString.Text == "")
+            }
+            else if (this.all)
             {
                 Patinets = originalPatients;
             }
@@ -126,7 +125,7 @@ namespace CovidApp
                 Patinets = null;
             }
             
-            //new Windows.UI.Popups.MessageDialog(SearchString.Text).ShowAsync();
+
 
         }
 
@@ -138,7 +137,34 @@ namespace CovidApp
                 if (lvi.IsSelected)
                 {
                     lvi.Background= new SolidColorBrush(Colors.LightBlue);
-                    SearchBasedOn.Content = item.ToString();
+                    if (lvi.Content == "Name")
+                    {
+                        this.byName = true;
+                        this.byRegio = false;
+                        this.all = false;
+                        SearchBasedOn.Content = item.ToString();
+                        SearchString.Text = "";
+                        SearchString.IsEnabled = true;
+                    }
+                    else if (lvi.Content == "Regio")
+                    {
+                        this.byName = false;
+                        this.byRegio = true;
+                        this.all = false;
+                        SearchBasedOn.Content = item.ToString();
+                        SearchString.Text = "";
+                        SearchString.IsEnabled = true;
+                    }
+                    else if(lvi.Content == "All")
+                    {
+                        this.byName = false;
+                        this.byRegio = false;
+                        this.all = true;
+                        SearchBasedOn.Content = item.ToString();
+                        SearchString.Text = "";
+                        SearchString.IsEnabled = false;
+                    }
+                    SearchString.PlaceholderText = item.ToString();
                 }
             }
         }
