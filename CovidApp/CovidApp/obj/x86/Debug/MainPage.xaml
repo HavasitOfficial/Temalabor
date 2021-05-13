@@ -29,8 +29,8 @@
             <Popup x:ConnectionId='4' x:Name="popUp" Width="300" Height="200" IsLightDismissEnabled="True" VerticalAlignment="Center" HorizontalAlignment="Center">
 
                 <RelativePanel Background="DarkSlateGray"  >
-                    <TextBox x:ConnectionId='5' x:Name="Username" PlaceholderText="Username" Width="200"/>
-                    <PasswordBox x:ConnectionId='6' x:Name="Password" RelativePanel.Below="Username" PlaceholderText="Password" Width="200"/>
+                    <TextBox x:ConnectionId='5' x:Name="Username" PlaceholderText="Username" Width="200" HorizontalContentAlignment="Center"/>
+                    <PasswordBox x:ConnectionId='6' x:Name="Password" RelativePanel.Below="Username" PlaceholderText="Password" Width="200" HorizontalContentAlignment="Center"/>
                     <Button x:ConnectionId='7' x:Name="Enter" Content="Enter"                     RelativePanel.Below="Password" Width="100" RelativePanel.AlignHorizontalCenterWithPanel="True"/>
                 </RelativePanel>
             </Popup>

@@ -32,7 +32,14 @@ namespace CovidApp
             if (signIn.RegisterAllow())
             {
                 register.IsEnabled = true;
+                popUp.IsOpen = false;
+
             }
+            else
+            {
+                new Windows.UI.Popups.MessageDialog("invalid user or password").ShowAsync();
+            }
+            
         }
 
         private void SignIn_Click(object sender, RoutedEventArgs e)
