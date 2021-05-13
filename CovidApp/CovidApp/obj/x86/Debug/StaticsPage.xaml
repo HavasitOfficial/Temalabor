@@ -33,42 +33,48 @@
                 <Canvas x:ConnectionId='4' x:Name="staticsThird" Height="100" Width="100" Canvas.Left="256" Background="{Binding Path=Text, ElementName=ThirdConverter, Converter={StaticResource ColorConverter}}"/>
                 <Canvas x:ConnectionId='5' x:Name="staticSecond" Height="100" Width="100" Canvas.Left="498" Background="{Binding Path=Text, ElementName=SecondConverter, Converter={StaticResource ColorConverter}}"/>
                 <Canvas x:ConnectionId='6' x:Name="staticsFirst" Height="100" Width="100" Canvas.Left="717" Background="{Binding Path=Text, ElementName=FirstConverter, Converter={StaticResource ColorConverter}}"/>
-                <TextBlock Canvas.Left="717" Text="20 éves vagy alatti" Canvas.Top="-63" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5">
+                <TextBlock Canvas.Left="717" Text="20 éves vagy alatti" Canvas.Top="-63" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5"
+                           Foreground="{Binding Path=Text, ElementName=FirstConverter, Converter={StaticResource ColorConverter}}">
                     <TextBlock.RenderTransform>
                         <CompositeTransform Rotation="-180.000"/>
                     </TextBlock.RenderTransform>
                 </TextBlock>
-                <TextBlock Canvas.Left="498" Text="20 és 39 év közötti" Canvas.Top="-63" RenderTransformOrigin="0.5,0.5">
+                <TextBlock Canvas.Left="498" Text="20 és 39 év közötti" Canvas.Top="-63" RenderTransformOrigin="0.5,0.5"
+                            Foreground="{Binding Path=Text, ElementName=SecondConverter, Converter={StaticResource ColorConverter}}">
                     <TextBlock.RenderTransform>
                         <CompositeTransform Rotation="-180.000"/>
                     </TextBlock.RenderTransform>
                 </TextBlock>
-                <TextBlock x:ConnectionId='7' x:Name="FirstConverter"  Canvas.Left="775" Canvas.Top="-11">
+                <TextBlock x:ConnectionId='7' x:Name="FirstConverter"  Canvas.Left="775" Canvas.Top="-11"
+                           Foreground="{Binding Path=Text, ElementName=FirstConverter, Converter={StaticResource ColorConverter}}">
                     <TextBlock.RenderTransform>
                         <CompositeTransform Rotation="-180.000"/>
                     </TextBlock.RenderTransform>
                 </TextBlock>
-                <TextBlock Canvas.Left="255" Text="40 és 64 év közötti" Canvas.Top="-63" RenderTransformOrigin="0.5,0.5">
+                <TextBlock Canvas.Left="255" Text="40 és 64 év közötti" Canvas.Top="-63" RenderTransformOrigin="0.5,0.5"
+                           Foreground="{Binding Path=Text, ElementName=ThirdConverter, Converter={StaticResource ColorConverter}}">
                     <TextBlock.RenderTransform>
                         <CompositeTransform Rotation="-180.000"/>
                     </TextBlock.RenderTransform>
                 </TextBlock>
-                <TextBlock Canvas.Left="36" Text="65 éves vagy iősebb" Canvas.Top="-63" RenderTransformOrigin="0.5,0.5">
+                <TextBlock Canvas.Left="36" Text="65 éves vagy iősebb" Canvas.Top="-63" RenderTransformOrigin="0.5,0.5" Foreground="{Binding Path=Text, ElementName=FourthConverter, Converter={StaticResource ColorConverter}}">
                     <TextBlock.RenderTransform>
                         <CompositeTransform Rotation="-180.000"/>
                     </TextBlock.RenderTransform>
                 </TextBlock>
-                <TextBlock x:ConnectionId='8' x:Name="SecondConverter"  Canvas.Left="556" Canvas.Top="-11">
+                <TextBlock x:ConnectionId='8' x:Name="SecondConverter"  Canvas.Left="556" Canvas.Top="-11"
+                            Foreground="{Binding Path=Text, ElementName=SecondConverter, Converter={StaticResource ColorConverter}}">
                     <TextBlock.RenderTransform>
                         <CompositeTransform Rotation="-180.000"/>
                     </TextBlock.RenderTransform>
                 </TextBlock>
-                <TextBlock x:ConnectionId='9' x:Name="ThirdConverter" Canvas.Left="313" Canvas.Top="-11">
+                <TextBlock x:ConnectionId='9' x:Name="ThirdConverter" Canvas.Left="313" Canvas.Top="-11"
+                           Foreground="{Binding Path=Text, ElementName=ThirdConverter, Converter={StaticResource ColorConverter}}">
                     <TextBlock.RenderTransform>
                         <CompositeTransform Rotation="-180.000"/>
                     </TextBlock.RenderTransform>
                 </TextBlock>
-                <TextBlock x:ConnectionId='10' x:Name="FourthConverter"  Canvas.Left="99" Canvas.Top="-11">
+                <TextBlock x:ConnectionId='10' x:Name="FourthConverter"  Canvas.Left="99" Canvas.Top="-11" Foreground="{Binding Path=Text, ElementName=FourthConverter, Converter={StaticResource ColorConverter}}">
                     <TextBlock.RenderTransform>
                         <CompositeTransform Rotation="-180.000"/>
                     </TextBlock.RenderTransform>
@@ -77,6 +83,7 @@
 
             </Canvas>
         </Border>
+        <TextBlock  Margin="0,5,9,0" FontSize="25" Foreground="DarkBlue" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalAlignment="Right" Text="A fetőzött személyeknek az oszlop diagramja korosztály szerint csoportosítva"/>
     </Grid>
 
 
