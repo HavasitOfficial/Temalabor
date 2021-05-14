@@ -6,12 +6,16 @@ Assets\Square44x44Logo.scale-200.png
 Assets\Square44x44Logo.targetsize-24_altform-unplated.png
 Assets\StoreLogo.png
 Assets\Wide310x150Logo.scale-200.png
+AddNewCovidPatient.xbf
 App.xbf
 CovidApp.xr.xml
+ListInfected.xbf
 MainPage.xbf
 ProgressScreen.xbf
-WelcomePage.xbf
+StaticsPage.xbf
 Images\coronavirus.png
+Images\SignIn.png
 Images\virus.png
 Images\virusbackground.png
 Properties\Default.rd.xml
+UserPass\UserAndPass.txt

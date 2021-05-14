@@ -6,31 +6,55 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" >
 
-    <Grid>
+    <Page.Resources>
+        <Style TargetType="TextBlock" x:Key="TitleTextMain">
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="FontSize" Value="18"/>
+        </Style>
+        <Style TargetType="Button" x:Key="ButtonMain">
+            <Setter Property="FontFamily" Value="Segoe MDL2 Assets"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Height" Value="50"/>
+            <Setter Property="Width" Value="50"/>
+            <Setter Property="Background" Value="Transparent"/>
+        </Style>
+    </Page.Resources>
+
+    <Grid x:Name="MainGrid">
+
+        <Image Source="Images\virusbackground.png" Width="1800"/>
         <SplitView x:Name="MenuSplitView" DisplayMode="CompactOverlay" IsPaneOpen="False" CompactPaneLength="50" OpenPaneLength="150" Margin="0,0,10,0" LightDismissOverlayMode="Auto">
-            <Popup x:Name="popUp" Width="200" Height="200" IsLightDismissEnabled="True" VerticalAlignment="Center" HorizontalAlignment="Center">
-                <RelativePanel Background="Chocolate" >
-                    <TextBox x:Name="Username" PlaceholderText="Username" Width="100"/>
-                    <TextBox x:Name="Password" RelativePanel.Below="Username" PlaceholderText="Password" Width="100"/>
-                    <Button x:Name="Enter" Content="Enter" Click="Enter_Click" RelativePanel.Below="Password" Width="100"/>
+            <Popup x:Name="popUp" Width="300" Height="200" IsLightDismissEnabled="True" VerticalAlignment="Center" HorizontalAlignment="Center">
+
+                <RelativePanel Background="DarkSlateGray"  >
+                    <TextBox x:Name="Username" PlaceholderText="Username" Width="200" HorizontalContentAlignment="Center"/>
+                    <PasswordBox x:Name="Password" RelativePanel.Below="Username" PlaceholderText="Password" Width="200" HorizontalContentAlignment="Center"/>
+                    <Button x:Name="Enter" Content="Enter" Click="Enter_Click" RelativePanel.Below="Password" Width="100" RelativePanel.AlignHorizontalCenterWithPanel="True"/>
                 </RelativePanel>
             </Popup>
             <SplitView.Pane>
-                <StackPanel x:Name="MainPanel" Background="ForestGreen">
+                <StackPanel x:Name="MainPanel" Background="DarkSlateGray">
 
                     <StackPanel Orientation="Horizontal">
-                        <Button x:Name="SignIn"  Content="Sign In;" Click="SignIn_Click"/>
+                        <Button x:Name="OpenClose" Style="{StaticResource ButtonMain}" Content="&#xE700;" Click="OpenClose_Click"/>
                     </StackPanel>
                     <StackPanel Orientation="Horizontal">
-                        <Button x:Name="register" Content="Register" Click="register_Click" IsEnabled="False"/>
+                        <Button x:Name="SignIn"  Style="{StaticResource ButtonMain}" Content="&#xE77B;" Click="SignIn_Click"/>
+                        <TextBlock Text="Sign in" VerticalAlignment="Center"/>
                     </StackPanel>
                     <StackPanel Orientation="Horizontal">
-                        <Button x:Name="Statics" Content="Statics" Click="Statics_Click"/>
+                        <Button x:Name="register" Style="{StaticResource ButtonMain}" Content="&#59642;" Click="register_Click" IsEnabled="False"/>
+                        <TextBlock Text="Registration" VerticalAlignment="Center"/>
                     </StackPanel>
                     <StackPanel Orientation="Horizontal">
-                        <Button x:Name="infected"  Content="Infected" Click="infected_Click"/>
+                        <Button x:Name="Statics" Style="{StaticResource ButtonMain}" Content="&#xE9D9;" Click="Statics_Click"/>
+                        <TextBlock Text="Statics" VerticalAlignment="Center"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Button x:Name="infected"  Style="{StaticResource ButtonMain}" Content="&#xE814;" Click="infected_Click"/>
+                        <TextBlock Text="List" VerticalAlignment="Center"/>
                     </StackPanel>
                     
                 </StackPanel>

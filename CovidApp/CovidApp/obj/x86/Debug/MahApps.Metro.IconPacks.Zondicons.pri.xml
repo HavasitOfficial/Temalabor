@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="MahApps.Metro.IconPacks.Zondicons" version="1.0" primary="true">
+		<Qualifiers/>
+		<ResourceMapSubtree name="Files">
+			<ResourceMapSubtree name="MahApps.Metro.IconPacks.Zondicons">
+				<NamedResource name="MahApps.Metro.IconPacks.Zondicons.xr.xml" uri="ms-resource://MahApps.Metro.IconPacks.Zondicons/Files/MahApps.Metro.IconPacks.Zondicons/MahApps.Metro.IconPacks.Zondicons.xr.xml">
+					<Candidate type="Path">
+						<Value>MahApps.Metro.IconPacks.Zondicons\MahApps.Metro.IconPacks.Zondicons.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="Themes">
+					<NamedResource name="Generic.xbf" uri="ms-resource://MahApps.Metro.IconPacks.Zondicons/Files/MahApps.Metro.IconPacks.Zondicons/Themes/Generic.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="PackIconZondicons.xbf" uri="ms-resource://MahApps.Metro.IconPacks.Zondicons/Files/MahApps.Metro.IconPacks.Zondicons/Themes/PackIconZondicons.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

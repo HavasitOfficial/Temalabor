@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="MahApps.Metro.IconPacks.FileIcons" version="1.0" primary="true">
+		<Qualifiers/>
+		<ResourceMapSubtree name="Files">
+			<ResourceMapSubtree name="MahApps.Metro.IconPacks.FileIcons">
+				<NamedResource name="MahApps.Metro.IconPacks.FileIcons.xr.xml" uri="ms-resource://MahApps.Metro.IconPacks.FileIcons/Files/MahApps.Metro.IconPacks.FileIcons/MahApps.Metro.IconPacks.FileIcons.xr.xml">
+					<Candidate type="Path">
+						<Value>MahApps.Metro.IconPacks.FileIcons\MahApps.Metro.IconPacks.FileIcons.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="Themes">
+					<NamedResource name="Generic.xbf" uri="ms-resource://MahApps.Metro.IconPacks.FileIcons/Files/MahApps.Metro.IconPacks.FileIcons/Themes/Generic.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="PackIconFileIcons.xbf" uri="ms-resource://MahApps.Metro.IconPacks.FileIcons/Files/MahApps.Metro.IconPacks.FileIcons/Themes/PackIconFileIcons.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

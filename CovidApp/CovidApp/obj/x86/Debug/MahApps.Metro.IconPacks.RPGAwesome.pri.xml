@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="MahApps.Metro.IconPacks.RPGAwesome" version="1.0" primary="true">
+		<Qualifiers/>
+		<ResourceMapSubtree name="Files">
+			<ResourceMapSubtree name="MahApps.Metro.IconPacks.RPGAwesome">
+				<NamedResource name="MahApps.Metro.IconPacks.RPGAwesome.xr.xml" uri="ms-resource://MahApps.Metro.IconPacks.RPGAwesome/Files/MahApps.Metro.IconPacks.RPGAwesome/MahApps.Metro.IconPacks.RPGAwesome.xr.xml">
+					<Candidate type="Path">
+						<Value>MahApps.Metro.IconPacks.RPGAwesome\MahApps.Metro.IconPacks.RPGAwesome.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="Themes">
+					<NamedResource name="Generic.xbf" uri="ms-resource://MahApps.Metro.IconPacks.RPGAwesome/Files/MahApps.Metro.IconPacks.RPGAwesome/Themes/Generic.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="PackIconRPGAwesome.xbf" uri="ms-resource://MahApps.Metro.IconPacks.RPGAwesome/Files/MahApps.Metro.IconPacks.RPGAwesome/Themes/PackIconRPGAwesome.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

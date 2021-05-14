@@ -29,7 +29,7 @@ namespace CovidApp
             startProgressBar();
 
             DispatcherTimer t = new DispatcherTimer();
-            t.Interval = TimeSpan.FromSeconds(6.5);
+            t.Interval = TimeSpan.FromSeconds(3.2);
             t.Tick += (s, e) =>
             {
                 this.Frame.Navigate(typeof(MainPage));
@@ -48,9 +48,9 @@ namespace CovidApp
 
         async Task DoItAsync(IProgress<double> progress)
         {
-            for (double i = 0; i <= 100; i += 0.5)
+            for (double i = 0; i <= 100; i ++)
             {
-                Task.Delay(18).Wait();
+                Task.Delay(16).Wait();
                 progress.Report(i);
             }
         }

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="MahApps.Metro.IconPacks.ForkAwesome" version="1.0" primary="true">
+		<Qualifiers/>
+		<ResourceMapSubtree name="Files">
+			<ResourceMapSubtree name="MahApps.Metro.IconPacks.ForkAwesome">
+				<NamedResource name="MahApps.Metro.IconPacks.ForkAwesome.xr.xml" uri="ms-resource://MahApps.Metro.IconPacks.ForkAwesome/Files/MahApps.Metro.IconPacks.ForkAwesome/MahApps.Metro.IconPacks.ForkAwesome.xr.xml">
+					<Candidate type="Path">
+						<Value>MahApps.Metro.IconPacks.ForkAwesome\MahApps.Metro.IconPacks.ForkAwesome.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="Themes">
+					<NamedResource name="Generic.xbf" uri="ms-resource://MahApps.Metro.IconPacks.ForkAwesome/Files/MahApps.Metro.IconPacks.ForkAwesome/Themes/Generic.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="PackIconForkAwesome.xbf" uri="ms-resource://MahApps.Metro.IconPacks.ForkAwesome/Files/MahApps.Metro.IconPacks.ForkAwesome/Themes/PackIconForkAwesome.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

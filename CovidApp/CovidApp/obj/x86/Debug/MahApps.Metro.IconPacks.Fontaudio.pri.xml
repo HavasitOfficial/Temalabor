@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="MahApps.Metro.IconPacks.Fontaudio" version="1.0" primary="true">
+		<Qualifiers/>
+		<ResourceMapSubtree name="Files">
+			<ResourceMapSubtree name="MahApps.Metro.IconPacks.Fontaudio">
+				<NamedResource name="MahApps.Metro.IconPacks.Fontaudio.xr.xml" uri="ms-resource://MahApps.Metro.IconPacks.Fontaudio/Files/MahApps.Metro.IconPacks.Fontaudio/MahApps.Metro.IconPacks.Fontaudio.xr.xml">
+					<Candidate type="Path">
+						<Value>MahApps.Metro.IconPacks.Fontaudio\MahApps.Metro.IconPacks.Fontaudio.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="Themes">
+					<NamedResource name="Generic.xbf" uri="ms-resource://MahApps.Metro.IconPacks.Fontaudio/Files/MahApps.Metro.IconPacks.Fontaudio/Themes/Generic.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="PackIconFontaudio.xbf" uri="ms-resource://MahApps.Metro.IconPacks.Fontaudio/Files/MahApps.Metro.IconPacks.Fontaudio/Themes/PackIconFontaudio.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="MahApps.Metro.IconPacks" version="1.0" primary="true">
+		<Qualifiers/>
+		<ResourceMapSubtree name="Files">
+			<ResourceMapSubtree name="MahApps.Metro.IconPacks">
+				<NamedResource name="MahApps.Metro.IconPacks.xr.xml" uri="ms-resource://MahApps.Metro.IconPacks/Files/MahApps.Metro.IconPacks/MahApps.Metro.IconPacks.xr.xml">
+					<Candidate type="Path">
+						<Value>MahApps.Metro.IconPacks\MahApps.Metro.IconPacks.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="Themes">
+					<NamedResource name="Generic.xbf" uri="ms-resource://MahApps.Metro.IconPacks/Files/MahApps.Metro.IconPacks/Themes/Generic.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="IconPacks.xbf" uri="ms-resource://MahApps.Metro.IconPacks/Files/MahApps.Metro.IconPacks/Themes/IconPacks.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="MahApps.Metro.IconPacks.BootstrapIcons">
+				<NamedResource name="MahApps.Metro.IconPacks.BootstrapIcons.xr.xml" uri="ms-resource://MahApps.Metro.IconPacks/Files/MahApps.Metro.IconPacks.BootstrapIcons/MahApps.Metro.IconPacks.BootstrapIcons.xr.xml">
+					<Candidate type="Path">
+						<Value>MahApps.Metro.IconPacks.BootstrapIcons\MahApps.Metro.IconPacks.BootstrapIcons.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="MahApps.Metro.IconPacks.BoxIcons">
+				<NamedResource name="MahApps.Metro.IconPacks.BoxIcons.xr.xml" uri="ms-resource://MahApps.Metro.IconPacks/Files/MahApps.Metro.IconPacks.BoxIcons/MahApps.Metro.IconPacks.BoxIcons.xr.xml">
+					<Candidate type="Path">
+						<Value>MahApps.Metro.IconPacks.BoxIcons\MahApps.Metro.IconPacks.BoxIcons.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="MahApps.Metro.IconPacks.Codicons">
+				<NamedResource name="MahApps.Metro.IconPacks.Codicons.xr.xml" uri="ms-resource://MahApps.Metro.IconPacks/Files/MahApps.Metro.IconPacks.Codicons/MahApps.Metro.IconPacks.Codicons.xr.xml">
+					<Candidate type="Path">
+						<Value>MahApps.Metro.IconPacks.Codicons\MahApps.Metro.IconPacks.Codicons.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="MahApps.Metro.IconPacks.Entypo">
+				<NamedResource name="MahApps.Metro.IconPacks.Entypo.xr.xml" uri="ms-resource://MahApps.Metro.IconPacks/Files/MahApps.Metro.IconPacks.Entypo/MahApps.Metro.IconPacks.Entypo.xr.xml">
+					<Candidate type="Path">
+						<Value>MahApps.Metro.IconPacks.Entypo\MahApps.Metro.IconPacks.Entypo.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="MahApps.Metro.IconPacks.EvaIcons">
+				<NamedResource name="MahApps.Metro.IconPacks.EvaIcons.xr.xml" uri="ms-resource://MahApps.Metro.IconPacks/Files/MahApps.Metro.IconPacks.EvaIcons/MahApps.Metro.IconPacks.EvaIcons.xr.xml">
+					<Candidate type="Path">
+						<Value>MahApps.Metro.IconPacks.EvaIcons\MahApps.Metro.IconPacks.EvaIcons.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="MahApps.Metro.IconPacks.FeatherIcons">
+				<NamedResource name="MahApps.Metro.IconPacks.FeatherIcons.xr.xml" uri="ms-resource://MahApps.Metro.IconPacks/Files/MahApps.Metro.IconPacks.FeatherIcons/MahApps.Metro.IconPacks.FeatherIcons.xr.xml">
+					<Candidate type="Path">
+						<Value>MahApps.Metro.IconPacks.FeatherIcons\MahApps.Metro.IconPacks.FeatherIcons.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="MahApps.Metro.IconPacks.FileIcons">
+				<NamedResource name="MahApps.Metro.IconPacks.FileIcons.xr.xml" uri="ms-resource://MahApps.Metro.IconPacks/Files/MahApps.Metro.IconPacks.FileIcons/MahApps.Metro.IconPacks.FileIcons.xr.xml">
+					<Candidate type="Path">
+						<Value>MahApps.Metro.IconPacks.FileIcons\MahApps.Metro.IconPacks.FileIcons.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="MahApps.Metro.IconPacks.Fontaudio">
+				<NamedResource name="MahApps.Metro.IconPacks.Fontaudio.xr.xml" uri="ms-resource://MahApps.Metro.IconPacks/Files/MahApps.Metro.IconPacks.Fontaudio/MahApps.Metro.IconPacks.Fontaudio.xr.xml">
+					<Candidate type="Path">
+						<Value>MahApps.Metro.IconPacks.Fontaudio\MahApps.Metro.IconPacks.Fontaudio.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="MahApps.Metro.IconPacks.FontAwesome">
+				<NamedResource name="MahApps.Metro.IconPacks.FontAwesome.xr.xml" uri="ms-resource://MahApps.Metro.IconPacks/Files/MahApps.Metro.IconPacks.FontAwesome/MahApps.Metro.IconPacks.FontAwesome.xr.xml">
+					<Candidate type="Path">
+						<Value>MahApps.Metro.IconPacks.FontAwesome\MahApps.Metro.IconPacks.FontAwesome.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="MahApps.Metro.IconPacks.ForkAwesome">
+				<NamedResource name="MahApps.Metro.IconPacks.ForkAwesome.xr.xml" uri="ms-resource://MahApps.Metro.IconPacks/Files/MahApps.Metro.IconPacks.ForkAwesome/MahApps.Metro.IconPacks.ForkAwesome.xr.xml">
+					<Candidate type="Path">
+						<Value>MahApps.Metro.IconPacks.ForkAwesome\MahApps.Metro.IconPacks.ForkAwesome.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="MahApps.Metro.IconPacks.Ionicons">
+				<NamedResource name="MahApps.Metro.IconPacks.Ionicons.xr.xml" uri="ms-resource://MahApps.Metro.IconPacks/Files/MahApps.Metro.IconPacks.Ionicons/MahApps.Metro.IconPacks.Ionicons.xr.xml">
+					<Candidate type="Path">
+						<Value>MahApps.Metro.IconPacks.Ionicons\MahApps.Metro.IconPacks.Ionicons.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="MahApps.Metro.IconPacks.JamIcons">
+				<NamedResource name="MahApps.Metro.IconPacks.JamIcons.xr.xml" uri="ms-resource://MahApps.Metro.IconPacks/Files/MahApps.Metro.IconPacks.JamIcons/MahApps.Metro.IconPacks.JamIcons.xr.xml">
+					<Candidate type="Path">
+						<Value>MahApps.Metro.IconPacks.JamIcons\MahApps.Metro.IconPacks.JamIcons.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="MahApps.Metro.IconPacks.Material">
+				<NamedResource name="MahApps.Metro.IconPacks.Material.xr.xml" uri="ms-resource://MahApps.Metro.IconPacks/Files/MahApps.Metro.IconPacks.Material/MahApps.Metro.IconPacks.Material.xr.xml">
+					<Candidate type="Path">
+						<Value>MahApps.Metro.IconPacks.Material\MahApps.Metro.IconPacks.Material.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="MahApps.Metro.IconPacks.MaterialDesign">
+				<NamedResource name="MahApps.Metro.IconPacks.MaterialDesign.xr.xml" uri="ms-resource://MahApps.Metro.IconPacks/Files/MahApps.Metro.IconPacks.MaterialDesign/MahApps.Metro.IconPacks.MaterialDesign.xr.xml">
+					<Candidate type="Path">
+						<Value>MahApps.Metro.IconPacks.MaterialDesign\MahApps.Metro.IconPacks.MaterialDesign.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="MahApps.Metro.IconPacks.MaterialLight">
+				<NamedResource name="MahApps.Metro.IconPacks.MaterialLight.xr.xml" uri="ms-resource://MahApps.Metro.IconPacks/Files/MahApps.Metro.IconPacks.MaterialLight/MahApps.Metro.IconPacks.MaterialLight.xr.xml">
+					<Candidate type="Path">
+						<Value>MahApps.Metro.IconPacks.MaterialLight\MahApps.Metro.IconPacks.MaterialLight.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="MahApps.Metro.IconPacks.Microns">
+				<NamedResource name="MahApps.Metro.IconPacks.Microns.xr.xml" uri="ms-resource://MahApps.Metro.IconPacks/Files/MahApps.Metro.IconPacks.Microns/MahApps.Metro.IconPacks.Microns.xr.xml">
+					<Candidate type="Path">
+						<Value>MahApps.Metro.IconPacks.Microns\MahApps.Metro.IconPacks.Microns.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="MahApps.Metro.IconPacks.Modern">
+				<NamedResource name="MahApps.Metro.IconPacks.Modern.xr.xml" uri="ms-resource://MahApps.Metro.IconPacks/Files/MahApps.Metro.IconPacks.Modern/MahApps.Metro.IconPacks.Modern.xr.xml">
+					<Candidate type="Path">
+						<Value>MahApps.Metro.IconPacks.Modern\MahApps.Metro.IconPacks.Modern.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="MahApps.Metro.IconPacks.Octicons">
+				<NamedResource name="MahApps.Metro.IconPacks.Octicons.xr.xml" uri="ms-resource://MahApps.Metro.IconPacks/Files/MahApps.Metro.IconPacks.Octicons/MahApps.Metro.IconPacks.Octicons.xr.xml">
+					<Candidate type="Path">
+						<Value>MahApps.Metro.IconPacks.Octicons\MahApps.Metro.IconPacks.Octicons.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="MahApps.Metro.IconPacks.PicolIcons">
+				<NamedResource name="MahApps.Metro.IconPacks.PicolIcons.xr.xml" uri="ms-resource://MahApps.Metro.IconPacks/Files/MahApps.Metro.IconPacks.PicolIcons/MahApps.Metro.IconPacks.PicolIcons.xr.xml">
+					<Candidate type="Path">
+						<Value>MahApps.Metro.IconPacks.PicolIcons\MahApps.Metro.IconPacks.PicolIcons.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="MahApps.Metro.IconPacks.PixelartIcons">
+				<NamedResource name="MahApps.Metro.IconPacks.PixelartIcons.xr.xml" uri="ms-resource://MahApps.Metro.IconPacks/Files/MahApps.Metro.IconPacks.PixelartIcons/MahApps.Metro.IconPacks.PixelartIcons.xr.xml">
+					<Candidate type="Path">
+						<Value>MahApps.Metro.IconPacks.PixelartIcons\MahApps.Metro.IconPacks.PixelartIcons.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="MahApps.Metro.IconPacks.RadixIcons">
+				<NamedResource name="MahApps.Metro.IconPacks.RadixIcons.xr.xml" uri="ms-resource://MahApps.Metro.IconPacks/Files/MahApps.Metro.IconPacks.RadixIcons/MahApps.Metro.IconPacks.RadixIcons.xr.xml">
+					<Candidate type="Path">
+						<Value>MahApps.Metro.IconPacks.RadixIcons\MahApps.Metro.IconPacks.RadixIcons.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="MahApps.Metro.IconPacks.RemixIcon">
+				<NamedResource name="MahApps.Metro.IconPacks.RemixIcon.xr.xml" uri="ms-resource://MahApps.Metro.IconPacks/Files/MahApps.Metro.IconPacks.RemixIcon/MahApps.Metro.IconPacks.RemixIcon.xr.xml">
+					<Candidate type="Path">
+						<Value>MahApps.Metro.IconPacks.RemixIcon\MahApps.Metro.IconPacks.RemixIcon.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="MahApps.Metro.IconPacks.RPGAwesome">
+				<NamedResource name="MahApps.Metro.IconPacks.RPGAwesome.xr.xml" uri="ms-resource://MahApps.Metro.IconPacks/Files/MahApps.Metro.IconPacks.RPGAwesome/MahApps.Metro.IconPacks.RPGAwesome.xr.xml">
+					<Candidate type="Path">
+						<Value>MahApps.Metro.IconPacks.RPGAwesome\MahApps.Metro.IconPacks.RPGAwesome.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="MahApps.Metro.IconPacks.SimpleIcons">
+				<NamedResource name="MahApps.Metro.IconPacks.SimpleIcons.xr.xml" uri="ms-resource://MahApps.Metro.IconPacks/Files/MahApps.Metro.IconPacks.SimpleIcons/MahApps.Metro.IconPacks.SimpleIcons.xr.xml">
+					<Candidate type="Path">
+						<Value>MahApps.Metro.IconPacks.SimpleIcons\MahApps.Metro.IconPacks.SimpleIcons.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="MahApps.Metro.IconPacks.Typicons">
+				<NamedResource name="MahApps.Metro.IconPacks.Typicons.xr.xml" uri="ms-resource://MahApps.Metro.IconPacks/Files/MahApps.Metro.IconPacks.Typicons/MahApps.Metro.IconPacks.Typicons.xr.xml">
+					<Candidate type="Path">
+						<Value>MahApps.Metro.IconPacks.Typicons\MahApps.Metro.IconPacks.Typicons.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="MahApps.Metro.IconPacks.Unicons">
+				<NamedResource name="MahApps.Metro.IconPacks.Unicons.xr.xml" uri="ms-resource://MahApps.Metro.IconPacks/Files/MahApps.Metro.IconPacks.Unicons/MahApps.Metro.IconPacks.Unicons.xr.xml">
+					<Candidate type="Path">
+						<Value>MahApps.Metro.IconPacks.Unicons\MahApps.Metro.IconPacks.Unicons.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="MahApps.Metro.IconPacks.VaadinIcons">
+				<NamedResource name="MahApps.Metro.IconPacks.VaadinIcons.xr.xml" uri="ms-resource://MahApps.Metro.IconPacks/Files/MahApps.Metro.IconPacks.VaadinIcons/MahApps.Metro.IconPacks.VaadinIcons.xr.xml">
+					<Candidate type="Path">
+						<Value>MahApps.Metro.IconPacks.VaadinIcons\MahApps.Metro.IconPacks.VaadinIcons.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="MahApps.Metro.IconPacks.WeatherIcons">
+				<NamedResource name="MahApps.Metro.IconPacks.WeatherIcons.xr.xml" uri="ms-resource://MahApps.Metro.IconPacks/Files/MahApps.Metro.IconPacks.WeatherIcons/MahApps.Metro.IconPacks.WeatherIcons.xr.xml">
+					<Candidate type="Path">
+						<Value>MahApps.Metro.IconPacks.WeatherIcons\MahApps.Metro.IconPacks.WeatherIcons.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="MahApps.Metro.IconPacks.Zondicons">
+				<NamedResource name="MahApps.Metro.IconPacks.Zondicons.xr.xml" uri="ms-resource://MahApps.Metro.IconPacks/Files/MahApps.Metro.IconPacks.Zondicons/MahApps.Metro.IconPacks.Zondicons.xr.xml">
+					<Candidate type="Path">
+						<Value>MahApps.Metro.IconPacks.Zondicons\MahApps.Metro.IconPacks.Zondicons.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>
