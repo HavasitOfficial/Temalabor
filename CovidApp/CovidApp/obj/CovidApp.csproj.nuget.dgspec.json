@@ -43,6 +43,14 @@
               "target": "Package",
               "version": "[2.12.3, )"
             },
+            "DocumentFormat.OpenXml": {
+              "target": "Package",
+              "version": "[2.12.3, )"
+            },
+            "MahApps.Metro.IconPacks": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            },
             "MahApps.Metro.IconPacks": {
               "target": "Package",
               "version": "[4.8.0, )"
@@ -51,7 +59,19 @@
               "target": "Package",
               "version": "[6.2.12, )"
             },
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.2.12, )"
+            },
             "Microsoft.Toolkit.Uwp.UI": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.Toolkit.Uwp.UI": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.Toolkit.Uwp.UI.Controls.DataGrid": {
               "target": "Package",
               "version": "[7.0.1, )"
             },
@@ -62,6 +82,14 @@
             "System.Runtime.Extensions": {
               "target": "Package",
               "version": "[4.3.1, )"
+            },
+            "System.Runtime.Extensions": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            },
+            "Xamarin.Forms.DataGrid": {
+              "target": "Package",
+              "version": "[4.8.0, )"
             },
             "Xamarin.Forms.DataGrid": {
               "target": "Package",

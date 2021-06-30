@@ -122,8 +122,6 @@ namespace CovidApp
                 Patinets = null;
             }
             
-
-
         }
 
         private void listView_SelectionChanged(object sender, SelectionChangedEventArgs e)
